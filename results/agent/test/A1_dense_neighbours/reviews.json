@@ -1,0 +1,118 @@
+[
+  {
+    "query_id": "q04",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch3:018281-018764",
+      "B:openstax-college-success:ch3:005958-006258",
+      "B:openstax-college-success:ch3:005267-005956",
+      "B:openstax-college-success:ch3:006260-006905",
+      "B:openstax-college-success:ch3:022194-022487",
+      "B:openstax-college-success:ch3:022489-022903",
+      "B:openstax-college-success:ch3:022905-023450"
+    ],
+    "citation_support": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "reason": "Đủ 3 trường hợp (C1). Các ý hậu quả và hiệu ứng domino/chi phí đúng với C4-C6, C9-C11 (dài nhưng không sai).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q12",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch6:009545-010146"
+    ],
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng 5-9 đơn vị (C1).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q19",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch6:061372-061824",
+      "B:openstax-college-success:ch6:060963-061370",
+      "B:openstax-college-success:ch6:061826-062622"
+    ],
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Đúng: bỏ qua câu khó, làm câu chắc chắn trước, quay lại sau (C1, C2); ý xem lại cuối giờ đúng với C3.",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q24",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch6:026237-026685",
+      "B:openstax-college-success:ch6:026687-027460",
+      "B:openstax-college-success:ch6:027462-027843"
+    ],
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Đúng: điện thoại khuất tầm mắt/phòng khác, úp xuống chưa đủ (C5).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q25",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch3:083393-084217",
+      "B:openstax-college-success:ch3:082751-083391",
+      "B:openstax-college-success:ch3:084219-084464"
+    ],
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Đúng quy tắc 8-8-8 (C2 trang 109). Lưu ý: chunk chỉ được tìm thấy nhờ query thứ 2 do model tự viết 'Eight hours sleep, eight hours work...' (kiến thức nền của model), không phải nhờ neighbour expansion.",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "u04",
+    "status": "abstain",
+    "citations": [],
+    "citation_support": [],
+    "reason": "Từ chối đúng, không bịa chiến dịch (không nhắc Normandy/D-Day).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "u05",
+    "status": "abstain",
+    "citations": [],
+    "citation_support": [],
+    "reason": "Từ chối đúng, không đưa con số.",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "u06",
+    "status": "abstain",
+    "citations": [],
+    "citation_support": [],
+    "reason": "Từ chối đúng; phân biệt ví dụ GPA 3.0 trong SMART với điều kiện học bổng.",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "abstention_correct": true
+  }
+]

@@ -1,0 +1,1747 @@
+[
+  {
+    "query_id": "q04",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "Trì hoãn một chút thường không đáng lo, nhưng trong những trường hợp nào thì nó trở thành vấn đề nghiêm trọng?",
+    "answerable": true,
+    "filter": null,
+    "config": {
+      "name": "A0_dense",
+      "pipeline": "dense",
+      "top_k": 3,
+      "expand_top": 0,
+      "max_searches": 4,
+      "max_turns": 7,
+      "budget_chars": 8000,
+      "repair_turns": 1,
+      "hypothesis": "Baseline agent: model-written queries over Day 6 dense search, top-3, no neighbours."
+    },
+    "model": "anthropic/claude-haiku-5.5",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "forced_answer": false,
+        "usage": {
+          "prompt_tokens": 1096,
+          "completion_tokens": 116,
+          "cost_usd": 0.0001676,
+          "latency_ms": 1598.3,
+          "finish_reason": "tool_calls"
+        },
+        "tool_calls": 2
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "procrastination when does it become a serious problem",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:018281-018764",
+            "rank": 1,
+            "score": 0.686311,
+            "page": 83,
+            "section": "3.3 Procrastination: The Enemy Within"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:005958-006258",
+            "rank": 2,
+            "score": 0.598474,
+            "page": 77,
+            "section": "3.1 The Benefits of Time Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:021941-022192",
+            "rank": 3,
+            "score": 0.587845,
+            "page": 84,
+            "section": "3.3 Procrastination: The Enemy Within"
+          }
+        ],
+        "pipeline_steps": [
+          {
+            "step": "dense",
+            "query": "procrastination when does it become a serious problem",
+            "filters": null,
+            "top_k": 3,
+            "results": [
+              {
+                "id": "B:openstax-college-success:ch3:018281-018764",
+                "rank": 1,
+                "score": 0.686311,
+                "page": 83,
+                "section": "3.3 Procrastination: The Enemy Within"
+              },
+              {
+                "id": "B:openstax-college-success:ch3:005958-006258",
+                "rank": 2,
+                "score": 0.598474,
+                "page": 77,
+                "section": "3.1 The Benefits of Time Management"
+              },
+              {
+                "id": "B:openstax-college-success:ch3:021941-022192",
+                "rank": 3,
+                "score": 0.587845,
+                "page": 84,
+                "section": "3.3 Procrastination: The Enemy Within"
+              }
+            ]
+          }
+        ],
+        "new_context_ids": [
+          "B:openstax-college-success:ch3:018281-018764",
+          "B:openstax-college-success:ch3:005958-006258",
+          "B:openstax-college-success:ch3:021941-022192"
+        ],
+        "repeated_ids": [],
+        "skipped_for_budget": [],
+        "latency_ms": 1027.7
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "chronic procrastination harmful effects",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:021941-022192",
+            "rank": 1,
+            "score": 0.667067,
+            "page": 84,
+            "section": "3.3 Procrastination: The Enemy Within"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:022489-022903",
+            "rank": 2,
+            "score": 0.628022,
+            "page": 84,
+            "section": "3.3 Procrastination: The Enemy Within"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:022905-023450",
+            "rank": 3,
+            "score": 0.612238,
+            "page": 84,
+            "section": "3.3 Procrastination: The Enemy Within"
+          }
+        ],
+        "pipeline_steps": [
+          {
+            "step": "dense",
+            "query": "chronic procrastination harmful effects",
+            "filters": null,
+            "top_k": 3,
+            "results": [
+              {
+                "id": "B:openstax-college-success:ch3:021941-022192",
+                "rank": 1,
+                "score": 0.667067,
+                "page": 84,
+                "section": "3.3 Procrastination: The Enemy Within"
+              },
+              {
+                "id": "B:openstax-college-success:ch3:022489-022903",
+                "rank": 2,
+                "score": 0.628022,
+                "page": 84,
+                "section": "3.3 Procrastination: The Enemy Within"
+              },
+              {
+                "id": "B:openstax-college-success:ch3:022905-023450",
+                "rank": 3,
+                "score": 0.612238,
+                "page": 84,
+                "section": "3.3 Procrastination: The Enemy Within"
+              }
+            ]
+          }
+        ],
+        "new_context_ids": [
+          "B:openstax-college-success:ch3:022489-022903",
+          "B:openstax-college-success:ch3:022905-023450"
+        ],
+        "repeated_ids": [
+          "B:openstax-college-success:ch3:021941-022192"
+        ],
+        "skipped_for_budget": [],
+        "latency_ms": 1141.0
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "forced_answer": false,
+        "usage": {
+          "prompt_tokens": 2003,
+          "completion_tokens": 315,
+          "cost_usd": 0.0003578,
+          "latency_ms": 2535.5,
+          "finish_reason": "stop"
+        },
+        "tool_calls": 0
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "n_searches": 2,
+    "context_ids": [
+      "B:openstax-college-success:ch3:018281-018764",
+      "B:openstax-college-success:ch3:005958-006258",
+      "B:openstax-college-success:ch3:021941-022192",
+      "B:openstax-college-success:ch3:022489-022903",
+      "B:openstax-college-success:ch3:022905-023450"
+    ],
+    "context_chars": 2474,
+    "alias_map": {
+      "C1": "B:openstax-college-success:ch3:018281-018764",
+      "C2": "B:openstax-college-success:ch3:005958-006258",
+      "C3": "B:openstax-college-success:ch3:021941-022192",
+      "C4": "B:openstax-college-success:ch3:022489-022903",
+      "C5": "B:openstax-college-success:ch3:022905-023450"
+    },
+    "final_context": "[B:openstax-college-success:ch3:018281-018764] (page 83; 3.3 Procrastination: The Enemy Within)\nSimply put, procrastination is the act of delaying some task that needs to be completed. It is something we all do to greater and lesser degrees. For most people, a little minor procrastination is not a cause for great concern. But there are situations where procrastination can become a serious problem with a lot of risk. These include: when it becomes a chronic habit, when there are a number of tasks to complete and little time, or when the task being avoided is very important.\n\n[B:openstax-college-success:ch3:005958-006258] (page 77; 3.1 The Benefits of Time Management)\nIn our imagined situation, you can see how events set into motion by a little procrastination can quickly spiral out of control. You can probably think of similar experiences in your own life, when one small bit of poor time management set off a chain of events that threatened to cause big problems.\n\n[B:openstax-college-success:ch3:021941-022192] (page 84; 3.3 Procrastination: The Enemy Within)\nThe Effects of Procrastination\n\nIn addition to the causes of procrastination, you must also consider what effects it can have. Again, many of these effects are obvious and commonly understood, but some may not be so obvious and may cause other issues.\n\n[B:openstax-college-success:ch3:022489-022903] (page 84; 3.3 Procrastination: The Enemy Within)\nLoss of Goals\n\nAnother of the more obvious potentially adverse effects of procrastination is the loss of goals. Completing a task leads to achieving a goal. These can be large or small (e.g., from doing well on an assignment to being hired for a good job). Without goals you might do more than delay work on a task—you may not complete it at all. The risk for the loss of goals is something that is very impactful.\n\n[B:openstax-college-success:ch3:022905-023450] (page 84-85; 3.3 Procrastination: The Enemy Within)\nLoss of Self-Esteem\n\nOften, when we procrastinate we become frustrated and disappointed in ourselves for not getting important tasks completed. If this continues to happen, we can begin to develop a low opinion of ourselves and our own abilities. We begin to suffer from low self-esteem and might even begin to feel like there is something wrong with us. This can lead to other increasingly negative mental factors such as anger and depression. As you can see, it is important for our own well-being to avoid this kind of procrastination effect.",
+    "raw_final": "```json\n{\"status\": \"answered\", \"answer\": \"Trì hoãn nhẹ thường không đáng lo, nhưng nó trở thành vấn đề nghiêm trọng với nhiều rủi ro trong ba trường hợp: khi nó trở thành thói quen kéo dài (chronic habit), khi có nhiều việc phải hoàn thành trong khoảng thời gian ngắn, hoặc khi việc bị né tránh là việc rất quan trọng [C1]. Hậu quả có thể gồm mất mục tiêu, khi việc không được hoàn thành và có thể không bao giờ được làm xong [C4], và suy giảm lòng tự trọng: bạn thất vọng với bản thân, dần có đánh giá thấp về năng lực, rồi có thể dẫn đến giận dữ và trầm cảm [C5].\", \"citations\": [\"C1\", \"C4\", \"C5\"]}\n```",
+    "status": "answered",
+    "answer": "Trì hoãn nhẹ thường không đáng lo, nhưng nó trở thành vấn đề nghiêm trọng với nhiều rủi ro trong ba trường hợp: khi nó trở thành thói quen kéo dài (chronic habit), khi có nhiều việc phải hoàn thành trong khoảng thời gian ngắn, hoặc khi việc bị né tránh là việc rất quan trọng [B:openstax-college-success:ch3:018281-018764]. Hậu quả có thể gồm mất mục tiêu, khi việc không được hoàn thành và có thể không bao giờ được làm xong [B:openstax-college-success:ch3:022489-022903], và suy giảm lòng tự trọng: bạn thất vọng với bản thân, dần có đánh giá thấp về năng lực, rồi có thể dẫn đến giận dữ và trầm cảm [B:openstax-college-success:ch3:022905-023450].",
+    "answer_with_aliases": "Trì hoãn nhẹ thường không đáng lo, nhưng nó trở thành vấn đề nghiêm trọng với nhiều rủi ro trong ba trường hợp: khi nó trở thành thói quen kéo dài (chronic habit), khi có nhiều việc phải hoàn thành trong khoảng thời gian ngắn, hoặc khi việc bị né tránh là việc rất quan trọng [C1]. Hậu quả có thể gồm mất mục tiêu, khi việc không được hoàn thành và có thể không bao giờ được làm xong [C4], và suy giảm lòng tự trọng: bạn thất vọng với bản thân, dần có đánh giá thấp về năng lực, rồi có thể dẫn đến giận dữ và trầm cảm [C5].",
+    "citations": [
+      "B:openstax-college-success:ch3:018281-018764",
+      "B:openstax-college-success:ch3:022489-022903",
+      "B:openstax-college-success:ch3:022905-023450"
+    ],
+    "error": null,
+    "latency_ms": 6303.0,
+    "cost_usd": 0.000526,
+    "auto": {
+      "first_search_hit1": true,
+      "first_search_hit3": true,
+      "context_evidence": true,
+      "cited_gold_chunk": true
+    },
+    "expected_answer": "Khi trở thành thói quen kinh niên, khi có nhiều việc phải làm mà ít thời gian, hoặc khi việc bị né tránh rất quan trọng.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 83,
+        "evidence": "These include: when it becomes a chronic habit, when there are a number of tasks to complete and little time, or when the task being avoided is very important."
+      }
+    ]
+  },
+  {
+    "query_id": "q12",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Theo nghiên cứu năm 1956 của George A. Miller, trí nhớ ngắn hạn có thể giữ khoảng bao nhiêu đơn vị thông tin cùng lúc?",
+    "answerable": true,
+    "filter": null,
+    "config": {
+      "name": "A0_dense",
+      "pipeline": "dense",
+      "top_k": 3,
+      "expand_top": 0,
+      "max_searches": 4,
+      "max_turns": 7,
+      "budget_chars": 8000,
+      "repair_turns": 1,
+      "hypothesis": "Baseline agent: model-written queries over Day 6 dense search, top-3, no neighbours."
+    },
+    "model": "anthropic/claude-haiku-5.5",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "forced_answer": false,
+        "usage": {
+          "prompt_tokens": 1111,
+          "completion_tokens": 128,
+          "cost_usd": 0.0001751,
+          "latency_ms": 1472.1,
+          "finish_reason": "tool_calls"
+        },
+        "tool_calls": 2
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "George Miller 1956 short-term memory capacity units of information",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch6:009545-010146",
+            "rank": 1,
+            "score": 0.607734,
+            "page": 184,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:010148-010767",
+            "rank": 2,
+            "score": 0.435419,
+            "page": 184,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:004887-005311",
+            "rank": 3,
+            "score": 0.415305,
+            "page": 183,
+            "section": "6.1 Memory"
+          }
+        ],
+        "pipeline_steps": [
+          {
+            "step": "dense",
+            "query": "George Miller 1956 short-term memory capacity units of information",
+            "filters": null,
+            "top_k": 3,
+            "results": [
+              {
+                "id": "B:openstax-college-success:ch6:009545-010146",
+                "rank": 1,
+                "score": 0.607734,
+                "page": 184,
+                "section": "6.1 Memory"
+              },
+              {
+                "id": "B:openstax-college-success:ch6:010148-010767",
+                "rank": 2,
+                "score": 0.435419,
+                "page": 184,
+                "section": "6.1 Memory"
+              },
+              {
+                "id": "B:openstax-college-success:ch6:004887-005311",
+                "rank": 3,
+                "score": 0.415305,
+                "page": 183,
+                "section": "6.1 Memory"
+              }
+            ]
+          }
+        ],
+        "new_context_ids": [
+          "B:openstax-college-success:ch6:009545-010146",
+          "B:openstax-college-success:ch6:010148-010767",
+          "B:openstax-college-success:ch6:004887-005311"
+        ],
+        "repeated_ids": [],
+        "skipped_for_budget": [],
+        "latency_ms": 1022.9
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "short-term memory holds seven plus or minus two chunks",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch6:009545-010146",
+            "rank": 1,
+            "score": 0.570847,
+            "page": 184,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:010148-010767",
+            "rank": 2,
+            "score": 0.504181,
+            "page": 184,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:004119-004886",
+            "rank": 3,
+            "score": 0.395994,
+            "page": 182,
+            "section": "6.1 Memory"
+          }
+        ],
+        "pipeline_steps": [
+          {
+            "step": "dense",
+            "query": "short-term memory holds seven plus or minus two chunks",
+            "filters": null,
+            "top_k": 3,
+            "results": [
+              {
+                "id": "B:openstax-college-success:ch6:009545-010146",
+                "rank": 1,
+                "score": 0.570847,
+                "page": 184,
+                "section": "6.1 Memory"
+              },
+              {
+                "id": "B:openstax-college-success:ch6:010148-010767",
+                "rank": 2,
+                "score": 0.504181,
+                "page": 184,
+                "section": "6.1 Memory"
+              },
+              {
+                "id": "B:openstax-college-success:ch6:004119-004886",
+                "rank": 3,
+                "score": 0.395994,
+                "page": 182,
+                "section": "6.1 Memory"
+              }
+            ]
+          }
+        ],
+        "new_context_ids": [
+          "B:openstax-college-success:ch6:004119-004886"
+        ],
+        "repeated_ids": [
+          "B:openstax-college-success:ch6:009545-010146",
+          "B:openstax-college-success:ch6:010148-010767"
+        ],
+        "skipped_for_budget": [],
+        "latency_ms": 996.4
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "forced_answer": false,
+        "usage": {
+          "prompt_tokens": 2112,
+          "completion_tokens": 180,
+          "cost_usd": 0.0003012,
+          "latency_ms": 1845.3,
+          "finish_reason": "stop"
+        },
+        "tool_calls": 0
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "n_searches": 2,
+    "context_ids": [
+      "B:openstax-college-success:ch6:009545-010146",
+      "B:openstax-college-success:ch6:010148-010767",
+      "B:openstax-college-success:ch6:004887-005311",
+      "B:openstax-college-success:ch6:004119-004886"
+    ],
+    "context_chars": 2691,
+    "alias_map": {
+      "C1": "B:openstax-college-success:ch6:009545-010146",
+      "C2": "B:openstax-college-success:ch6:010148-010767",
+      "C3": "B:openstax-college-success:ch6:004887-005311",
+      "C4": "B:openstax-college-success:ch6:004119-004886"
+    },
+    "final_context": "[B:openstax-college-success:ch6:009545-010146] (page 184; 6.1 Memory)\nThere were 20 total items. Did you remember between 5 and 9 items? If you did, then you have a typical short-term memory and you just participated in an experiment, of sorts, to prove it.\n\nHarvard psychology professor George A. Miller in 1956 claimed humans can recall about five to nine bits of information in our short-term memory at any given time. Other research has come after this claim, but this concept is a popular one. Miller’s article is entitled \"The Magical Number Seven, Plus or Minus Two\" and is easily accessible online if you’re interested in learning more about this seminar report.3\n\n[B:openstax-college-success:ch6:010148-010767] (page 184; 6.1 Memory)\nConsidering the vast amount of knowledge available to us, five to nine bits isn’t very much to work with. To combat this limitation, we clump information together, making connections to help us stretch our capacity to remember. Many factors play into how much we can remember and how we do it, including the subject matter, how familiar we are with the ideas, and how interested we are in the topic, but we certainly cannot remember absolutely everything, for a test or any other task we face. As such, we have to use effective strategies, like those we cover later in this chapter, to get the most out of our memories.\n\n[B:openstax-college-success:ch6:004887-005311] (page 183; 6.1 Memory)\nnot others and what memory means, but we don’t know that much about memory, really.\n\nNelson Cowan is one researcher who is working to explain what we do know about memory. His article “What Are the Differences between Long-Term, Short-Term, and Working Memory?” breaks down the different types of memory and what happens when we recall thoughts and ideas. When we remember something, we actually do quite a lot of thinking.1\n\n[B:openstax-college-success:ch6:004119-004886] (page 182; 6.1 Memory)\n6.1 Memory\n\nEstimated completion time: 32 minutes.\n\nQuestions to Consider:\n\n• How does working memory work, exactly?\n• What’s the difference between working and short-term memory?\n• How does long-term memory function?\n• What obstacles exist to remembering?\n• When and how should you memorize things?\n\nIn what situations is it best to memorize, and what do you memorize?\n\nWhat can you do consistently to improve both your short- and long-term memory?\n\nMemory is one of those cherished but mysterious elements in life. Everyone has memories, and some people are very good at rapid recall, which is an enviable skill for test takers. We know that we seem to lose the capacity to remember things as we age, and scientists continue to study how we remember some things but",
+    "raw_final": "```json\n{\"status\": \"answered\", \"answer\": \"Theo George A. Miller (1956), con người có thể nhớ khoảng 5 đến 9 đơn vị thông tin (bits) trong trí nhớ ngắn hạn tại bất kỳ thời điểm nào [C1]. Sách cũng nhấn mạnh con số này khá hạn chế, nên ta cần gom nhóm thông tin để mở rộng khả năng ghi nhớ [C2].\", \"citations\": [\"C1\", \"C2\"]}\n```",
+    "status": "answered",
+    "answer": "Theo George A. Miller (1956), con người có thể nhớ khoảng 5 đến 9 đơn vị thông tin (bits) trong trí nhớ ngắn hạn tại bất kỳ thời điểm nào [B:openstax-college-success:ch6:009545-010146]. Sách cũng nhấn mạnh con số này khá hạn chế, nên ta cần gom nhóm thông tin để mở rộng khả năng ghi nhớ [B:openstax-college-success:ch6:010148-010767].",
+    "answer_with_aliases": "Theo George A. Miller (1956), con người có thể nhớ khoảng 5 đến 9 đơn vị thông tin (bits) trong trí nhớ ngắn hạn tại bất kỳ thời điểm nào [C1]. Sách cũng nhấn mạnh con số này khá hạn chế, nên ta cần gom nhóm thông tin để mở rộng khả năng ghi nhớ [C2].",
+    "citations": [
+      "B:openstax-college-success:ch6:009545-010146",
+      "B:openstax-college-success:ch6:010148-010767"
+    ],
+    "error": null,
+    "latency_ms": 5336.9,
+    "cost_usd": 0.000476,
+    "auto": {
+      "first_search_hit1": true,
+      "first_search_hit3": true,
+      "context_evidence": true,
+      "cited_gold_chunk": true
+    },
+    "expected_answer": "Khoảng 5 đến 9 đơn vị thông tin (\"bảy cộng trừ hai\").",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 184,
+        "evidence": "George A. Miller in 1956 claimed humans can recall about five to nine bits of information in our short-term memory at any given time"
+      }
+    ]
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "Khi làm bài trắc nghiệm mà gặp câu quá khó hoặc bị \"trống não\", nên xử lý thế nào?",
+    "answerable": true,
+    "filter": null,
+    "config": {
+      "name": "A0_dense",
+      "pipeline": "dense",
+      "top_k": 3,
+      "expand_top": 0,
+      "max_searches": 4,
+      "max_turns": 7,
+      "budget_chars": 8000,
+      "repair_turns": 1,
+      "hypothesis": "Baseline agent: model-written queries over Day 6 dense search, top-3, no neighbours."
+    },
+    "model": "anthropic/claude-haiku-5.5",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "forced_answer": false,
+        "usage": {
+          "prompt_tokens": 1089,
+          "completion_tokens": 120,
+          "cost_usd": 0.0001689,
+          "latency_ms": 1564.9,
+          "finish_reason": "tool_calls"
+        },
+        "tool_calls": 2
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "multiple choice test strategy when stuck on a difficult question",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch6:061372-061824",
+            "rank": 1,
+            "score": 0.595466,
+            "page": 202,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:060963-061370",
+            "rank": 2,
+            "score": 0.523043,
+            "page": 202,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:060331-060961",
+            "rank": 3,
+            "score": 0.471274,
+            "page": 202,
+            "section": "6.3 Test Taking"
+          }
+        ],
+        "pipeline_steps": [
+          {
+            "step": "dense",
+            "query": "multiple choice test strategy when stuck on a difficult question",
+            "filters": null,
+            "top_k": 3,
+            "results": [
+              {
+                "id": "B:openstax-college-success:ch6:061372-061824",
+                "rank": 1,
+                "score": 0.595466,
+                "page": 202,
+                "section": "6.3 Test Taking"
+              },
+              {
+                "id": "B:openstax-college-success:ch6:060963-061370",
+                "rank": 2,
+                "score": 0.523043,
+                "page": 202,
+                "section": "6.3 Test Taking"
+              },
+              {
+                "id": "B:openstax-college-success:ch6:060331-060961",
+                "rank": 3,
+                "score": 0.471274,
+                "page": 202,
+                "section": "6.3 Test Taking"
+              }
+            ]
+          }
+        ],
+        "new_context_ids": [
+          "B:openstax-college-success:ch6:061372-061824",
+          "B:openstax-college-success:ch6:060963-061370",
+          "B:openstax-college-success:ch6:060331-060961"
+        ],
+        "repeated_ids": [],
+        "skipped_for_budget": [],
+        "latency_ms": 1103.3
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "going blank during an exam what to do",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch6:062624-063221",
+            "rank": 1,
+            "score": 0.517592,
+            "page": 202,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:059405-059923",
+            "rank": 2,
+            "score": 0.507361,
+            "page": 201,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:056547-057282",
+            "rank": 3,
+            "score": 0.492835,
+            "page": 200,
+            "section": "6.3 Test Taking"
+          }
+        ],
+        "pipeline_steps": [
+          {
+            "step": "dense",
+            "query": "going blank during an exam what to do",
+            "filters": null,
+            "top_k": 3,
+            "results": [
+              {
+                "id": "B:openstax-college-success:ch6:062624-063221",
+                "rank": 1,
+                "score": 0.517592,
+                "page": 202,
+                "section": "6.3 Test Taking"
+              },
+              {
+                "id": "B:openstax-college-success:ch6:059405-059923",
+                "rank": 2,
+                "score": 0.507361,
+                "page": 201,
+                "section": "6.3 Test Taking"
+              },
+              {
+                "id": "B:openstax-college-success:ch6:056547-057282",
+                "rank": 3,
+                "score": 0.492835,
+                "page": 200,
+                "section": "6.3 Test Taking"
+              }
+            ]
+          }
+        ],
+        "new_context_ids": [
+          "B:openstax-college-success:ch6:062624-063221",
+          "B:openstax-college-success:ch6:059405-059923",
+          "B:openstax-college-success:ch6:056547-057282"
+        ],
+        "repeated_ids": [],
+        "skipped_for_budget": [],
+        "latency_ms": 929.7
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "forced_answer": false,
+        "usage": {
+          "prompt_tokens": 2350,
+          "completion_tokens": 281,
+          "cost_usd": 0.0003755,
+          "latency_ms": 2115.3,
+          "finish_reason": "stop"
+        },
+        "tool_calls": 0
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "n_searches": 2,
+    "context_ids": [
+      "B:openstax-college-success:ch6:061372-061824",
+      "B:openstax-college-success:ch6:060963-061370",
+      "B:openstax-college-success:ch6:060331-060961",
+      "B:openstax-college-success:ch6:062624-063221",
+      "B:openstax-college-success:ch6:059405-059923",
+      "B:openstax-college-success:ch6:056547-057282"
+    ],
+    "context_chars": 3793,
+    "alias_map": {
+      "C1": "B:openstax-college-success:ch6:061372-061824",
+      "C2": "B:openstax-college-success:ch6:060963-061370",
+      "C3": "B:openstax-college-success:ch6:060331-060961",
+      "C4": "B:openstax-college-success:ch6:062624-063221",
+      "C5": "B:openstax-college-success:ch6:059405-059923",
+      "C6": "B:openstax-college-success:ch6:056547-057282"
+    },
+    "final_context": "[B:openstax-college-success:ch6:061372-061824] (page 202; 6.3 Test Taking)\nRead the entire question carefully even if you think you know what the stem (the introduction of the choices) says, and read all the choices. Skip really difficult questions or ones where your brain goes blank. Then you can go back and concentrate on those skipped ones later after you have answered the majority of the questions confidently. Sometimes a later question will trigger an idea in your mind that will help you answer the skipped questions.\n\n[B:openstax-college-success:ch6:060963-061370] (page 202; 6.3 Test Taking)\nAnswer every required question on the exam. Even if you don’t complete each one, you may receive some credit for partial answers. Whether or not you can receive partial credit would be an excellent question to ask before the exam during the preparation time. If you are taking an exam that contains multiple-choice questions, go through and answer the questions about which you are the most confident first.\n\n[B:openstax-college-success:ch6:060331-060961] (page 202; 6.3 Test Taking)\nThen for each section, if the exam is divided this way, be sure you read the section directions very carefully so you don’t miss an important detail. For example, instructors often offer options—so you may have four short-answer questions from which to choose, but you only need to answer two of them. If you had not read the directions for that section, you may have thought you needed to provide answers to all four prompts. Working on extra questions for which you likely will receive no credit would be a waste of your limited exam time. The extra time you spend at the beginning is like an investment in your overall results.\n\n[B:openstax-college-success:ch6:062624-063221] (page 202; 6.3 Test Taking)\nAfter the Test\n\nAs you leave the exam room, the last thing you may want to think about is that particular test. You probably have numerous other assignments, projects, and life obligations to attend to, especially if you pushed some of those off to study for this completed exam. Give yourself some space from this exam, but only for the duration of the time when your instructor is grading your exam. Once you have your results, study them—whether you did really well (Go, you!) or not as well as you had hoped (Keep your spirits up!). Both scenarios hold valuable information if you will use it.\n\n[B:openstax-college-success:ch6:059405-059923] (page 201; 6.3 Test Taking)\n• Get to the testing location a few minutes early so you can settle into your place and take a few relaxing breaths.\n• Don’t let other classmates interrupt your calmness at this point.\n• Just get to your designated place, take out whatever supplies and materials you are allowed to have, and calm your mind.\n\nTaking the test:\n\nOnce the instructor begins the test:\n\n• Listen carefully for any last-minute oral directions that may have changed some detail on the exam, such as the timing or the content of the questions.\n\n[B:openstax-college-success:ch6:056547-057282] (page 200-201; 6.3 Test Taking)\nPrioritizing Time Surrounding Test Situations\n\nKeep in mind that you don’t have any more or less time than anyone else, so you can’t make time for an activity. You can only use the time everyone gets wisely and realistically. Exams in college classes are important, but they are not the only significant events you have in your classes. In fact, everything leading up to the exam, the exam itself, and the post-exam activities are all one large continuum. Think of the exam as an event with multiple phases, more like a long-distance run instead of a 50-yard dash. Step back and look at the big picture of this timeline. Draw it out on paper. What needs to happen between now and the exam so you feel comfortable, confident, and ready?",
+    "raw_final": "{\"status\": \"answered\", \"answer\": \"Khi gặp câu quá khó hoặc bị \\\"trống não\\\", hãy bỏ qua câu đó tạm thời, không dành quá nhiều thời gian vào nó. Trước hết trả lời những câu bạn tự tin nhất, sau đó quay lại các câu đã bỏ qua. Đôi khi một câu hỏi sau sẽ gợi ra ý tưởng giúp bạn trả lời câu đã bỏ qua [C1]. Đồng thời, hãy đọc kỹ toàn bộ câu hỏi và tất cả các lựa chọn trước khi quyết định [C1]. Nên trả lời mọi câu bắt buộc, vì có thể được điểm từng phần [C2].\", \"citations\": [\"C1\", \"C2\"]}",
+    "status": "answered",
+    "answer": "Khi gặp câu quá khó hoặc bị \"trống não\", hãy bỏ qua câu đó tạm thời, không dành quá nhiều thời gian vào nó. Trước hết trả lời những câu bạn tự tin nhất, sau đó quay lại các câu đã bỏ qua. Đôi khi một câu hỏi sau sẽ gợi ra ý tưởng giúp bạn trả lời câu đã bỏ qua [B:openstax-college-success:ch6:061372-061824]. Đồng thời, hãy đọc kỹ toàn bộ câu hỏi và tất cả các lựa chọn trước khi quyết định [B:openstax-college-success:ch6:061372-061824]. Nên trả lời mọi câu bắt buộc, vì có thể được điểm từng phần [B:openstax-college-success:ch6:060963-061370].",
+    "answer_with_aliases": "Khi gặp câu quá khó hoặc bị \"trống não\", hãy bỏ qua câu đó tạm thời, không dành quá nhiều thời gian vào nó. Trước hết trả lời những câu bạn tự tin nhất, sau đó quay lại các câu đã bỏ qua. Đôi khi một câu hỏi sau sẽ gợi ra ý tưởng giúp bạn trả lời câu đã bỏ qua [C1]. Đồng thời, hãy đọc kỹ toàn bộ câu hỏi và tất cả các lựa chọn trước khi quyết định [C1]. Nên trả lời mọi câu bắt buộc, vì có thể được điểm từng phần [C2].",
+    "citations": [
+      "B:openstax-college-success:ch6:061372-061824",
+      "B:openstax-college-success:ch6:060963-061370"
+    ],
+    "error": null,
+    "latency_ms": 5713.4,
+    "cost_usd": 0.000545,
+    "auto": {
+      "first_search_hit1": true,
+      "first_search_hit3": true,
+      "context_evidence": true,
+      "cited_gold_chunk": true
+    },
+    "expected_answer": "Bỏ qua câu đó, làm phần lớn các câu chắc chắn trước, rồi quay lại tập trung vào những câu đã bỏ qua.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 202,
+        "evidence": "Skip really difficult questions or ones where your brain goes blank. Then you can go back and concentrate on those skipped ones later after you have answered the majority of the questions confidently."
+      }
+    ]
+  },
+  {
+    "query_id": "q24",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Khi chuẩn bị cho một buổi học tập trung, nên xử lý điện thoại như thế nào?",
+    "answerable": true,
+    "filter": {
+      "chapter": 6
+    },
+    "config": {
+      "name": "A0_dense",
+      "pipeline": "dense",
+      "top_k": 3,
+      "expand_top": 0,
+      "max_searches": 4,
+      "max_turns": 7,
+      "budget_chars": 8000,
+      "repair_turns": 1,
+      "hypothesis": "Baseline agent: model-written queries over Day 6 dense search, top-3, no neighbours."
+    },
+    "model": "anthropic/claude-haiku-5.5",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "forced_answer": false,
+        "usage": {
+          "prompt_tokens": 1080,
+          "completion_tokens": 113,
+          "cost_usd": 0.0001645,
+          "latency_ms": 1394.5,
+          "finish_reason": "tool_calls"
+        },
+        "tool_calls": 2
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "phone distractions during study session",
+        "filter": {
+          "chapter": 6
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch6:025473-026235",
+            "rank": 1,
+            "score": 0.667782,
+            "page": 190,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:026687-027460",
+            "rank": 2,
+            "score": 0.641713,
+            "page": 191,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:026237-026685",
+            "rank": 3,
+            "score": 0.622748,
+            "page": 191,
+            "section": "6.2 Studying"
+          }
+        ],
+        "pipeline_steps": [
+          {
+            "step": "dense",
+            "query": "phone distractions during study session",
+            "filters": {
+              "chapter": 6
+            },
+            "top_k": 3,
+            "results": [
+              {
+                "id": "B:openstax-college-success:ch6:025473-026235",
+                "rank": 1,
+                "score": 0.667782,
+                "page": 190,
+                "section": "6.2 Studying"
+              },
+              {
+                "id": "B:openstax-college-success:ch6:026687-027460",
+                "rank": 2,
+                "score": 0.641713,
+                "page": 191,
+                "section": "6.2 Studying"
+              },
+              {
+                "id": "B:openstax-college-success:ch6:026237-026685",
+                "rank": 3,
+                "score": 0.622748,
+                "page": 191,
+                "section": "6.2 Studying"
+              }
+            ]
+          }
+        ],
+        "new_context_ids": [
+          "B:openstax-college-success:ch6:025473-026235",
+          "B:openstax-college-success:ch6:026687-027460",
+          "B:openstax-college-success:ch6:026237-026685"
+        ],
+        "repeated_ids": [],
+        "skipped_for_budget": [],
+        "latency_ms": 950.1
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "eliminate distractions cell phone while studying",
+        "filter": {
+          "chapter": 6
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch6:025473-026235",
+            "rank": 1,
+            "score": 0.665575,
+            "page": 190,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:027462-027843",
+            "rank": 2,
+            "score": 0.663328,
+            "page": 191,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:026237-026685",
+            "rank": 3,
+            "score": 0.647146,
+            "page": 191,
+            "section": "6.2 Studying"
+          }
+        ],
+        "pipeline_steps": [
+          {
+            "step": "dense",
+            "query": "eliminate distractions cell phone while studying",
+            "filters": {
+              "chapter": 6
+            },
+            "top_k": 3,
+            "results": [
+              {
+                "id": "B:openstax-college-success:ch6:025473-026235",
+                "rank": 1,
+                "score": 0.665575,
+                "page": 190,
+                "section": "6.2 Studying"
+              },
+              {
+                "id": "B:openstax-college-success:ch6:027462-027843",
+                "rank": 2,
+                "score": 0.663328,
+                "page": 191,
+                "section": "6.2 Studying"
+              },
+              {
+                "id": "B:openstax-college-success:ch6:026237-026685",
+                "rank": 3,
+                "score": 0.647146,
+                "page": 191,
+                "section": "6.2 Studying"
+              }
+            ]
+          }
+        ],
+        "new_context_ids": [
+          "B:openstax-college-success:ch6:027462-027843"
+        ],
+        "repeated_ids": [
+          "B:openstax-college-success:ch6:025473-026235",
+          "B:openstax-college-success:ch6:026237-026685"
+        ],
+        "skipped_for_budget": [],
+        "latency_ms": 967.0
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "forced_answer": false,
+        "usage": {
+          "prompt_tokens": 2016,
+          "completion_tokens": 346,
+          "cost_usd": 0.0003746,
+          "latency_ms": 2563.5,
+          "finish_reason": "stop"
+        },
+        "tool_calls": 0
+      },
+      {
+        "event": "answer",
+        "invalid_citations_dropped": []
+      }
+    ],
+    "n_searches": 2,
+    "context_ids": [
+      "B:openstax-college-success:ch6:025473-026235",
+      "B:openstax-college-success:ch6:026687-027460",
+      "B:openstax-college-success:ch6:026237-026685",
+      "B:openstax-college-success:ch6:027462-027843"
+    ],
+    "context_chars": 2652,
+    "alias_map": {
+      "C1": "B:openstax-college-success:ch6:025473-026235",
+      "C2": "B:openstax-college-success:ch6:026687-027460",
+      "C3": "B:openstax-college-success:ch6:026237-026685",
+      "C4": "B:openstax-college-success:ch6:027462-027843"
+    },
+    "final_context": "[B:openstax-college-success:ch6:025473-026235] (page 190; 6.2 Studying)\nAvoiding Distractions\n\nWe have always had distractions—video games, television shows, movies, music, friends—even housecleaning can distract us from doing something else we need to do, like study for an exam. That may seem extreme, but sometimes vacuuming is the preferred activity to buckling down and working through calculus problems! Cell phones, tablets, and portable computers that literally bring a world of possibilities to us anywhere have brought distraction to an entirely new level. When was the last time you were with a large group of people when you didn’t see at least a few people on devices?\n\nFigure 6.6 Video games are a common distraction, but we need to be aware that even tedious activities like cleaning can be a distraction from studying.\n\n[B:openstax-college-success:ch6:026687-027460] (page 191; 6.2 Studying)\nYou can increase that attention time with practice and focus. Pretend it is a professional appointment or meeting during which you cannot check e-mail or texts or otherwise engage with your portable devices. We have all become very attached to the ability to check in—anonymously on social media or with family and friends via text, chat, and calls. If you set a specific amount of time to study without interruptions, you can convince your wandering mind that you will soon be able to return to your link to the outside world. Start small and set an alarm—a 30-minute period to review notes, then a brief break, then another 45-minute study session to quiz yourself on the material, and so on.\n\nWhen you prepare for your optimal study session, remember to do these things:\n\n[B:openstax-college-success:ch6:026237-026685] (page 191; 6.2 Studying)\nWhen you study, your biggest challenge may be to block out all the competing noise. And letting go of that connection to our friends and the larger world, even for a short amount of time, can be difficult. Perhaps the least stressful way to allow yourself a distraction-free environment is to make the study session a definite amount of time: long enough to get a significant amount of studying accomplished but short enough to hold your attention.\n\n[B:openstax-college-success:ch6:027462-027843] (page 191; 6.2 Studying)\n• Put your phone out of sight—in another room or at least some place where you will not see or hear it vibrate or ring. Just flipping it over is not enough.\n• Turn off the television or music (more on that in the next section).\n• Unless you are deliberately working with a study group, study somewhere alone if possible or at least away from others enough to not hear them talking.",
+    "raw_final": "```json\n{\"status\": \"answered\", \"answer\": \"Trước buổi học tập trung, hãy cất điện thoại đi chỗ khuất, ví dụ phòng khác hoặc nơi bạn không nhìn thấy hay nghe thấy khi nó rung hay reo; chỉ úp màn hình xuống thì chưa đủ [C4]. Đặt một khoảng thời gian học cụ thể không bị gián đoạn, đủ dài để học được nhiều nhưng đủ ngắn để giữ sự chú ý, và coi nó như một cuộc hẹn chuyên nghiệp mà trong đó bạn không kiểm tra email hay tin nhắn [C2][C3]. Ngoài ra, nên tắt tivi hoặc nhạc và học một mình hoặc ở nơi đủ xa người khác để không nghe họ nói chuyện, trừ khi bạn chủ động học nhóm [C4].\", \"citations\": [\"C2\", \"C3\", \"C4\"]}\n```",
+    "status": "answered",
+    "answer": "Trước buổi học tập trung, hãy cất điện thoại đi chỗ khuất, ví dụ phòng khác hoặc nơi bạn không nhìn thấy hay nghe thấy khi nó rung hay reo; chỉ úp màn hình xuống thì chưa đủ [B:openstax-college-success:ch6:027462-027843]. Đặt một khoảng thời gian học cụ thể không bị gián đoạn, đủ dài để học được nhiều nhưng đủ ngắn để giữ sự chú ý, và coi nó như một cuộc hẹn chuyên nghiệp mà trong đó bạn không kiểm tra email hay tin nhắn [B:openstax-college-success:ch6:026687-027460][B:openstax-college-success:ch6:026237-026685]. Ngoài ra, nên tắt tivi hoặc nhạc và học một mình hoặc ở nơi đủ xa người khác để không nghe họ nói chuyện, trừ khi bạn chủ động học nhóm [B:openstax-college-success:ch6:027462-027843].",
+    "answer_with_aliases": "Trước buổi học tập trung, hãy cất điện thoại đi chỗ khuất, ví dụ phòng khác hoặc nơi bạn không nhìn thấy hay nghe thấy khi nó rung hay reo; chỉ úp màn hình xuống thì chưa đủ [C4]. Đặt một khoảng thời gian học cụ thể không bị gián đoạn, đủ dài để học được nhiều nhưng đủ ngắn để giữ sự chú ý, và coi nó như một cuộc hẹn chuyên nghiệp mà trong đó bạn không kiểm tra email hay tin nhắn [C2][C3]. Ngoài ra, nên tắt tivi hoặc nhạc và học một mình hoặc ở nơi đủ xa người khác để không nghe họ nói chuyện, trừ khi bạn chủ động học nhóm [C4].",
+    "citations": [
+      "B:openstax-college-success:ch6:026687-027460",
+      "B:openstax-college-success:ch6:026237-026685",
+      "B:openstax-college-success:ch6:027462-027843"
+    ],
+    "error": null,
+    "latency_ms": 5875.3,
+    "cost_usd": 0.00054,
+    "auto": {
+      "first_search_hit1": false,
+      "first_search_hit3": false,
+      "context_evidence": true,
+      "cited_gold_chunk": true
+    },
+    "expected_answer": "Để điện thoại khuất tầm mắt, ở phòng khác hoặc nơi không thấy hay nghe nó rung, đổ chuông; chỉ úp điện thoại xuống là chưa đủ.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 191,
+        "evidence": "Put your phone out of sight—in another room or at least some place where you will not see or hear it vibrate or ring. Just flipping it over is not enough."
+      }
+    ]
+  },
+  {
+    "query_id": "q25",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Một sinh viên chia 24 giờ mỗi ngày thành ba phần bằng nhau như thế nào để quản lý thời gian?",
+    "answerable": true,
+    "filter": {
+      "chapter": 3
+    },
+    "config": {
+      "name": "A0_dense",
+      "pipeline": "dense",
+      "top_k": 3,
+      "expand_top": 0,
+      "max_searches": 4,
+      "max_turns": 7,
+      "budget_chars": 8000,
+      "repair_turns": 1,
+      "hypothesis": "Baseline agent: model-written queries over Day 6 dense search, top-3, no neighbours."
+    },
+    "model": "anthropic/claude-haiku-5.5",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "forced_answer": false,
+        "usage": {
+          "prompt_tokens": 1090,
+          "completion_tokens": 76,
+          "cost_usd": 0.000147,
+          "latency_ms": 1390.6,
+          "finish_reason": "tool_calls"
+        },
+        "tool_calls": 1
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "time management dividing 24 hours day into three equal parts",
+        "filter": {
+          "chapter": 3
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:081639-082161",
+            "rank": 1,
+            "score": 0.51145,
+            "page": 108,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:079350-080043",
+            "rank": 2,
+            "score": 0.498868,
+            "page": 107,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:083393-084217",
+            "rank": 3,
+            "score": 0.49658,
+            "page": 109,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          }
+        ],
+        "pipeline_steps": [
+          {
+            "step": "dense",
+            "query": "time management dividing 24 hours day into three equal parts",
+            "filters": {
+              "chapter": 3
+            },
+            "top_k": 3,
+            "results": [
+              {
+                "id": "B:openstax-college-success:ch3:081639-082161",
+                "rank": 1,
+                "score": 0.51145,
+                "page": 108,
+                "section": "3.7 Enhanced Strategies for Time and Task Management"
+              },
+              {
+                "id": "B:openstax-college-success:ch3:079350-080043",
+                "rank": 2,
+                "score": 0.498868,
+                "page": 107,
+                "section": "3.7 Enhanced Strategies for Time and Task Management"
+              },
+              {
+                "id": "B:openstax-college-success:ch3:083393-084217",
+                "rank": 3,
+                "score": 0.49658,
+                "page": 109,
+                "section": "3.7 Enhanced Strategies for Time and Task Management"
+              }
+            ]
+          }
+        ],
+        "new_context_ids": [
+          "B:openstax-college-success:ch3:081639-082161",
+          "B:openstax-college-success:ch3:079350-080043",
+          "B:openstax-college-success:ch3:083393-084217"
+        ],
+        "repeated_ids": [],
+        "skipped_for_budget": [],
+        "latency_ms": 1012.5
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "forced_answer": false,
+        "usage": {
+          "prompt_tokens": 1856,
+          "completion_tokens": 184,
+          "cost_usd": 0.0002776,
+          "latency_ms": 1804.6,
+          "finish_reason": "stop"
+        },
+        "tool_calls": 0
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "n_searches": 1,
+    "context_ids": [
+      "B:openstax-college-success:ch3:081639-082161",
+      "B:openstax-college-success:ch3:079350-080043",
+      "B:openstax-college-success:ch3:083393-084217"
+    ],
+    "context_chars": 2375,
+    "alias_map": {
+      "C1": "B:openstax-college-success:ch3:081639-082161",
+      "C2": "B:openstax-college-success:ch3:079350-080043",
+      "C3": "B:openstax-college-success:ch3:083393-084217"
+    },
+    "final_context": "[B:openstax-college-success:ch3:081639-082161] (page 108; 3.7 Enhanced Strategies for Time and Task Management)\nWhile this is a simple example, you can see how it would redistribute tasks to fit your available time in a way that would make completing the paper possible. In fact, if your time constraints were even more rigid, it would be possible to break these divided tasks down even further. You could use a variation of the Pomodoro Technique and write for three 20-minute segments each day at different times. The key is to look for ways to break down the entire task into smaller steps and spread them out to fit your schedule.\n\n[B:openstax-college-success:ch3:079350-080043] (page 107; 3.7 Enhanced Strategies for Time and Task Management)\nThe concept behind this strategy is to break tasks into smaller, more manageable units that do not require as much time to complete. As an illustration of how this might work, imagine that you are assigned a two-page paper that is to include references. You estimate that to complete the paper—start to finish—would take you between four and a half and five hours. You look at your calendar over the next week and see that there simply are no open five-hour blocks (unless you decided to only get three hours of sleep one night). Rightly so, you decide that going without sleep is not a good option. While looking at your calendar, you do see that you can squeeze in an hour or so every night.\n\n[B:openstax-college-success:ch3:083393-084217] (page 109; 3.7 Enhanced Strategies for Time and Task Management)\nAnalyzing Your Schedule and Creating Time to Work\n\nOf all the strategies covered in this chapter, this one may require the most discipline, but it can also be the most beneficial in time management. The fact is most of us waste time throughout the day. Some of it is due to a lack of awareness, but it can also be caused by the constraints of our current schedules. An example of this is when we have 15 to 20 minutes before we must leave to go somewhere. We don’t do anything with that time because we are focused on leaving or where we are going, and we might not be organized enough to accomplish something in that short of a time period. In fact, a good deal of our 24- hour days are spent a few minutes at a time waiting for the next thing scheduled to occur. These small units of time add up to a fair amount each day.",
+    "raw_final": "```json\n{\"status\": \"insufficient_evidence\", \"answer\": \"Các đoạn sách tìm được không nêu cách chia 24 giờ mỗi ngày thành ba phần bằng nhau. Sách chỉ đề cập đến việc chia nhỏ nhiệm vụ lớn thành các khoảng thời gian ngắn (ví dụ viết ba đoạn 20 phút mỗi ngày) và tận dụng các khoảng thời gian rảnh nhỏ trong ngày.\", \"citations\": []}\n```",
+    "status": "abstain",
+    "answer": "Các đoạn sách tìm được không nêu cách chia 24 giờ mỗi ngày thành ba phần bằng nhau. Sách chỉ đề cập đến việc chia nhỏ nhiệm vụ lớn thành các khoảng thời gian ngắn (ví dụ viết ba đoạn 20 phút mỗi ngày) và tận dụng các khoảng thời gian rảnh nhỏ trong ngày.",
+    "citations": [],
+    "error": null,
+    "latency_ms": 4207.9,
+    "cost_usd": 0.000424,
+    "auto": {
+      "first_search_hit1": false,
+      "first_search_hit3": false,
+      "context_evidence": false,
+      "cited_gold_chunk": false
+    },
+    "expected_answer": "Quy tắc 8-8-8: 8 giờ học hoặc lên lớp, 8 giờ tự do, 8 giờ ngủ.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 109,
+        "evidence": "Every day you spend eight hours working on school work or going to class, eight hours of free time to do what you want, and then eight hours to sleep at night so that you will get enough rest."
+      }
+    ]
+  },
+  {
+    "query_id": "u04",
+    "split": "test",
+    "type": "thieu_bang_chung",
+    "question": "Eisenhower đã dùng ma trận quyết định để lên kế hoạch cho chiến dịch quân sự cụ thể nào trong Thế chiến II?",
+    "answerable": false,
+    "filter": null,
+    "config": {
+      "name": "A0_dense",
+      "pipeline": "dense",
+      "top_k": 3,
+      "expand_top": 0,
+      "max_searches": 4,
+      "max_turns": 7,
+      "budget_chars": 8000,
+      "repair_turns": 1,
+      "hypothesis": "Baseline agent: model-written queries over Day 6 dense search, top-3, no neighbours."
+    },
+    "model": "anthropic/claude-haiku-5.5",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "forced_answer": false,
+        "usage": {
+          "prompt_tokens": 1098,
+          "completion_tokens": 134,
+          "cost_usd": 0.0001768,
+          "latency_ms": 1848.7,
+          "finish_reason": "tool_calls"
+        },
+        "tool_calls": 2
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "Eisenhower decision matrix World War II military campaign",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:045108-045591",
+            "rank": 1,
+            "score": 0.600937,
+            "page": 93,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:045593-046347",
+            "rank": 2,
+            "score": 0.362629,
+            "page": 93,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:039845-040353",
+            "rank": 3,
+            "score": 0.289412,
+            "page": 195,
+            "section": "6.2 Studying"
+          }
+        ],
+        "pipeline_steps": [
+          {
+            "step": "dense",
+            "query": "Eisenhower decision matrix World War II military campaign",
+            "filters": null,
+            "top_k": 3,
+            "results": [
+              {
+                "id": "B:openstax-college-success:ch3:045108-045591",
+                "rank": 1,
+                "score": 0.600937,
+                "page": 93,
+                "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+              },
+              {
+                "id": "B:openstax-college-success:ch3:045593-046347",
+                "rank": 2,
+                "score": 0.362629,
+                "page": 93,
+                "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+              },
+              {
+                "id": "B:openstax-college-success:ch6:039845-040353",
+                "rank": 3,
+                "score": 0.289412,
+                "page": 195,
+                "section": "6.2 Studying"
+              }
+            ]
+          }
+        ],
+        "new_context_ids": [
+          "B:openstax-college-success:ch3:045108-045591",
+          "B:openstax-college-success:ch3:045593-046347",
+          "B:openstax-college-success:ch6:039845-040353"
+        ],
+        "repeated_ids": [],
+        "skipped_for_budget": [],
+        "latency_ms": 948.9
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "Eisenhower urgent important matrix",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:045108-045591",
+            "rank": 1,
+            "score": 0.614819,
+            "page": 93,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:045593-046347",
+            "rank": 2,
+            "score": 0.532267,
+            "page": 93,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:044698-045106",
+            "rank": 3,
+            "score": 0.341152,
+            "page": 93,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          }
+        ],
+        "pipeline_steps": [
+          {
+            "step": "dense",
+            "query": "Eisenhower urgent important matrix",
+            "filters": null,
+            "top_k": 3,
+            "results": [
+              {
+                "id": "B:openstax-college-success:ch3:045108-045591",
+                "rank": 1,
+                "score": 0.614819,
+                "page": 93,
+                "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+              },
+              {
+                "id": "B:openstax-college-success:ch3:045593-046347",
+                "rank": 2,
+                "score": 0.532267,
+                "page": 93,
+                "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+              },
+              {
+                "id": "B:openstax-college-success:ch3:044698-045106",
+                "rank": 3,
+                "score": 0.341152,
+                "page": 93,
+                "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+              }
+            ]
+          }
+        ],
+        "new_context_ids": [
+          "B:openstax-college-success:ch3:044698-045106"
+        ],
+        "repeated_ids": [
+          "B:openstax-college-success:ch3:045108-045591",
+          "B:openstax-college-success:ch3:045593-046347"
+        ],
+        "skipped_for_budget": [],
+        "latency_ms": 992.1
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "forced_answer": false,
+        "usage": {
+          "prompt_tokens": 2064,
+          "completion_tokens": 208,
+          "cost_usd": 0.0003104,
+          "latency_ms": 2112.8,
+          "finish_reason": "stop"
+        },
+        "tool_calls": 0
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "n_searches": 2,
+    "context_ids": [
+      "B:openstax-college-success:ch3:045108-045591",
+      "B:openstax-college-success:ch3:045593-046347",
+      "B:openstax-college-success:ch6:039845-040353",
+      "B:openstax-college-success:ch3:044698-045106"
+    ],
+    "context_chars": 2609,
+    "alias_map": {
+      "C1": "B:openstax-college-success:ch3:045108-045591",
+      "C2": "B:openstax-college-success:ch3:045593-046347",
+      "C3": "B:openstax-college-success:ch6:039845-040353",
+      "C4": "B:openstax-college-success:ch3:044698-045106"
+    },
+    "final_context": "[B:openstax-college-success:ch3:045108-045591] (page 93; 3.5 Prioritization: Self-Management of What You Do and When You Do It)\nACTIVITY\n\nTo better see how things may need to be prioritized, some people make a list of the tasks they need to complete and then arrange them in a quadrant map based on importance and urgency. Traditionally this is called the Eisenhower Decision Matrix. Before becoming the 34th president of the United States, Dwight Eisenhower served as the Allied forces supreme commander during World War II and said he used this technique to better prioritize the things he needed to get done.\n\n[B:openstax-college-success:ch3:045593-046347] (page 93; 3.5 Prioritization: Self-Management of What You Do and When You Do It)\nIn this activity you will begin by making a list of things you need or want to do today and then draw your own version of the grid below. Write each item in one of the four squares; choose the square that best describes it based on its urgency and its importance. When you have completed writing each the tasks in its appropriate square, you will see a prioritization order of your tasks. Obviously, those listed in the Important and Urgent square will be the things you need to finish first. After that will come things that are “important\n\nbut not urgent,” followed by “not important, but urgent,” and finally “not urgent and not important.”\n\nFigure 3.9 The Eisenhower Matrix can help organize priorities and ensure that you focus on the correct tasks.\n\n[B:openstax-college-success:ch6:039845-040353] (page 195; 6.2 Studying)\nAPPLICATION\n\nChoose one of the following, and create an idea cluster to group and organize:\n\n• Example A: aviation jobs in North America\n• Example B: the use of analytics in sports to determine team rosters\n• Example C: how social media affects political campaigns\n\nStart the idea cluster with the topic circled in the middle of the page. For Example A, you might make one cluster off the main circle for specific positions; you could add another cluster for salary ranges and another for geographic regions.\n\n[B:openstax-college-success:ch3:044698-045106] (page 93; 3.5 Prioritization: Self-Management of What You Do and When You Do It)\nMake Decisions on Importance, Impact on Other Priorities, and Urgency\n\nAfter you are aware of the requirements for each task, you can then decide your priorities based on the importance of the task and what things need to be finished in which order.\n\nTo summarize: the key components to prioritization are making certain you understand each task and making decisions based on importance, impact, and urgency.",
+    "raw_final": "```json\n{\"status\": \"insufficient_evidence\", \"answer\": \"Sách chỉ nói rằng Eisenhower, khi là Tổng tư lệnh lực lượng Đồng minh trong Thế chiến II, đã dùng kỹ thuật này để sắp xếp ưu tiên công việc [C1]. Sách không nêu tên hay mô tả chiến dịch quân sự cụ thể nào mà ông đã lên kế hoạch bằng ma trận quyết định, nên không thể trả lời chi tiết phần này từ tài liệu.\", \"citations\": [\"C1\"]}\n```",
+    "status": "abstain",
+    "answer": "Sách chỉ nói rằng Eisenhower, khi là Tổng tư lệnh lực lượng Đồng minh trong Thế chiến II, đã dùng kỹ thuật này để sắp xếp ưu tiên công việc [C1]. Sách không nêu tên hay mô tả chiến dịch quân sự cụ thể nào mà ông đã lên kế hoạch bằng ma trận quyết định, nên không thể trả lời chi tiết phần này từ tài liệu.",
+    "citations": [],
+    "error": null,
+    "latency_ms": 5902.8,
+    "cost_usd": 0.000488,
+    "absence_reason": "Trang 93 chỉ nói Eisenhower là tổng chỉ huy quân Đồng minh trong Thế chiến II và dùng kỹ thuật này để ưu tiên việc; không nêu chiến dịch cụ thể nào."
+  },
+  {
+    "query_id": "u05",
+    "split": "test",
+    "type": "thieu_bang_chung",
+    "question": "Theo sách, trung bình một sinh viên đại học dành bao nhiêu giờ mỗi tuần cho mạng xã hội?",
+    "answerable": false,
+    "filter": null,
+    "config": {
+      "name": "A0_dense",
+      "pipeline": "dense",
+      "top_k": 3,
+      "expand_top": 0,
+      "max_searches": 4,
+      "max_turns": 7,
+      "budget_chars": 8000,
+      "repair_turns": 1,
+      "hypothesis": "Baseline agent: model-written queries over Day 6 dense search, top-3, no neighbours."
+    },
+    "model": "anthropic/claude-haiku-5.5",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "forced_answer": false,
+        "usage": {
+          "prompt_tokens": 1089,
+          "completion_tokens": 113,
+          "cost_usd": 0.0001654,
+          "latency_ms": 1532.0,
+          "finish_reason": "tool_calls"
+        },
+        "tool_calls": 2
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "average hours per week college students spend on social media",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:013783-014557",
+            "rank": 1,
+            "score": 0.423167,
+            "page": 81,
+            "section": "3.2 Time Management in College"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:039709-040499",
+            "rank": 2,
+            "score": 0.40695,
+            "page": 91,
+            "section": "3.4 How to Manage Time"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:086031-086716",
+            "rank": 3,
+            "score": 0.397407,
+            "page": 110,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          }
+        ],
+        "pipeline_steps": [
+          {
+            "step": "dense",
+            "query": "average hours per week college students spend on social media",
+            "filters": null,
+            "top_k": 3,
+            "results": [
+              {
+                "id": "B:openstax-college-success:ch3:013783-014557",
+                "rank": 1,
+                "score": 0.423167,
+                "page": 81,
+                "section": "3.2 Time Management in College"
+              },
+              {
+                "id": "B:openstax-college-success:ch3:039709-040499",
+                "rank": 2,
+                "score": 0.40695,
+                "page": 91,
+                "section": "3.4 How to Manage Time"
+              },
+              {
+                "id": "B:openstax-college-success:ch3:086031-086716",
+                "rank": 3,
+                "score": 0.397407,
+                "page": 110,
+                "section": "3.7 Enhanced Strategies for Time and Task Management"
+              }
+            ]
+          }
+        ],
+        "new_context_ids": [
+          "B:openstax-college-success:ch3:013783-014557",
+          "B:openstax-college-success:ch3:039709-040499",
+          "B:openstax-college-success:ch3:086031-086716"
+        ],
+        "repeated_ids": [],
+        "skipped_for_budget": [],
+        "latency_ms": 997.8
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "social media time management college students hours per week",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:010036-010663",
+            "rank": 1,
+            "score": 0.557738,
+            "page": 78,
+            "section": "3.2 Time Management in College"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:013783-014557",
+            "rank": 2,
+            "score": 0.524671,
+            "page": 81,
+            "section": "3.2 Time Management in College"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:047032-047783",
+            "rank": 3,
+            "score": 0.519213,
+            "page": 94,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          }
+        ],
+        "pipeline_steps": [
+          {
+            "step": "dense",
+            "query": "social media time management college students hours per week",
+            "filters": null,
+            "top_k": 3,
+            "results": [
+              {
+                "id": "B:openstax-college-success:ch3:010036-010663",
+                "rank": 1,
+                "score": 0.557738,
+                "page": 78,
+                "section": "3.2 Time Management in College"
+              },
+              {
+                "id": "B:openstax-college-success:ch3:013783-014557",
+                "rank": 2,
+                "score": 0.524671,
+                "page": 81,
+                "section": "3.2 Time Management in College"
+              },
+              {
+                "id": "B:openstax-college-success:ch3:047032-047783",
+                "rank": 3,
+                "score": 0.519213,
+                "page": 94,
+                "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+              }
+            ]
+          }
+        ],
+        "new_context_ids": [
+          "B:openstax-college-success:ch3:010036-010663",
+          "B:openstax-college-success:ch3:047032-047783"
+        ],
+        "repeated_ids": [
+          "B:openstax-college-success:ch3:013783-014557"
+        ],
+        "skipped_for_budget": [],
+        "latency_ms": 961.9
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "forced_answer": false,
+        "usage": {
+          "prompt_tokens": 2459,
+          "completion_tokens": 186,
+          "cost_usd": 0.0003389,
+          "latency_ms": 1962.2,
+          "finish_reason": "stop"
+        },
+        "tool_calls": 0
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "n_searches": 2,
+    "context_ids": [
+      "B:openstax-college-success:ch3:013783-014557",
+      "B:openstax-college-success:ch3:039709-040499",
+      "B:openstax-college-success:ch3:086031-086716",
+      "B:openstax-college-success:ch3:010036-010663",
+      "B:openstax-college-success:ch3:047032-047783"
+    ],
+    "context_chars": 4126,
+    "alias_map": {
+      "C1": "B:openstax-college-success:ch3:013783-014557",
+      "C2": "B:openstax-college-success:ch3:039709-040499",
+      "C3": "B:openstax-college-success:ch3:086031-086716",
+      "C4": "B:openstax-college-success:ch3:010036-010663",
+      "C5": "B:openstax-college-success:ch3:047032-047783"
+    },
+    "final_context": "[B:openstax-college-success:ch3:013783-014557] (page 81; 3.2 Time Management in College)\nYou Have Lots of Time to Manage\n\nFor college-level learning, this approach is important enough that you can expect to spend much more time on learning activities outside the classroom than you will in the classroom. In fact, the estimated time you should spend will be at least two hours of outside learning for every one hour of lecture. Some weeks may be more intense, depending on the time of the semester and the courses you are taking. If those hours are multiplied over several courses in a given session, you can see how there is a significant amount of time to manage. Unfortunately, many students do not always take this into consideration, and they spend far less time than is needed to be successful. The results of poor time management are often a shock to them.\n\n[B:openstax-college-success:ch3:039709-040499] (page 91; 3.4 How to Manage Time)\nShort essays, single-topic writing assignments, summaries, freewriting assignments, journaling—includes drafting, writing, proofing, and finalizing\n\nWriting: research paper Per page\n\n105 minutes\n\nIncludes research time, drafting, editing, proofing, and finalizing (built into per-page calculation)\n\nStudy for quiz Per chapter\n\n60 minutes\n\n45–90 minutes per chapter, depending upon complexity of material\n\nStudy for exam Per exam\n\n90 minutes\n\n1–2 hours, depending upon complexity of material\n\nTable 3.5 Time on task for common college activities.\n\nAgain, these are averages, and it does not mean anything if your times are a little slower or a little faster. There is no “right amount of time,” only the time that it takes you to do something so you can accurately plan and manage your time.\n\n[B:openstax-college-success:ch3:086031-086716] (page 110; 3.7 Enhanced Strategies for Time and Task Management)\nFigure 3.16 Sarah has to balance a lot of obligations.\n\nOn Tuesday nights, Sarah has a routine: After work, she does her shopping for the week (2 hours driving and shopping) and then prepares and eats dinner (1 hour). After dinner, she spends time on homework (1 hour) and catching up with friends, reading the news, and other Internet activities (1 hour), and then she watches television or reads before going to bed (1 hour). While it may seem that there is very little room for improvement in her schedule without cutting out something she enjoys, limiting the amount of time she spends on each activity and rethinking how she goes about each task can make a significant difference.\n\n[B:openstax-college-success:ch3:010036-010663] (page 78; 3.2 Time Management in College)\n3.2 Time Management in College\n\nEstimated completion time: 11 minutes.\n\nQuestions to Consider:\n\n• Is time management different in college from what I am used to?\n• How different is college schoolwork from high school work?\n\nYou may find that time management in college is very different from anything you have experienced previously. For the last 12 years, almost all your school time was managed by educators and your parents. What you did and when you did it was controlled by others. In many cases, even after-school time was set by scheduled activities (such as athletics) and by nightly homework that was due the next day.\n\n[B:openstax-college-success:ch3:047032-047783] (page 94; 3.5 Prioritization: Self-Management of What You Do and When You Do It)\nJust like assessing the requirements and needs for each priority, doing the same with how others may be influencing your available time can be an important part of time management. In some cases, keeping others informed about your priorities may help avert possible conflicts (e.g., letting your boss know you will need time on a certain evening to study, letting your friends know you plan to do a journal project on Saturday but can do something on Sunday, etc.).\n\nIt will be important to be aware of how others can drive your priorities and for you to listen to your own good judgment. In essence, time management in college is as much about managing all the elements of your life as it is about managing time for class and to complete assignments.",
+    "raw_final": "```json\n{\"status\": \"insufficient_evidence\", \"answer\": \"Các đoạn sách tìm được không nêu số giờ trung bình mỗi tuần sinh viên dành cho mạng xã hội. Sách chỉ đề cập đến thời gian học ngoài lớp (ít nhất 2 giờ học ngoài lớp cho mỗi 1 giờ nghe giảng) và thời gian cho các hoạt động học tập cụ thể, nhưng không có số liệu về mạng xã hội.\", \"citations\": []}\n```",
+    "status": "abstain",
+    "answer": "Các đoạn sách tìm được không nêu số giờ trung bình mỗi tuần sinh viên dành cho mạng xã hội. Sách chỉ đề cập đến thời gian học ngoài lớp (ít nhất 2 giờ học ngoài lớp cho mỗi 1 giờ nghe giảng) và thời gian cho các hoạt động học tập cụ thể, nhưng không có số liệu về mạng xã hội.",
+    "citations": [],
+    "error": null,
+    "latency_ms": 5454.2,
+    "cost_usd": 0.000505,
+    "absence_reason": "Mạng xã hội được nhắc như một nguồn xao nhãng (trang 76, 85, 109, 191), nhưng sách không đưa số giờ trung bình mỗi tuần."
+  },
+  {
+    "query_id": "u06",
+    "split": "test",
+    "type": "thieu_bang_chung",
+    "question": "Sách quy định sinh viên cần GPA tối thiểu bao nhiêu để giữ được học bổng?",
+    "answerable": false,
+    "filter": null,
+    "config": {
+      "name": "A0_dense",
+      "pipeline": "dense",
+      "top_k": 3,
+      "expand_top": 0,
+      "max_searches": 4,
+      "max_turns": 7,
+      "budget_chars": 8000,
+      "repair_turns": 1,
+      "hypothesis": "Baseline agent: model-written queries over Day 6 dense search, top-3, no neighbours."
+    },
+    "model": "anthropic/claude-haiku-5.5",
+    "events": [
+      {
+        "event": "model",
+        "turn": 0,
+        "forced_answer": false,
+        "usage": {
+          "prompt_tokens": 1080,
+          "completion_tokens": 128,
+          "cost_usd": 0.000172,
+          "latency_ms": 1556.4,
+          "finish_reason": "tool_calls"
+        },
+        "tool_calls": 2
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "minimum GPA to keep scholarship",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:070912-071188",
+            "rank": 1,
+            "score": 0.350828,
+            "page": 102,
+            "section": "3.6 Goal Setting and Motivation"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:068627-069354",
+            "rank": 2,
+            "score": 0.307811,
+            "page": 101,
+            "section": "3.6 Goal Setting and Motivation"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:006907-007618",
+            "rank": 3,
+            "score": 0.267667,
+            "page": 77,
+            "section": "3.1 The Benefits of Time Management"
+          }
+        ],
+        "pipeline_steps": [
+          {
+            "step": "dense",
+            "query": "minimum GPA to keep scholarship",
+            "filters": null,
+            "top_k": 3,
+            "results": [
+              {
+                "id": "B:openstax-college-success:ch3:070912-071188",
+                "rank": 1,
+                "score": 0.350828,
+                "page": 102,
+                "section": "3.6 Goal Setting and Motivation"
+              },
+              {
+                "id": "B:openstax-college-success:ch3:068627-069354",
+                "rank": 2,
+                "score": 0.307811,
+                "page": 101,
+                "section": "3.6 Goal Setting and Motivation"
+              },
+              {
+                "id": "B:openstax-college-success:ch3:006907-007618",
+                "rank": 3,
+                "score": 0.267667,
+                "page": 77,
+                "section": "3.1 The Benefits of Time Management"
+              }
+            ]
+          }
+        ],
+        "new_context_ids": [
+          "B:openstax-college-success:ch3:070912-071188",
+          "B:openstax-college-success:ch3:068627-069354",
+          "B:openstax-college-success:ch3:006907-007618"
+        ],
+        "repeated_ids": [],
+        "skipped_for_budget": [],
+        "latency_ms": 923.7
+      },
+      {
+        "event": "search",
+        "tool": "search_documents",
+        "query": "scholarship GPA requirement college",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:017663-017877",
+            "rank": 1,
+            "score": 0.375924,
+            "page": 82,
+            "section": "3.2 Time Management in College"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:015540-016313",
+            "rank": 2,
+            "score": 0.317321,
+            "page": 186,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:016956-017662",
+            "rank": 3,
+            "score": 0.315374,
+            "page": 82,
+            "section": "3.2 Time Management in College"
+          }
+        ],
+        "pipeline_steps": [
+          {
+            "step": "dense",
+            "query": "scholarship GPA requirement college",
+            "filters": null,
+            "top_k": 3,
+            "results": [
+              {
+                "id": "B:openstax-college-success:ch3:017663-017877",
+                "rank": 1,
+                "score": 0.375924,
+                "page": 82,
+                "section": "3.2 Time Management in College"
+              },
+              {
+                "id": "B:openstax-college-success:ch6:015540-016313",
+                "rank": 2,
+                "score": 0.317321,
+                "page": 186,
+                "section": "6.1 Memory"
+              },
+              {
+                "id": "B:openstax-college-success:ch3:016956-017662",
+                "rank": 3,
+                "score": 0.315374,
+                "page": 82,
+                "section": "3.2 Time Management in College"
+              }
+            ]
+          }
+        ],
+        "new_context_ids": [
+          "B:openstax-college-success:ch3:017663-017877",
+          "B:openstax-college-success:ch6:015540-016313",
+          "B:openstax-college-success:ch3:016956-017662"
+        ],
+        "repeated_ids": [],
+        "skipped_for_budget": [],
+        "latency_ms": 959.7
+      },
+      {
+        "event": "model",
+        "turn": 1,
+        "forced_answer": false,
+        "usage": {
+          "prompt_tokens": 2389,
+          "completion_tokens": 171,
+          "cost_usd": 0.0003244,
+          "latency_ms": 2030.0,
+          "finish_reason": "stop"
+        },
+        "tool_calls": 0
+      },
+      {
+        "event": "abstain"
+      }
+    ],
+    "n_searches": 2,
+    "context_ids": [
+      "B:openstax-college-success:ch3:070912-071188",
+      "B:openstax-college-success:ch3:068627-069354",
+      "B:openstax-college-success:ch3:006907-007618",
+      "B:openstax-college-success:ch3:017663-017877",
+      "B:openstax-college-success:ch6:015540-016313",
+      "B:openstax-college-success:ch3:016956-017662"
+    ],
+    "context_chars": 3931,
+    "alias_map": {
+      "C1": "B:openstax-college-success:ch3:070912-071188",
+      "C2": "B:openstax-college-success:ch3:068627-069354",
+      "C3": "B:openstax-college-success:ch3:006907-007618",
+      "C4": "B:openstax-college-success:ch3:017663-017877",
+      "C5": "B:openstax-college-success:ch6:015540-016313",
+      "C6": "B:openstax-college-success:ch3:016956-017662"
+    },
+    "final_context": "[B:openstax-college-success:ch3:070912-071188] (page 102; 3.6 Goal Setting and Motivation)\nYes All of the SMART attributes are present in this goal.\n\nI will earn at least a 3.0 GPA in all my courses next semester.\n\nI am going to start being more organized. No While most of the SMART attributes are implied, there is nothing really measurable in this goal.\n\nTable 3.6\n\n[B:openstax-college-success:ch3:068627-069354] (page 101; 3.6 Goal Setting and Motivation)\nFor example, setting a goal of doing well in school is a bit undefined, but making a goal of graduating with a GPA above 3.0 is measurable and something you can work with. If your goal is measurable, you can know ahead of time how many points you will have to earn on a specific assignment to stay in that range or how many points you will need to make up in the next assignment if you do not do as well as you planned.\n• Attainable—Attainable or achievable goals means they are reasonable and within your ability to accomplish. While a goal of make an extra one million dollars by the end of the week is something that would be nice to achieve, the odds that you could make that happen in a single week are not very realistic.\n\n[B:openstax-college-success:ch3:006907-007618] (page 77; 3.1 The Benefits of Time Management)\nAccording to the article, there is a significant cost associated with delaying graduation from college by only one year (by dropping and retaking courses, taking less than a full credit load, etc.). Not only will you pay for additional tuition, textbooks, and other fees associated with going to school, but if you are using student loans, you will also accumulate interest on those loans. On average this would come to an extra $12,557 in actual costs and $6,040 in interest at a public university, or $18,992 in tuition and fees and $7,823 in interest (over 10 years) at a private school. That's a lot of extra cost to you!\n\n“In the long run, just two extra semesters of college can cost you almost $150,000.”\n\n[B:openstax-college-success:ch3:017663-017877] (page 82; 3.2 Time Management in College)\nWhile not every profession may require the same level of study needed for healthcare, most do require that colleges maintain a certain level of academic rigor to produce graduates who are competent in their fields.\n\n[B:openstax-college-success:ch6:015540-016313] (page 186; 6.1 Memory)\nLack of Sleep\n\nLet’s face it, sleep and college don’t always go well together. You have so much to do! All that reading, all those\n\npapers, all those extra hours in the science lab or tutoring center or library! And then we have the social and emotional aspects of going to school, which may not be the most critical aspect of your life as you pursue more education but are a significant part of who you are. When you consider everything you need to attend to in college, you probably won’t be surprised that sleep is often the first thing we give up as we search for more time to accomplish everything we’re trying to do. That seems reasonable—just wake up an hour earlier or stay up a little later. But you may want to reconsider picking away at your precious sleep time.\n\n[B:openstax-college-success:ch3:016956-017662] (page 82; 3.2 Time Management in College)\nUsing the earlier example of the presentation assignment, not only will what you do be larger in scale, but the depth of understanding and knowledge you will put into it will be significantly more than you may have encountered in previous assignments. This is because there are greater expectations required of college graduates in the workplace. Nearly any profession that requires a college degree has with it a level of responsibility that demands higher-level thinking and therefore higher learning. An often-cited example of this is the healthcare professional. The learning requirements for that profession are strict because we depend on those graduates for our health and, in some cases, our lives.",
+    "raw_final": "```json\n{\"status\": \"insufficient_evidence\", \"answer\": \"Các đoạn sách tìm được không quy định mức GPA tối thiểu để giữ học bổng. Chúng chỉ đề cập GPA như một ví dụ về mục tiêu đo lường được (ví dụ: GPA trên 3.0) và một mục tiêu mẫu là đạt GPA ít nhất 3.0 [C1][C2], không nói về yêu cầu học bổng.\", \"citations\": []}\n```",
+    "status": "abstain",
+    "answer": "Các đoạn sách tìm được không quy định mức GPA tối thiểu để giữ học bổng. Chúng chỉ đề cập GPA như một ví dụ về mục tiêu đo lường được (ví dụ: GPA trên 3.0) và một mục tiêu mẫu là đạt GPA ít nhất 3.0 [C1][C2], không nói về yêu cầu học bổng.",
+    "citations": [],
+    "error": null,
+    "latency_ms": 5470.1,
+    "cost_usd": 0.000496,
+    "absence_reason": "GPA chỉ xuất hiện trong ví dụ mục tiêu SMART ('graduating with a GPA above 3.0', trang 101-102); sách không nhắc học bổng hay điều kiện giữ học bổng."
+  }
+]

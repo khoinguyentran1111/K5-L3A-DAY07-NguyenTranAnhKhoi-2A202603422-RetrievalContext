@@ -1,0 +1,394 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Theo số liệu Washington Post được dẫn trong sách, việc tốt nghiệp trễ chỉ hai học kỳ có thể khiến sinh viên tốn tổng cộng khoảng bao nhiêu tiền?",
+    "expected_answer": "Hơn 150.000 USD (trung bình 151.115 USD, gồm học phí, lãi vay, thu nhập và tiền hưu trí bị mất).",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 77,
+        "evidence": "That brings the average total cost for only two extra semesters to over $150,000."
+      },
+      {
+        "source_id": "openstax-college-success",
+        "page": 78,
+        "evidence": "Average total loss: $151,115"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Ở đại học, với mỗi giờ học trên lớp thì sinh viên nên dành ít nhất bao nhiêu giờ tự học bên ngoài?",
+    "expected_answer": "Ít nhất 2 giờ tự học cho mỗi 1 giờ lên lớp.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 81,
+        "evidence": "the estimated time you should spend will be at least two hours of outside learning for every one hour of lecture"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Vì sao một người sợ làm không tốt lại hay để việc đến sát hạn mới làm?",
+    "expected_answer": "Vì trì hoãn cho họ một cái cớ: nếu thất bại thì đổ cho việc hết thời gian chứ không phải do mình không đủ năng lực.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 84,
+        "evidence": "they can rationalize that the reason they failed at the task was because they ran out of time to complete it, not that they were incapable of doing it in the first place"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "Trì hoãn một chút thường không đáng lo, nhưng trong những trường hợp nào thì nó trở thành vấn đề nghiêm trọng?",
+    "expected_answer": "Khi trở thành thói quen kinh niên, khi có nhiều việc phải làm mà ít thời gian, hoặc khi việc bị né tránh rất quan trọng.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 83,
+        "evidence": "These include: when it becomes a chronic habit, when there are a number of tasks to complete and little time, or when the task being avoided is very important."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Ma trận quyết định Eisenhower xếp các công việc vào bốn ô dựa trên hai tiêu chí nào?",
+    "expected_answer": "Mức độ quan trọng và mức độ khẩn cấp.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 93,
+        "evidence": "arrange them in a quadrant map based on importance and urgency. Traditionally this is called the Eisenhower Decision Matrix."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Nếu không thể kịp hoàn thành cả hai bài tập đều quan trọng và gấp, sinh viên nên làm gì trước khi quyết định bỏ một bài?",
+    "expected_answer": "Trước hết cố tìm cách hoàn thành tất cả; nếu thật sự không thể thì liên hệ ngay với giảng viên để báo tình hình, sau đó mới quyết định ưu tiên.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 94,
+        "evidence": "the first step is to try to find a way to get everything finished, regardless of the challenges. If that simply cannot happen, the next immediate step would be to communicate with your instructors to let them know about the situation."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Năm chữ cái trong mục tiêu SMART là viết tắt của những gì?",
+    "expected_answer": "Specific, Measurable, Attainable, Relevant, Time-bound (cụ thể, đo lường được, khả thi, phù hợp, có thời hạn).",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 100,
+        "evidence": "an acronym that stands for Specific, Measurable, Attainable, Relevant, and Time-bound"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Trong kỹ thuật Pomodoro, sau khi hoàn thành bốn phiên làm việc thì nên nghỉ bao lâu?",
+    "expected_answer": "Nghỉ dài 15–30 phút, rồi đặt lại số dấu tích về 0.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 106,
+        "evidence": "After four pomodoros, take a longer break (15–30 minutes), reset your check mark count to zero"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Chiến lược có cái tên kỳ lạ là \"ăn con ếch\" khuyên nên xử lý nhiệm vụ nào đầu tiên?",
+    "expected_answer": "Làm nhiệm vụ lớn nhất hoặc khó chịu nhất trước; sau đó mọi việc khác sẽ dễ hơn.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 106,
+        "evidence": "if a person takes care of the biggest or most unpleasant task first, everything else will be easier after that"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Nếu đi chợ với danh sách lập sẵn và giới hạn thời gian lướt mạng, Sarah có thể lấy lại khoảng bao nhiêu thời gian vào tối thứ Ba?",
+    "expected_answer": "Gần một tiếng rưỡi, mà không phải bỏ hoạt động nào cần thiết hay yêu thích.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 110,
+        "evidence": "she would find that she had added almost an extra hour and a half to the time available to her on that evening"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Quá trình ghi nhớ một ý tưởng hay hình ảnh gồm ba bước cơ bản nào?",
+    "expected_answer": "Mã hóa (encode), lưu trữ (store) và truy xuất (retrieve).",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 183,
+        "evidence": "We go through three basic steps when we remember ideas or images: we encode, store, and retrieve that information."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Theo nghiên cứu năm 1956 của George A. Miller, trí nhớ ngắn hạn có thể giữ khoảng bao nhiêu đơn vị thông tin cùng lúc?",
+    "expected_answer": "Khoảng 5 đến 9 đơn vị thông tin (\"bảy cộng trừ hai\").",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 184,
+        "evidence": "George A. Miller in 1956 claimed humans can recall about five to nine bits of information in our short-term memory at any given time"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Việc gom các món đồ trong một danh sách thành từng nhóm theo chủ đề để nhớ được nhiều hơn được gọi là gì?",
+    "expected_answer": "Chunking (gom nhóm thông tin theo danh mục).",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 185,
+        "evidence": "Now that you have grouped items into categories, also known as chunking, you can work on remembering the categories and the items that fit into those categories"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Theo nhà thần kinh học John Medina, sau khoảng bao nhiêu phút thì não bắt đầu xao nhãng và cần một kích thích mới?",
+    "expected_answer": "Khoảng 10 phút.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 188,
+        "evidence": "John Medina claims that the brain begins to wander at about 10 minutes, at which point you need a new stimulus to spark interest"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Vì sao chỉ tô sáng (highlight) giáo trình thì chưa đủ để chuẩn bị cho kỳ thi?",
+    "expected_answer": "Vì tô sáng chỉ là bước đầu; cần nhiều thời gian hơn để ôn lại, truy xuất kiến thức và tự kiểm tra.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 193,
+        "evidence": "Actually, you need much more time reviewing and retrieving your lessons and ideas from the text or class lecture as well as quizzing yourself to accomplish your goal of learning so you can perform well on the exam."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Kỹ thuật học xen kẽ (interleaving) khuyên người học sắp xếp nội dung ôn tập như thế nào?",
+    "expected_answer": "Không học dồn một loại nội dung, chủ đề hay chương tại một thời điểm mà trộn lẫn các nội dung khi học.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 195,
+        "evidence": "Interleaving—This has to do with what you study. Hint: Don’t study just one type of content, topic, chapter, or unit at a time; instead, mix up the content when you study."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Tại sao giảng lại bài cho bạn bè hoặc người thân được xem là một cách học rất hiệu quả?",
+    "expected_answer": "Vì đó là một dạng tự kiểm tra (practice testing), buộc bạn chứng minh mình hiểu bài trước người khác.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 197,
+        "evidence": "It is a form of practice testing that requires you to demonstrate you know something in front of someone else!"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Nếu một sinh viên cần được điều chỉnh đặc biệt khi thi (như thêm giờ hay đổi địa điểm), điều kiện và bước đầu tiên là gì?",
+    "expected_answer": "Cần báo trước đủ sớm; bước đầu tiên là nói chuyện với giảng viên (có thể cần gặp thêm cố vấn dịch vụ sinh viên).",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 200,
+        "evidence": "With adequate notice, most faculty will provide students with reasonable accommodations to assist students in succeeding in test situations. If you feel that you would benefit from receiving these sorts of accommodations, first speak with your instructor."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "Khi làm bài trắc nghiệm mà gặp câu quá khó hoặc bị \"trống não\", nên xử lý thế nào?",
+    "expected_answer": "Bỏ qua câu đó, làm phần lớn các câu chắc chắn trước, rồi quay lại tập trung vào những câu đã bỏ qua.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 202,
+        "evidence": "Skip really difficult questions or ones where your brain goes blank. Then you can go back and concentrate on those skipped ones later after you have answered the majority of the questions confidently."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Vì sao học nhồi nhét sát giờ thi lại không hiệu quả?",
+    "expected_answer": "Vì nhồi nhét gây căng thẳng (có thể dẫn tới lo âu thi cử), lầm tưởng có thể hiểu và nhớ sau rất ít lần tiếp xúc, và làm não quá tải.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 188,
+        "evidence": "Cramming causes stress, which can lead to paralyzing test anxiety; it erroneously supposes you can remember and understand something fully after only minimal exposure; and it overloads your brain"
+      }
+    ],
+    "filter": {
+      "chapter": 6
+    }
+  },
+  {
+    "id": "q21",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Để tạo môi trường làm việc ít bị gián đoạn, có thể làm những gì?",
+    "expected_answer": "Vào một phòng riêng, dùng tai nghe, hoặc đến nơi như thư viện để làm việc.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 99,
+        "evidence": "This may mean you have to go to a private room, use headphones, or go somewhere like a library to work."
+      }
+    ],
+    "filter": {
+      "chapter": 3
+    }
+  },
+  {
+    "id": "q22",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Trung bình cần bao nhiêu thời gian để ôn cho một bài thi?",
+    "expected_answer": "Khoảng 90 phút cho mỗi bài thi (1–2 giờ tùy độ phức tạp của nội dung).",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 91,
+        "evidence": "Study for exam Per exam 90 minutes 1–2 hours, depending upon complexity of material"
+      }
+    ],
+    "filter": {
+      "chapter": 3
+    }
+  },
+  {
+    "id": "q23",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Nên dùng vài phút cuối giờ thi để làm gì?",
+    "expected_answer": "Rà soát lại bài làm: kiểm tra phép tính, soát lỗi bài luận, làm các câu khó đã bỏ qua và kiểm tra đã làm hết mọi phần.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 202,
+        "evidence": "allow yourself a few minutes at the end of the exam session to review your answers"
+      }
+    ],
+    "filter": {
+      "section": "6.3 Test Taking"
+    }
+  },
+  {
+    "id": "q24",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Khi chuẩn bị cho một buổi học tập trung, nên xử lý điện thoại như thế nào?",
+    "expected_answer": "Để điện thoại khuất tầm mắt, ở phòng khác hoặc nơi không thấy hay nghe nó rung, đổ chuông; chỉ úp điện thoại xuống là chưa đủ.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 191,
+        "evidence": "Put your phone out of sight—in another room or at least some place where you will not see or hear it vibrate or ring. Just flipping it over is not enough."
+      }
+    ],
+    "filter": {
+      "chapter": 6
+    }
+  },
+  {
+    "id": "q25",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Một sinh viên chia 24 giờ mỗi ngày thành ba phần bằng nhau như thế nào để quản lý thời gian?",
+    "expected_answer": "Quy tắc 8-8-8: 8 giờ học hoặc lên lớp, 8 giờ tự do, 8 giờ ngủ.",
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 109,
+        "evidence": "Every day you spend eight hours working on school work or going to class, eight hours of free time to do what you want, and then eight hours to sleep at night so that you will get enough rest."
+      }
+    ],
+    "filter": {
+      "chapter": 3
+    }
+  }
+]

@@ -1,0 +1,373 @@
+[
+  {
+    "query_id": "q01",
+    "status": "answered",
+    "answer": "Theo bài Washington Post được sách dẫn, việc trì hoãn tốt nghiệp thêm hai học kỳ có thể khiến sinh viên tốn tổng cộng khoảng hơn 150.000 USD (\"just two extra semesters of college can cost you almost $150,000\") [B:openstax-college-success:ch3:006907-007618]. Con số này gồm lương bị mất khoảng 46.355 USD và thu nhập hưu trí bị mất 82.074 USD cho việc học thêm một năm, cùng học phí, sách vở và lãi vay [B:openstax-college-success:ch3:007620-008343][B:openstax-college-success:ch3:008344-008902].",
+    "citations": [
+      "B:openstax-college-success:ch3:006907-007618",
+      "B:openstax-college-success:ch3:007620-008343",
+      "B:openstax-college-success:ch3:008344-008902"
+    ],
+    "citation_support": [
+      null,
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Hơn 150.000 USD (trung bình 151.115 USD, gồm học phí, lãi vay, thu nhập và tiền hưu trí bị mất).",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q02",
+    "status": "answered",
+    "answer": "Sách ước tính sinh viên nên dành ít nhất hai giờ học ngoài lớp cho mỗi một giờ nghe giảng trên lớp [B:openstax-college-success:ch3:013783-014557].",
+    "citations": [
+      "B:openstax-college-success:ch3:013783-014557"
+    ],
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Ít nhất 2 giờ tự học cho mỗi 1 giờ lên lớp.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q03",
+    "status": "answered",
+    "answer": "Sách nêu fear of failure (sợ thất bại) là một nguyên nhân trì hoãn: người đó sợ mình không làm được hoặc làm không tốt, và nếu thất bại sẽ tự thấy mình kém năng lực [B:openstax-college-success:ch3:020786-021574]. Việc né tránh nhiệm vụ tạo ra một \"sự tự lừa dối\": nếu làm dở, họ có thể tự biện minh rằng do hết thời gian chứ không phải do thiếu năng lực [B:openstax-college-success:ch3:020786-021574]. Sách lưu ý nỗi sợ này không nhất thiết phản ánh năng lực thật; người đó có thể hoàn toàn đủ khả năng nhưng nỗi sợ đã cản trở họ [B:openstax-college-success:ch3:021576-021815]. Ngoài ra, trì hoãn còn gây căng thẳng và lo âu [B:openstax-college-success:ch3:023452-024117].",
+    "citations": [
+      "B:openstax-college-success:ch3:020786-021574",
+      "B:openstax-college-success:ch3:021576-021815",
+      "B:openstax-college-success:ch3:023452-024117"
+    ],
+    "citation_support": [
+      null,
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Vì trì hoãn cho họ một cái cớ: nếu thất bại thì đổ cho việc hết thời gian chứ không phải do mình không đủ năng lực.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q05",
+    "status": "answered",
+    "answer": "Ma trận Eisenhower xếp công việc vào bốn ô dựa trên hai tiêu chí: mức độ khẩn cấp (urgency) và mức độ quan trọng (importance). Thứ tự ưu tiên là: quan trọng và khẩn cấp trước, sau đó là quan trọng nhưng không khẩn cấp, rồi không quan trọng nhưng khẩn cấp, cuối cùng là không quan trọng và không khẩn cấp [B:openstax-college-success:ch3:045593-046347]. Phương pháp này được gọi là Eisenhower Decision Matrix [B:openstax-college-success:ch3:045108-045591].",
+    "citations": [
+      "B:openstax-college-success:ch3:045593-046347",
+      "B:openstax-college-success:ch3:045108-045591"
+    ],
+    "citation_support": [
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Mức độ quan trọng và mức độ khẩn cấp.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q06",
+    "status": "answered",
+    "answer": "Trước hết, sinh viên nên cố gắng tìm cách hoàn thành mọi việc bất chấp khó khăn [B:openstax-college-success:ch3:049440-050104]. Nếu điều đó không thể, bước tiếp theo là trao đổi với giảng viên để thông báo tình huống; họ có thể giúp quyết định hoặc đưa ra những lựa chọn mà sinh viên chưa nghĩ tới [B:openstax-college-success:ch3:049440-050104]. Khi đó mới đưa ra quyết định ưu tiên, dựa trên tầm quan trọng, tác động đến các ưu tiên khác và mức độ khẩn cấp, chứ không chỉ dựa vào số điểm [B:openstax-college-success:ch3:044698-045106][B:openstax-college-success:ch3:048654-049439]. Cần tránh quyết định vội vàng theo cảm xúc hoảng loạn, vì điều đó có thể khiến sinh viên không hoàn thành được gì [B:openstax-college-success:ch3:042994-043647]. Ví dụ, một bài có ít điểm nhưng là nền tảng cho các bài sau có thể quan trọng hơn; và giảng viên có thể có chính sách nộp muộn linh hoạt hơn [B:openstax-college-success:ch3:048654-049439][B:openstax-college-success:ch3:049440-050104].",
+    "citations": [
+      "B:openstax-college-success:ch3:048654-049439",
+      "B:openstax-college-success:ch3:049440-050104",
+      "B:openstax-college-success:ch3:042994-043647",
+      "B:openstax-college-success:ch3:044698-045106"
+    ],
+    "citation_support": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Trước hết cố tìm cách hoàn thành tất cả; nếu thật sự không thể thì liên hệ ngay với giảng viên để báo tình hình, sau đó mới quyết định ưu tiên.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q07",
+    "status": "answered",
+    "answer": "SMART là viết tắt của: Specific (cụ thể), Measurable (có thể đo lường), Attainable (có thể đạt được/khả thi), Relevant (liên quan/phù hợp), và Time-bound (có thời hạn cụ thể) [B:openstax-college-success:ch3:067464-067943][B:openstax-college-success:ch3:067945-068626][B:openstax-college-success:ch3:069355-070123][B:openstax-college-success:ch3:068627-069354].",
+    "citations": [
+      "B:openstax-college-success:ch3:067464-067943",
+      "B:openstax-college-success:ch3:067945-068626",
+      "B:openstax-college-success:ch3:069355-070123",
+      "B:openstax-college-success:ch3:068627-069354"
+    ],
+    "citation_support": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Specific, Measurable, Attainable, Relevant, Time-bound (cụ thể, đo lường được, khả thi, phù hợp, có thời hạn).",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q08",
+    "status": "answered",
+    "answer": "Sau khi hoàn thành bốn pomodoro, bạn nên nghỉ dài hơn, khoảng 15–30 phút, sau đó đặt lại số dấu kiểm về không rồi tiếp tục các bước làm việc [B:openstax-college-success:ch3:076068-076475]. (Trong khi đó, sau mỗi pomodoro khi chưa đủ bốn dấu kiểm, bạn nghỉ ngắn 3–5 phút [B:openstax-college-success:ch3:076068-076475].)",
+    "citations": [
+      "B:openstax-college-success:ch3:076068-076475"
+    ],
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Nghỉ dài 15–30 phút, rồi đặt lại số dấu tích về 0.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q09",
+    "status": "answered",
+    "answer": "Chiến lược \"ăn con ếch\" (Eat the Frog) khuyên bạn xử lý nhiệm vụ lớn nhất hoặc khó chịu nhất trước tiên; khi làm xong việc đó, các việc còn lại sẽ dễ hơn [B:openstax-college-success:ch3:077059-077668]. Tên gọi xuất phát từ câu nói được cho là của Mark Twain: \"Ăn một con ếch sống ngay buổi sáng và sẽ không có chuyện gì tệ hơn xảy ra với bạn trong suốt phần còn lại của ngày\" [B:openstax-college-success:ch3:077059-077668]. Lý do là lo lắng về một việc đang né tránh có thể ảnh hưởng đến hiệu suất làm việc, và cảm giác hoàn thành việc đó mang lại sự nhẹ nhõm và thành tựu [B:openstax-college-success:ch3:077670-078141]. Chiến lược này thường đi kèm với việc chia nhỏ công việc thành các phiên khoảng 25 phút [B:openstax-college-success:ch3:076477-077057].",
+    "citations": [
+      "B:openstax-college-success:ch3:077059-077668",
+      "B:openstax-college-success:ch3:076477-077057",
+      "B:openstax-college-success:ch3:077670-078141"
+    ],
+    "citation_support": [
+      null,
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Làm nhiệm vụ lớn nhất hoặc khó chịu nhất trước; sau đó mọi việc khác sẽ dễ hơn.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q10",
+    "status": "answered",
+    "answer": "Theo sách, nếu Sarah lập danh sách trước và đi chợ nhanh hơn (tiết kiệm 30 phút mua sắm), đồng thời ghé siêu thị trên đường từ chỗ làm về (bỏ 20 phút đi lại), và giới hạn thời gian trò chuyện/lướt mạng còn 30 phút (hoặc làm trong lúc nấu ăn), cô ấy sẽ có thêm khoảng 1,5 giờ cho buổi tối thứ Ba mà không phải cắt bỏ việc cần làm hay việc thích làm [B:openstax-college-success:ch3:087440-088156]. Sách cũng nhận xét rằng cách này có thể giúp thời gian học bài tăng hơn gấp đôi [B:openstax-college-success:ch3:087440-088156].",
+    "citations": [
+      "B:openstax-college-success:ch3:087440-088156"
+    ],
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Gần một tiếng rưỡi, mà không phải bỏ hoạt động nào cần thiết hay yêu thích.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q11",
+    "status": "answered",
+    "answer": "Quá trình ghi nhớ một ý tưởng hay hình ảnh gồm ba bước cơ bản: mã hóa (encode), lưu trữ (store) và truy xuất (retrieve) thông tin. Mã hóa là bước ta tiếp nhận thông tin qua các giác quan và gắn nhãn cho nó trong trí nhớ ngắn hạn; nếu thông tin quan trọng và được tiếp xúc thường xuyên, bộ não sẽ lưu trữ nó trong trí nhớ dài hạn; sau đó bộ não cho phép ta gợi lại (truy xuất) thông tin đó khi cần sử dụng [B:openstax-college-success:ch6:005313-006092].",
+    "citations": [
+      "B:openstax-college-success:ch6:005313-006092"
+    ],
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Mã hóa (encode), lưu trữ (store) và truy xuất (retrieve).",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q13",
+    "status": "answered",
+    "answer": "Việc gom các món đồ thành từng nhóm theo chủ đề được gọi là \"chunking\" (gom nhóm/chia khối thông tin). Nhờ gom thông tin thành các nhóm, ta kết nối chúng với nhau và mở rộng khả năng ghi nhớ, từ đó nhớ được nhiều mục hơn [B:openstax-college-success:ch6:010148-010767]. Sau khi đã nhóm các món đồ theo danh mục (chunking), bạn có thể ghi nhớ các danh mục và các món thuộc từng danh mục, giúp nhớ được nhiều hơn [B:openstax-college-success:ch6:011325-011939].",
+    "citations": [
+      "B:openstax-college-success:ch6:010148-010767",
+      "B:openstax-college-success:ch6:011325-011939"
+    ],
+    "citation_support": [
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Chunking (gom nhóm thông tin theo danh mục).",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q14",
+    "status": "answered",
+    "answer": "Theo John Medina, não bắt đầu lang thang (xao nhãng) khoảng 10 phút, và lúc đó bạn cần một kích thích mới để khơi lại sự chú ý. Điều này không có nghĩa là bạn không thể tập trung quá 10 phút; bạn chỉ cần thường xuyên chuyển đổi cách thức để giữ não luôn được kích hoạt [B:openstax-college-success:ch6:021263-022038].",
+    "citations": [
+      "B:openstax-college-success:ch6:021263-022038"
+    ],
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Khoảng 10 phút.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q15",
+    "status": "answered",
+    "answer": "Tô sáng chỉ là bước đầu (annotating là hoạt động \"first-step\"), dễ tạo cảm giác đã chuẩn bị xong vì bạn đã bỏ nhiều thời gian; nhưng nó chỉ giúp bạn tương tác bề mặt với văn bản. Việc học thực sự cần nhiều thời gian hơn để ôn tập, truy xuất lại bài học và tự kiểm tra bằng câu hỏi, điều cần thiết để làm tốt bài thi [B:openstax-college-success:ch6:033134-033924]. Tô sáng dễ thực hiện và khiến người học cảm thấy tích cực, nhưng việc học thực sự cần thêm các bước khác [B:openstax-college-success:ch6:033925-034132]. Các chiến lược hiệu quả hơn gồm giãn cách việc học theo thời gian, xen kẽ các nội dung khác nhau và luyện tập kiểm tra (tự kiểm tra khả năng nhớ lại thông tin thay vì chỉ đọc lại) [B:openstax-college-success:ch6:040355-041139].",
+    "citations": [
+      "B:openstax-college-success:ch6:033134-033924",
+      "B:openstax-college-success:ch6:033925-034132",
+      "B:openstax-college-success:ch6:040355-041139"
+    ],
+    "citation_support": [
+      null,
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Vì tô sáng chỉ là bước đầu; cần nhiều thời gian hơn để ôn lại, truy xuất kiến thức và tự kiểm tra.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q16",
+    "status": "answered",
+    "answer": "Interleaving (xen kẽ) nói về việc NỘI DUNG nào được học: thay vì dành cả buổi học cho một loại bài toán hoặc một chủ đề rồi mới chuyển sang loại khác sau này, bạn nên trộn lẫn các nội dung khi học. Điều này có thể bao gồm ôn lại tài liệu từ chương hoặc đơn vị trước, hoặc luyện các loại bài tập/bộ câu hỏi khác nhau [B:openstax-college-success:ch6:041936-042455][B:openstax-college-success:ch6:042457-043223][B:openstax-college-success:ch6:040355-041139]. Sách lưu ý rằng việc trộn lẫn này có thể gây quên ngắn hạn nhưng lại giúp học và ghi nhớ lâu dài [B:openstax-college-success:ch6:042457-043223]. Trong sơ đồ lịch ôn ví dụ, interleaving được kết hợp với spacing (học rải đều nhiều ngày, không nhồi nhét) [B:openstax-college-success:ch6:041141-041934][B:openstax-college-success:ch6:042457-043223].",
+    "citations": [
+      "B:openstax-college-success:ch6:041936-042455",
+      "B:openstax-college-success:ch6:041141-041934",
+      "B:openstax-college-success:ch6:042457-043223",
+      "B:openstax-college-success:ch6:040355-041139"
+    ],
+    "citation_support": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Không học dồn một loại nội dung, chủ đề hay chương tại một thời điểm mà trộn lẫn các nội dung khi học.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q17",
+    "status": "answered",
+    "answer": "Theo sách, một trong những cách học hiệu quả nhất là dạy lại cho người khác: hãy giải thích một nội dung cho bạn bè hoặc người thân, và bạn có thể nhận ra mình biết nhiều hơn mình nghĩ, hoặc nhanh chóng thấy cần ôn thêm [B:openstax-college-success:ch6:044196-044814]. Lý do là việc giảng bài chính là một dạng practice testing (tự kiểm tra bằng cách làm bài tập/kiểm tra) vì nó buộc bạn phải thể hiện rằng mình biết nội dung trước người khác [B:openstax-college-success:ch6:044196-044814]. Đây là một chiến lược hiệu quả vì nó giúp bạn luyện khả năng truy xuất thông tin, đúng điều bạn cần khi làm bài thi thật [B:openstax-college-success:ch6:043814-044194]. Ngoài ra, sách cho rằng việc chuyển thông tin vào trí nhớ dài hạn cần sự tiếp xúc lặp lại theo thời gian và việc xử lý, thao tác với thông tin đó [B:openstax-college-success:ch6:012415-012765].",
+    "citations": [
+      "B:openstax-college-success:ch6:044196-044814",
+      "B:openstax-college-success:ch6:043814-044194",
+      "B:openstax-college-success:ch6:012415-012765"
+    ],
+    "citation_support": [
+      null,
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Vì đó là một dạng tự kiểm tra (practice testing), buộc bạn chứng minh mình hiểu bài trước người khác.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q18",
+    "status": "answered",
+    "answer": "Trước hết, sinh viên tự xác định rõ nhu cầu cụ thể của mình và chịu trách nhiệm trao đổi nhu cầu đó với giảng viên. Điều kiện là cần điều chỉnh (accommodations) như thêm thời gian, đổi địa điểm hoặc hình thức thi; các điều chỉnh này thường được cung cấp khi có thông báo trước đầy đủ (adequate notice). Bước đầu tiên là trao đổi trực tiếp với giảng viên (speak with your instructor). Ngoài ra, sinh viên có thể cần liên hệ cố vấn dịch vụ sinh viên (student services advisor) để biết yêu cầu cụ thể của trường [B:openstax-college-success:ch6:055889-056545][B:openstax-college-success:ch6:055280-055887]. Sách không nêu chi tiết thủ tục hồ sơ hay tiêu chí y tế cụ thể.",
+    "citations": [
+      "B:openstax-college-success:ch6:055889-056545",
+      "B:openstax-college-success:ch6:055280-055887"
+    ],
+    "citation_support": [
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Cần báo trước đủ sớm; bước đầu tiên là nói chuyện với giảng viên (có thể cần gặp thêm cố vấn dịch vụ sinh viên).",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q20",
+    "status": "answered",
+    "answer": "Nhồi nhét sát giờ thi kém hiệu quả vì nhiều lý do: (1) Não bộ không phù hợp với việc học dồn; việc học quá nhiều trong một lần khiến não dễ lạc hướng, vì nó chỉ tập trung được vào một khái niệm và một số lượng khái niệm giới hạn cùng lúc [B:openstax-college-success:ch6:020819-021261][B:openstax-college-success:ch6:021263-022038]. (2) Nhồi nhét không tận dụng được cơ chế quên và nhớ lại: thời gian nghỉ giữa các buổi học giúp bạn quên một phần thông tin, và chính việc phải học lại khi quên giúp cải thiện khả năng ghi nhớ dài hạn [B:openstax-college-success:ch6:041141-041934]. (3) Nhồi nhét gây căng thẳng, có thể dẫn đến lo âu nghiêm trọng khi thi, và giả định sai rằng bạn có thể nhớ và hiểu đầy đủ sau chỉ vài lần tiếp xúc [B:openstax-college-success:ch6:020819-021261]. (4) Thiếu ngủ do thức khuya học cũng ảnh hưởng xấu đến khả năng tạo ký ức và học tập [B:openstax-college-success:ch6:020281-020817]. Thay vào đó, sách khuyên học trải đều (spacing) qua nhiều ngày, có nghỉ giữa các buổi học [B:openstax-college-success:ch6:040355-041139][B:openstax-college-success:ch6:041936-042455].",
+    "citations": [
+      "B:openstax-college-success:ch6:041141-041934",
+      "B:openstax-college-success:ch6:040355-041139",
+      "B:openstax-college-success:ch6:041936-042455",
+      "B:openstax-college-success:ch6:020819-021261",
+      "B:openstax-college-success:ch6:020281-020817",
+      "B:openstax-college-success:ch6:021263-022038"
+    ],
+    "citation_support": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Vì nhồi nhét gây căng thẳng (có thể dẫn tới lo âu thi cử), lầm tưởng có thể hiểu và nhớ sau rất ít lần tiếp xúc, và làm não quá tải.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q21",
+    "status": "answered",
+    "answer": "Sách khuyến nghị tạo môi trường ít gián đoạn bằng cách: nếu bạn tập trung tốt hơn khi không có phiền nhiễu thì nên tạo không gian giảm gián đoạn, ví dụ vào phòng riêng, dùng tai nghe, hoặc đến nơi như thư viện để làm việc [B:openstax-college-success:ch3:061705-062461]. Hãy chọn không gian làm việc phù hợp: ngồi ở bàn hoặc bàn làm việc thay vì nằm trên ghế sofa, đảm bảo đủ không gian và giữ không gian gọn gàng để tài liệu tham khảo trong tầm tay [B:openstax-college-success:ch3:060249-061002]. Hãy xem không gian làm việc là một nguồn lực quan trọng cần thiết để hoàn thành công việc, và tìm cách phù hợp với bản thân [B:openstax-college-success:ch3:061003-061703]. Ngoài ra, nên tránh các yếu tố kéo sự chú ý như người khác liên tục làm phiền hoặc các thứ như mạng xã hội, trò chơi điện tử, phim, vì chúng là nguyên nhân chính gây trì hoãn [B:openstax-college-success:ch3:024713-025124]. Cuối cùng, nên làm việc vào thời điểm phù hợp với nhịp sinh học của mình, vì làm việc khi kiệt sức về thể chất hoặc tinh thần thường không hiệu quả [B:openstax-college-success:ch3:062463-063046].",
+    "citations": [
+      "B:openstax-college-success:ch3:061705-062461",
+      "B:openstax-college-success:ch3:061003-061703",
+      "B:openstax-college-success:ch3:062463-063046",
+      "B:openstax-college-success:ch3:060249-061002",
+      "B:openstax-college-success:ch3:024713-025124"
+    ],
+    "citation_support": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Vào một phòng riêng, dùng tai nghe, hoặc đến nơi như thư viện để làm việc.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q22",
+    "status": "answered",
+    "answer": "Theo bảng ước lượng thời gian trung bình của sách, việc ôn cho một bài thi (study for exam) thường mất khoảng 90 phút, tùy thuộc độ phức tạp của tài liệu (1–2 giờ) [B:openstax-college-success:ch3:039709-040499]. Sách cũng nhấn mạnh đây chỉ là mức trung bình; không có 'thời gian đúng' cố định, quan trọng là ước lượng thời gian thực tế của bản thân để lập kế hoạch [B:openstax-college-success:ch3:039709-040499]. Ví dụ, nếu cần 5 giờ để ôn thi cuối kỳ, bạn có thể chia nhỏ thành mỗi đêm một giờ trong 5 ngày [B:openstax-college-success:ch3:028567-029249].",
+    "citations": [
+      "B:openstax-college-success:ch3:039709-040499",
+      "B:openstax-college-success:ch3:028567-029249"
+    ],
+    "citation_support": [
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Khoảng 90 phút cho mỗi bài thi (1–2 giờ tùy độ phức tạp của nội dung).",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q23",
+    "status": "answered",
+    "answer": "Nên dùng vài phút cuối giờ thi để rà soát lại bài làm: kiểm tra lại các phép tính toán, xem lại bài luận về lỗi ngữ pháp và nội dung, hoặc trả lời những câu trắc nghiệm khó mà bạn đã bỏ qua trước đó [B:openstax-college-success:ch6:061826-062622]. Đồng thời, hãy đảm bảo bạn đã làm hết toàn bộ đề: kiểm tra mặt sau của các trang và xác nhận có phần trả lời tương ứng cho mọi phần câu hỏi, vì việc quên quay lại một phần có thể ảnh hưởng lớn đến kết quả [B:openstax-college-success:ch6:061826-062622].",
+    "citations": [
+      "B:openstax-college-success:ch6:061826-062622"
+    ],
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Rà soát lại bài làm: kiểm tra phép tính, soát lỗi bài luận, làm các câu khó đã bỏ qua và kiểm tra đã làm hết mọi phần.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "u01",
+    "status": "abstain",
+    "answer": "Sách giáo khoa chỉ nêu rằng kỹ thuật Pomodoro được Francesco Cirillo phát triển, và ông dùng một chiếc đồng hồ hẹn giờ hình quả cà chua để theo dõi các khoảng thời gian làm việc. Sách không nêu năm mà kỹ thuật này được phát triển.",
+    "citations": [],
+    "citation_support": [],
+    "reason": "",
+    "abstention_correct": null
+  },
+  {
+    "query_id": "u02",
+    "status": "abstain",
+    "answer": "Các đoạn sách tìm được không nêu số lượng cà phê hoặc caffeine khuyến nghị mỗi ngày khi ôn thi. Sách chỉ nhấn mạnh việc ngủ đủ giấc giúp cải thiện trí nhớ và khả năng nhận thức, và việc thiếu ngủ làm giảm sự tập trung và khả năng phán đoán [C8][C9][C11].",
+    "citations": [],
+    "citation_support": [],
+    "reason": "",
+    "abstention_correct": null
+  },
+  {
+    "query_id": "u03",
+    "status": "abstain",
+    "answer": "Các đoạn sách tìm được không nêu đường cong quên lãng của Ebbinghaus hay tỷ lệ phần trăm thông tin bị quên sau một ngày. Chúng chỉ nói về việc quên là có lợi cho việc ghi nhớ dài hạn, về trí nhớ ngắn hạn/dài hạn và về các chiến lược học như giãn cách (spacing).",
+    "citations": [],
+    "citation_support": [],
+    "reason": "",
+    "abstention_correct": null
+  }
+]

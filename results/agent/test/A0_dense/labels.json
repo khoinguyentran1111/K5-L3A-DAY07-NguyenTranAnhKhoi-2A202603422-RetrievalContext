@@ -1,0 +1,62 @@
+{
+  "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+  "method": "Như dev: 2 = đúng và đủ, mọi ý chính có evidence; 1 = đúng một phần hoặc kèm khẳng định không được hỗ trợ; 0 = sai/thiếu evidence/từ chối. Context 0/1/2 theo BENCHMARK.md: 0 không có evidence, 1 có nhưng thiếu điều kiện/nguồn, 2 đủ evidence và nguồn.",
+  "labels": {
+    "q04": {
+      "grade": 2,
+      "context": 2,
+      "support": {
+        "C1": true,
+        "C4": true,
+        "C5": true
+      },
+      "reason": "Đủ 3 trường hợp: thói quen kinh niên, nhiều việc ít thời gian, việc rất quan trọng (C1 trang 83). Hậu quả thêm đúng với C4, C5."
+    },
+    "q12": {
+      "grade": 2,
+      "context": 2,
+      "support": {
+        "C1": true,
+        "C2": true
+      },
+      "reason": "Đúng 5-9 đơn vị (C1 trang 184)."
+    },
+    "q19": {
+      "grade": 2,
+      "context": 2,
+      "support": {
+        "C1": true,
+        "C2": true
+      },
+      "reason": "Đúng: bỏ qua câu khó, làm câu chắc chắn trước, quay lại sau (C1). Ý điểm từng phần đúng với C2."
+    },
+    "q24": {
+      "grade": 2,
+      "context": 2,
+      "support": {
+        "C2": true,
+        "C3": true,
+        "C4": true
+      },
+      "reason": "Đúng: cất điện thoại khuất tầm mắt/phòng khác, úp xuống là chưa đủ (C4 trang 191)."
+    },
+    "q25": {
+      "grade": 0,
+      "context": 0,
+      "support": {},
+      "reason": "Từ chối nhầm: chỉ search 1 lần ('dividing 24 hours day into three equal parts'), top-3 không có chunk quy tắc 8-8-8 (trang 109), model dừng sớm thay vì thử query khác."
+    },
+    "u04": {
+      "abstention_correct": true,
+      "reason": "Từ chối đúng: nói rõ sách chỉ nêu Eisenhower là tổng chỉ huy và dùng kỹ thuật ưu tiên, không nêu chiến dịch cụ thể."
+    },
+    "u05": {
+      "abstention_correct": true,
+      "reason": "Từ chối đúng, không đưa con số giờ mạng xã hội."
+    },
+    "u06": {
+      "abstention_correct": true,
+      "reason": "Từ chối đúng; nhắc GPA 3.0 chỉ là ví dụ mục tiêu SMART, không đánh đồng với học bổng."
+    }
+  }
+}

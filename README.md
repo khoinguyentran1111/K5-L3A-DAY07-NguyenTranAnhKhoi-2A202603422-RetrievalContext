@@ -1,5 +1,7 @@
 # Day 7 — Agentic RAG
 
+> **Bài làm của Nguyễn Trần Anh Khôi (2A202603422, L3A):** code và cách chạy ở [src/README.md](src/README.md); dữ liệu và benchmark ở [data/corpus/](data/corpus/) và [data/benchmark/](data/benchmark/); kết quả và trace ở [results/](results/); báo cáo ở [report/individual/2A202603422_NguyenTranAnhKhoi.md](report/individual/2A202603422_NguyenTranAnhKhoi.md). Phần dưới là đề bài gốc.
+
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.

@@ -1,0 +1,89 @@
+q01: answered searches=2 {'first_search_hit1': True, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': True} 6379ms $0.00054 
+q02: abstain searches=2 {'first_search_hit1': True, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': False} 4929ms $0.00044 
+q03: answered searches=2 {'first_search_hit1': True, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': True} 6316ms $0.00060 
+q05: answered searches=1 {'first_search_hit1': True, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': False} 4496ms $0.00041 
+q06: answered searches=2 {'first_search_hit1': False, 'first_search_hit3': False, 'context_evidence': True, 'cited_gold_chunk': True} 6574ms $0.00067 
+q07: answered searches=1 {'first_search_hit1': False, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': True} 4446ms $0.00046 
+q08: answered searches=1 {'first_search_hit1': False, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': True} 4013ms $0.00041 
+q09: answered searches=1 {'first_search_hit1': True, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': True} 5274ms $0.00043 
+q10: abstain searches=2 {'first_search_hit1': False, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': False} 5162ms $0.00053 
+q11: answered searches=1 {'first_search_hit1': True, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': True} 4439ms $0.00046 
+q13: answered searches=1 {'first_search_hit1': True, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': True} 4206ms $0.00045 
+q14: answered searches=1 {'first_search_hit1': True, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': True} 4294ms $0.00040 
+q15: answered searches=2 {'first_search_hit1': True, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': True} 5857ms $0.00053 
+q16: answered searches=2 {'first_search_hit1': False, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': True} 6001ms $0.00056 
+q17: answered searches=2 {'first_search_hit1': True, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': True} 6550ms $0.00059 
+q18: answered searches=2 {'first_search_hit1': False, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': True} 5755ms $0.00059 
+q20: answered searches=2 {'first_search_hit1': True, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': True} 6416ms $0.00055 
+q21: answered searches=2 {'first_search_hit1': True, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': True} 6092ms $0.00057 
+q22: answered searches=2 {'first_search_hit1': False, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': True} 6884ms $0.00063 
+q23: answered searches=2 {'first_search_hit1': True, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': True} 5329ms $0.00049 
+u01: abstain searches=1 {} 4842ms $0.00042 
+u02: abstain searches=2 {} 5401ms $0.00052 
+u03: abstain searches=2 {} 6233ms $0.00068 
+{
+  "config": "A0_dense",
+  "split": "dev",
+  "model": "anthropic/claude-haiku-5.5",
+  "cases": 23,
+  "errors": 0,
+  "tool_use": {
+    "n": 23,
+    "N": 23,
+    "rate": 1.0
+  },
+  "searches_distribution": {
+    "1": 8,
+    "2": 15
+  },
+  "first_search_hit1": {
+    "n": 13,
+    "N": 20,
+    "rate": 0.65
+  },
+  "first_search_hit3": {
+    "n": 19,
+    "N": 20,
+    "rate": 0.95
+  },
+  "context_evidence_rate": {
+    "n": 20,
+    "N": 20,
+    "rate": 1.0
+  },
+  "answered_citing_gold_chunk": {
+    "n": 17,
+    "N": 20,
+    "rate": 0.85
+  },
+  "abstained_unanswerable": {
+    "n": 3,
+    "N": 3,
+    "rate": 1.0
+  },
+  "false_abstention": {
+    "n": 2,
+    "N": 20,
+    "rate": 0.1
+  },
+  "selection_score": 23,
+  "avg_context_chars": 2597,
+  "median_latency_ms": 5400.7,
+  "total_cost_usd": 0.01193,
+  "cost_per_case_usd": 0.000519,
+  "usage": {
+    "embedding": {
+      "calls": 38,
+      "prompt_tokens": 355,
+      "completion_tokens": 0,
+      "cost_usd": 7e-06
+    },
+    "chat": {
+      "calls": 47,
+      "prompt_tokens": 72031,
+      "completion_tokens": 9440,
+      "cost_usd": 0.011923
+    },
+    "cost_usd": 0.01193
+  }
+}

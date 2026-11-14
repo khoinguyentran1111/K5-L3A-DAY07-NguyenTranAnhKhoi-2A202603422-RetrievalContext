@@ -1,0 +1,72 @@
+{
+  "run": "results\\agent\\test\\A1_dense_neighbours",
+  "config": "A1_dense_neighbours",
+  "split": "test",
+  "model": "anthropic/claude-haiku-5.5",
+  "agent_metrics": {
+    "cases": 8,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 8,
+      "N": 8
+    },
+    "grounded_answer": {
+      "0": 0,
+      "1": 0,
+      "2": 5,
+      "N": 5,
+      "mean": 2.0
+    },
+    "citation_validity": {
+      "n": 17,
+      "N": 17
+    },
+    "answer_citation_coverage": {
+      "n": 5,
+      "N": 5
+    },
+    "abstention": {
+      "n": 3,
+      "N": 3
+    },
+    "false_abstention": {
+      "n": 0,
+      "N": 5
+    }
+  },
+  "auto": {
+    "searches_distribution": {
+      "2": 8
+    },
+    "first_search_hit1": {
+      "n": 3,
+      "N": 5,
+      "rate": 0.6
+    },
+    "first_search_hit3": {
+      "n": 3,
+      "N": 5,
+      "rate": 0.6
+    },
+    "context_evidence_rate": {
+      "n": 5,
+      "N": 5,
+      "rate": 1.0
+    },
+    "abstained_unanswerable": {
+      "n": 3,
+      "N": 3,
+      "rate": 1.0
+    },
+    "false_abstention": {
+      "n": 0,
+      "N": 5,
+      "rate": 0.0
+    },
+    "avg_context_chars": 5572.6,
+    "median_latency_ms": 5523.2,
+    "total_cost_usd": 0.004823,
+    "cost_per_case_usd": 0.000603,
+    "errors": 0
+  }
+}

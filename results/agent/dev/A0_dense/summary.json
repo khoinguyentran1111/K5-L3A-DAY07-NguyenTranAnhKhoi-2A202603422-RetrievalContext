@@ -1,0 +1,66 @@
+{
+  "config": "A0_dense",
+  "split": "dev",
+  "model": "anthropic/claude-haiku-5.5",
+  "cases": 23,
+  "errors": 0,
+  "tool_use": {
+    "n": 23,
+    "N": 23,
+    "rate": 1.0
+  },
+  "searches_distribution": {
+    "1": 7,
+    "2": 16
+  },
+  "first_search_hit1": {
+    "n": 12,
+    "N": 20,
+    "rate": 0.6
+  },
+  "first_search_hit3": {
+    "n": 19,
+    "N": 20,
+    "rate": 0.95
+  },
+  "context_evidence_rate": {
+    "n": 19,
+    "N": 20,
+    "rate": 0.95
+  },
+  "answered_citing_gold_chunk": {
+    "n": 18,
+    "N": 20,
+    "rate": 0.9
+  },
+  "abstained_unanswerable": {
+    "n": 3,
+    "N": 3,
+    "rate": 1.0
+  },
+  "false_abstention": {
+    "n": 0,
+    "N": 20,
+    "rate": 0.0
+  },
+  "selection_score": 22,
+  "avg_context_chars": 2574.1,
+  "median_latency_ms": 5293.0,
+  "total_cost_usd": 0.011472,
+  "cost_per_case_usd": 0.000499,
+  "usage": {
+    "embedding": {
+      "calls": 39,
+      "prompt_tokens": 352,
+      "completion_tokens": 0,
+      "cost_usd": 7e-06
+    },
+    "chat": {
+      "calls": 46,
+      "prompt_tokens": 71318,
+      "completion_tokens": 8666,
+      "cost_usd": 0.011465
+    },
+    "cost_usd": 0.011472
+  }
+}

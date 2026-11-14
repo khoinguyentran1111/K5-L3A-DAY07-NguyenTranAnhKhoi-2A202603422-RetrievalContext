@@ -1,0 +1,255 @@
+{
+  "chunks": 299,
+  "pages": 62,
+  "split_counts": {
+    "dev/answerable": 20,
+    "test/answerable": 5,
+    "dev/unanswerable": 3,
+    "test/unanswerable": 3
+  },
+  "gold_dropped": {},
+  "gold_chunk_count": {
+    "q01": 2,
+    "q02": 1,
+    "q03": 1,
+    "q04": 1,
+    "q05": 1,
+    "q06": 1,
+    "q07": 1,
+    "q08": 1,
+    "q09": 1,
+    "q10": 1,
+    "q11": 1,
+    "q12": 1,
+    "q13": 1,
+    "q14": 1,
+    "q15": 1,
+    "q16": 1,
+    "q17": 1,
+    "q18": 1,
+    "q19": 1,
+    "q20": 1,
+    "q21": 1,
+    "q22": 1,
+    "q23": 1,
+    "q24": 1,
+    "q25": 1
+  },
+  "db_check": {
+    "db_rows": 299,
+    "json_chunks": 299,
+    "missing_or_changed": [],
+    "extra_in_db": [],
+    "embedding_models": [
+      "openai/text-embedding-3-small"
+    ],
+    "dimensions": [
+      1536
+    ],
+    "postgres": "16.16 (Debian 16.16-1.pgdg12+1)",
+    "pgvector": "0.8.7"
+  },
+  "per_question": [
+    {
+      "id": "q01",
+      "gold_kept": 2,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch3:007620-008343",
+        "B:openstax-college-success:ch3:008344-008902"
+      ]
+    },
+    {
+      "id": "q02",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch3:013783-014557"
+      ]
+    },
+    {
+      "id": "q03",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch3:020786-021574"
+      ]
+    },
+    {
+      "id": "q04",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch3:018281-018764"
+      ]
+    },
+    {
+      "id": "q05",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch3:045108-045591"
+      ]
+    },
+    {
+      "id": "q06",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch3:049440-050104"
+      ]
+    },
+    {
+      "id": "q07",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch3:067464-067943"
+      ]
+    },
+    {
+      "id": "q08",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch3:076068-076475"
+      ]
+    },
+    {
+      "id": "q09",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch3:077059-077668"
+      ]
+    },
+    {
+      "id": "q10",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch3:087440-088156"
+      ]
+    },
+    {
+      "id": "q11",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch6:005313-006092"
+      ]
+    },
+    {
+      "id": "q12",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch6:009545-010146"
+      ]
+    },
+    {
+      "id": "q13",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch6:011325-011939"
+      ]
+    },
+    {
+      "id": "q14",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch6:021263-022038"
+      ]
+    },
+    {
+      "id": "q15",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch6:033134-033924"
+      ]
+    },
+    {
+      "id": "q16",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch6:040355-041139"
+      ]
+    },
+    {
+      "id": "q17",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch6:044196-044814"
+      ]
+    },
+    {
+      "id": "q18",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch6:055280-055887"
+      ]
+    },
+    {
+      "id": "q19",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch6:061372-061824"
+      ]
+    },
+    {
+      "id": "q20",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch6:020819-021261"
+      ]
+    },
+    {
+      "id": "q21",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch3:061705-062461"
+      ]
+    },
+    {
+      "id": "q22",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch3:039709-040499"
+      ]
+    },
+    {
+      "id": "q23",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch6:061826-062622"
+      ]
+    },
+    {
+      "id": "q24",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch6:027462-027843"
+      ]
+    },
+    {
+      "id": "q25",
+      "gold_kept": 1,
+      "gold_dropped": [],
+      "gold_chunks": [
+        "B:openstax-college-success:ch3:082751-083391"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1260 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Theo số liệu Washington Post được dẫn trong sách, việc tốt nghiệp trễ chỉ hai học kỳ có thể khiến sinh viên tốn tổng cộng khoảng bao nhiêu tiền?",
+    "pipeline": "bm25",
+    "filter": null,
+    "steps": [
+      {
+        "step": "bm25",
+        "query": "Theo số liệu Washington Post được dẫn trong sách, việc tốt nghiệp trễ chỉ hai học kỳ có thể khiến sinh viên tốn tổng cộng khoảng bao nhiêu tiền?",
+        "matched_terms": [
+          "post",
+          "washington"
+        ],
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:008344-008902",
+            "rank": 1,
+            "score": 10.786918,
+            "page": 77,
+            "section": "3.1 The Benefits of Time Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:007620-008343",
+            "rank": 2,
+            "score": 10.214018,
+            "page": 77,
+            "section": "3.1 The Benefits of Time Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:006260-006905",
+            "rank": 3,
+            "score": 7.76407,
+            "page": 77,
+            "section": "3.1 The Benefits of Time Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:041190-041873",
+            "rank": 4,
+            "score": 3.399752,
+            "page": 91,
+            "section": "3.4 How to Manage Time"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:084466-085227",
+            "rank": 5,
+            "score": 3.348571,
+            "page": 109,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:056547-057282",
+            "rank": 6,
+            "score": 3.203872,
+            "page": 200,
+            "section": "6.3 Test Taking"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch3:008344-008902",
+        "rank": 1,
+        "score": 10.786918,
+        "page": 77,
+        "section": "3.1 The Benefits of Time Management",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch3:007620-008343",
+        "rank": 2,
+        "score": 10.214018,
+        "page": 77,
+        "section": "3.1 The Benefits of Time Management",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch3:006260-006905",
+        "rank": 3,
+        "score": 7.76407,
+        "page": 77,
+        "section": "3.1 The Benefits of Time Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:041190-041873",
+        "rank": 4,
+        "score": 3.399752,
+        "page": 91,
+        "section": "3.4 How to Manage Time",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:084466-085227",
+        "rank": 5,
+        "score": 3.348571,
+        "page": 109,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:056547-057282",
+        "rank": 6,
+        "score": 3.203872,
+        "page": 200,
+        "section": "6.3 Test Taking",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch3:008344-008902",
+      "B:openstax-college-success:ch3:007620-008343",
+      "B:openstax-college-success:ch3:006260-006905"
+    ],
+    "context_chars": 2215,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 0.6,
+    "cost_usd": 0.0,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 77,
+        "evidence": "That brings the average total cost for only two extra semesters to over $150,000."
+      },
+      {
+        "source_id": "openstax-college-success",
+        "page": 78,
+        "evidence": "Average total loss: $151,115"
+      }
+    ]
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Ở đại học, với mỗi giờ học trên lớp thì sinh viên nên dành ít nhất bao nhiêu giờ tự học bên ngoài?",
+    "pipeline": "bm25",
+    "filter": null,
+    "steps": [
+      {
+        "step": "bm25",
+        "query": "Ở đại học, với mỗi giờ học trên lớp thì sinh viên nên dành ít nhất bao nhiêu giờ tự học bên ngoài?",
+        "matched_terms": [],
+        "filters": null,
+        "top_k": 10,
+        "results": []
+      }
+    ],
+    "results": [],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": false,
+    "hit5": false,
+    "first_hit_rank": null,
+    "rr": 0.0,
+    "context_hit": false,
+    "latency_ms": 0.3,
+    "cost_usd": 0.0,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 81,
+        "evidence": "the estimated time you should spend will be at least two hours of outside learning for every one hour of lecture"
+      }
+    ]
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Vì sao một người sợ làm không tốt lại hay để việc đến sát hạn mới làm?",
+    "pipeline": "bm25",
+    "filter": null,
+    "steps": [
+      {
+        "step": "bm25",
+        "query": "Vì sao một người sợ làm không tốt lại hay để việc đến sát hạn mới làm?",
+        "matched_terms": [],
+        "filters": null,
+        "top_k": 10,
+        "results": []
+      }
+    ],
+    "results": [],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": false,
+    "hit5": false,
+    "first_hit_rank": null,
+    "rr": 0.0,
+    "context_hit": false,
+    "latency_ms": 0.2,
+    "cost_usd": 0.0,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 84,
+        "evidence": "they can rationalize that the reason they failed at the task was because they ran out of time to complete it, not that they were incapable of doing it in the first place"
+      }
+    ]
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Ma trận quyết định Eisenhower xếp các công việc vào bốn ô dựa trên hai tiêu chí nào?",
+    "pipeline": "bm25",
+    "filter": null,
+    "steps": [
+      {
+        "step": "bm25",
+        "query": "Ma trận quyết định Eisenhower xếp các công việc vào bốn ô dựa trên hai tiêu chí nào?",
+        "matched_terms": [
+          "eisenhower"
+        ],
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:045108-045591",
+            "rank": 1,
+            "score": 6.89189,
+            "page": 93,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:045593-046347",
+            "rank": 2,
+            "score": 4.247487,
+            "page": 93,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch3:045108-045591",
+        "rank": 1,
+        "score": 6.89189,
+        "page": 93,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch3:045593-046347",
+        "rank": 2,
+        "score": 4.247487,
+        "page": 93,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch3:045108-045591",
+      "B:openstax-college-success:ch3:045593-046347"
+    ],
+    "context_chars": 1495,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 0.4,
+    "cost_usd": 0.0,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 93,
+        "evidence": "arrange them in a quadrant map based on importance and urgency. Traditionally this is called the Eisenhower Decision Matrix."
+      }
+    ]
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Nếu không thể kịp hoàn thành cả hai bài tập đều quan trọng và gấp, sinh viên nên làm gì trước khi quyết định bỏ một bài?",
+    "pipeline": "bm25",
+    "filter": null,
+    "steps": [
+      {
+        "step": "bm25",
+        "query": "Nếu không thể kịp hoàn thành cả hai bài tập đều quan trọng và gấp, sinh viên nên làm gì trước khi quyết định bỏ một bài?",
+        "matched_terms": [],
+        "filters": null,
+        "top_k": 10,
+        "results": []
+      }
+    ],
+    "results": [],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": false,
+    "hit5": false,
+    "first_hit_rank": null,
+    "rr": 0.0,
+    "context_hit": false,
+    "latency_ms": 0.2,
+    "cost_usd": 0.0,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 94,
+        "evidence": "the first step is to try to find a way to get everything finished, regardless of the challenges. If that simply cannot happen, the next immediate step would be to communicate with your instructors to let them know about the situation."
+      }
+    ]
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Năm chữ cái trong mục tiêu SMART là viết tắt của những gì?",
+    "pipeline": "bm25",
+    "filter": null,
+    "steps": [
+      {
+        "step": "bm25",
+        "query": "Năm chữ cái trong mục tiêu SMART là viết tắt của những gì?",
+        "matched_terms": [
+          "smart"
+        ],
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:067464-067943",
+            "rank": 1,
+            "score": 7.015839,
+            "page": 100,
+            "section": "3.6 Goal Setting and Motivation"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:072945-073257",
+            "rank": 2,
+            "score": 6.1936,
+            "page": 103,
+            "section": "3.6 Goal Setting and Motivation"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:070912-071188",
+            "rank": 3,
+            "score": 6.1053,
+            "page": 102,
+            "section": "3.6 Goal Setting and Motivation"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:070125-070910",
+            "rank": 4,
+            "score": 6.070974,
+            "page": 101,
+            "section": "3.6 Goal Setting and Motivation"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:069355-070123",
+            "rank": 5,
+            "score": 5.71698,
+            "page": 101,
+            "section": "3.6 Goal Setting and Motivation"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:071190-071445",
+            "rank": 6,
+            "score": 4.71376,
+            "page": 102,
+            "section": "3.6 Goal Setting and Motivation"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:064952-065379",
+            "rank": 7,
+            "score": 4.007908,
+            "page": 100,
+            "section": "3.6 Goal Setting and Motivation"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch3:067464-067943",
+        "rank": 1,
+        "score": 7.015839,
+        "page": 100,
+        "section": "3.6 Goal Setting and Motivation",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch3:072945-073257",
+        "rank": 2,
+        "score": 6.1936,
+        "page": 103,
+        "section": "3.6 Goal Setting and Motivation",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:070912-071188",
+        "rank": 3,
+        "score": 6.1053,
+        "page": 102,
+        "section": "3.6 Goal Setting and Motivation",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:070125-070910",
+        "rank": 4,
+        "score": 6.070974,
+        "page": 101,
+        "section": "3.6 Goal Setting and Motivation",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:069355-070123",
+        "rank": 5,
+        "score": 5.71698,
+        "page": 101,
+        "section": "3.6 Goal Setting and Motivation",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:071190-071445",
+        "rank": 6,
+        "score": 4.71376,
+        "page": 102,
+        "section": "3.6 Goal Setting and Motivation",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:064952-065379",
+        "rank": 7,
+        "score": 4.007908,
+        "page": 100,
+        "section": "3.6 Goal Setting and Motivation",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch3:067464-067943",
+      "B:openstax-college-success:ch3:072945-073257",
+      "B:openstax-college-success:ch3:070912-071188"
+    ],
+    "context_chars": 1348,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 0.2,
+    "cost_usd": 0.0,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 100,
+        "evidence": "an acronym that stands for Specific, Measurable, Attainable, Relevant, and Time-bound"
+      }
+    ]
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Trong kỹ thuật Pomodoro, sau khi hoàn thành bốn phiên làm việc thì nên nghỉ bao lâu?",
+    "pipeline": "bm25",
+    "filter": null,
+    "steps": [
+      {
+        "step": "bm25",
+        "query": "Trong kỹ thuật Pomodoro, sau khi hoàn thành bốn phiên làm việc thì nên nghỉ bao lâu?",
+        "matched_terms": [
+          "pomodoro"
+        ],
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:075385-076066",
+            "rank": 1,
+            "score": 7.430605,
+            "page": 105,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:076068-076475",
+            "rank": 2,
+            "score": 6.177701,
+            "page": 106,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:081639-082161",
+            "rank": 3,
+            "score": 4.538625,
+            "page": 108,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch3:075385-076066",
+        "rank": 1,
+        "score": 7.430605,
+        "page": 105,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:076068-076475",
+        "rank": 2,
+        "score": 6.177701,
+        "page": 106,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch3:081639-082161",
+        "rank": 3,
+        "score": 4.538625,
+        "page": 108,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch3:075385-076066",
+      "B:openstax-college-success:ch3:076068-076475",
+      "B:openstax-college-success:ch3:081639-082161"
+    ],
+    "context_chars": 1950,
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 2,
+    "rr": 0.5,
+    "context_hit": true,
+    "latency_ms": 0.2,
+    "cost_usd": 0.0,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 106,
+        "evidence": "After four pomodoros, take a longer break (15–30 minutes), reset your check mark count to zero"
+      }
+    ]
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Chiến lược có cái tên kỳ lạ là \"ăn con ếch\" khuyên nên xử lý nhiệm vụ nào đầu tiên?",
+    "pipeline": "bm25",
+    "filter": null,
+    "steps": [
+      {
+        "step": "bm25",
+        "query": "Chiến lược có cái tên kỳ lạ là \"ăn con ếch\" khuyên nên xử lý nhiệm vụ nào đầu tiên?",
+        "matched_terms": [],
+        "filters": null,
+        "top_k": 10,
+        "results": []
+      }
+    ],
+    "results": [],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": false,
+    "hit5": false,
+    "first_hit_rank": null,
+    "rr": 0.0,
+    "context_hit": false,
+    "latency_ms": 0.1,
+    "cost_usd": 0.0,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 106,
+        "evidence": "if a person takes care of the biggest or most unpleasant task first, everything else will be easier after that"
+      }
+    ]
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Nếu đi chợ với danh sách lập sẵn và giới hạn thời gian lướt mạng, Sarah có thể lấy lại khoảng bao nhiêu thời gian vào tối thứ Ba?",
+    "pipeline": "bm25",
+    "filter": null,
+    "steps": [
+      {
+        "step": "bm25",
+        "query": "Nếu đi chợ với danh sách lập sẵn và giới hạn thời gian lướt mạng, Sarah có thể lấy lại khoảng bao nhiêu thời gian vào tối thứ Ba?",
+        "matched_terms": [
+          "sarah"
+        ],
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:086031-086716",
+            "rank": 1,
+            "score": 5.935123,
+            "page": 110,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:086718-087439",
+            "rank": 2,
+            "score": 3.810652,
+            "page": 110,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch3:086031-086716",
+        "rank": 1,
+        "score": 5.935123,
+        "page": 110,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:086718-087439",
+        "rank": 2,
+        "score": 3.810652,
+        "page": 110,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch3:086031-086716",
+      "B:openstax-college-success:ch3:086718-087439"
+    ],
+    "context_chars": 1632,
+    "hit1": false,
+    "hit3": false,
+    "hit5": false,
+    "first_hit_rank": null,
+    "rr": 0.0,
+    "context_hit": false,
+    "latency_ms": 0.2,
+    "cost_usd": 0.0,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 110,
+        "evidence": "she would find that she had added almost an extra hour and a half to the time available to her on that evening"
+      }
+    ]
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Quá trình ghi nhớ một ý tưởng hay hình ảnh gồm ba bước cơ bản nào?",
+    "pipeline": "bm25",
+    "filter": null,
+    "steps": [
+      {
+        "step": "bm25",
+        "query": "Quá trình ghi nhớ một ý tưởng hay hình ảnh gồm ba bước cơ bản nào?",
+        "matched_terms": [],
+        "filters": null,
+        "top_k": 10,
+        "results": []
+      }
+    ],
+    "results": [],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": false,
+    "hit5": false,
+    "first_hit_rank": null,
+    "rr": 0.0,
+    "context_hit": false,
+    "latency_ms": 0.1,
+    "cost_usd": 0.0,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 183,
+        "evidence": "We go through three basic steps when we remember ideas or images: we encode, store, and retrieve that information."
+      }
+    ]
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Việc gom các món đồ trong một danh sách thành từng nhóm theo chủ đề để nhớ được nhiều hơn được gọi là gì?",
+    "pipeline": "bm25",
+    "filter": null,
+    "steps": [
+      {
+        "step": "bm25",
+        "query": "Việc gom các món đồ trong một danh sách thành từng nhóm theo chủ đề để nhớ được nhiều hơn được gọi là gì?",
+        "matched_terms": [],
+        "filters": null,
+        "top_k": 10,
+        "results": []
+      }
+    ],
+    "results": [],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": false,
+    "hit5": false,
+    "first_hit_rank": null,
+    "rr": 0.0,
+    "context_hit": false,
+    "latency_ms": 0.1,
+    "cost_usd": 0.0,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 185,
+        "evidence": "Now that you have grouped items into categories, also known as chunking, you can work on remembering the categories and the items that fit into those categories"
+      }
+    ]
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Theo nhà thần kinh học John Medina, sau khoảng bao nhiêu phút thì não bắt đầu xao nhãng và cần một kích thích mới?",
+    "pipeline": "bm25",
+    "filter": null,
+    "steps": [
+      {
+        "step": "bm25",
+        "query": "Theo nhà thần kinh học John Medina, sau khoảng bao nhiêu phút thì não bắt đầu xao nhãng và cần một kích thích mới?",
+        "matched_terms": [
+          "john",
+          "medina"
+        ],
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch6:021263-022038",
+            "rank": 1,
+            "score": 8.320403,
+            "page": 188,
+            "section": "6.1 Memory"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch6:021263-022038",
+        "rank": 1,
+        "score": 8.320403,
+        "page": 188,
+        "section": "6.1 Memory",
+        "hit": true
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch6:021263-022038"
+    ],
+    "context_chars": 845,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 0.2,
+    "cost_usd": 0.0,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 188,
+        "evidence": "John Medina claims that the brain begins to wander at about 10 minutes, at which point you need a new stimulus to spark interest"
+      }
+    ]
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Vì sao chỉ tô sáng (highlight) giáo trình thì chưa đủ để chuẩn bị cho kỳ thi?",
+    "pipeline": "bm25",
+    "filter": null,
+    "steps": [
+      {
+        "step": "bm25",
+        "query": "Vì sao chỉ tô sáng (highlight) giáo trình thì chưa đủ để chuẩn bị cho kỳ thi?",
+        "matched_terms": [
+          "highlight"
+        ],
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch6:033925-034132",
+            "rank": 1,
+            "score": 5.536688,
+            "page": 193,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:034829-035104",
+            "rank": 2,
+            "score": 5.536688,
+            "page": 193,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:033134-033924",
+            "rank": 3,
+            "score": 4.931331,
+            "page": 193,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:000745-001248",
+            "rank": 4,
+            "score": 3.631217,
+            "page": 181,
+            "section": "Introduction"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:071475-072272",
+            "rank": 5,
+            "score": 2.978832,
+            "page": 205,
+            "section": "End-of-chapter review"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch6:033925-034132",
+        "rank": 1,
+        "score": 5.536688,
+        "page": 193,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:034829-035104",
+        "rank": 2,
+        "score": 5.536688,
+        "page": 193,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:033134-033924",
+        "rank": 3,
+        "score": 4.931331,
+        "page": 193,
+        "section": "6.2 Studying",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch6:000745-001248",
+        "rank": 4,
+        "score": 3.631217,
+        "page": 181,
+        "section": "Introduction",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:071475-072272",
+        "rank": 5,
+        "score": 2.978832,
+        "page": 205,
+        "section": "End-of-chapter review",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch6:033925-034132",
+      "B:openstax-college-success:ch6:034829-035104",
+      "B:openstax-college-success:ch6:033134-033924"
+    ],
+    "context_chars": 1492,
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 3,
+    "rr": 0.3333333333333333,
+    "context_hit": true,
+    "latency_ms": 0.1,
+    "cost_usd": 0.0,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 193,
+        "evidence": "Actually, you need much more time reviewing and retrieving your lessons and ideas from the text or class lecture as well as quizzing yourself to accomplish your goal of learning so you can perform well on the exam."
+      }
+    ]
+  },
+  {
+    "query_id": "q16",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Kỹ thuật học xen kẽ (interleaving) khuyên người học sắp xếp nội dung ôn tập như thế nào?",
+    "pipeline": "bm25",
+    "filter": null,
+    "steps": [
+      {
+        "step": "bm25",
+        "query": "Kỹ thuật học xen kẽ (interleaving) khuyên người học sắp xếp nội dung ôn tập như thế nào?",
+        "matched_terms": [
+          "interleav"
+        ],
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch6:042457-043223",
+            "rank": 1,
+            "score": 6.386578,
+            "page": 196,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:041936-042455",
+            "rank": 2,
+            "score": 5.998415,
+            "page": 196,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:040355-041139",
+            "rank": 3,
+            "score": 3.860458,
+            "page": 195,
+            "section": "6.2 Studying"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch6:042457-043223",
+        "rank": 1,
+        "score": 6.386578,
+        "page": 196,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:041936-042455",
+        "rank": 2,
+        "score": 5.998415,
+        "page": 196,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:040355-041139",
+        "rank": 3,
+        "score": 3.860458,
+        "page": 195,
+        "section": "6.2 Studying",
+        "hit": true
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch6:042457-043223",
+      "B:openstax-college-success:ch6:041936-042455",
+      "B:openstax-college-success:ch6:040355-041139"
+    ],
+    "context_chars": 2289,
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 3,
+    "rr": 0.3333333333333333,
+    "context_hit": true,
+    "latency_ms": 0.2,
+    "cost_usd": 0.0,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 195,
+        "evidence": "Interleaving—This has to do with what you study. Hint: Don’t study just one type of content, topic, chapter, or unit at a time; instead, mix up the content when you study."
+      }
+    ]
+  },
+  {
+    "query_id": "q17",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Tại sao giảng lại bài cho bạn bè hoặc người thân được xem là một cách học rất hiệu quả?",
+    "pipeline": "bm25",
+    "filter": null,
+    "steps": [
+      {
+        "step": "bm25",
+        "query": "Tại sao giảng lại bài cho bạn bè hoặc người thân được xem là một cách học rất hiệu quả?",
+        "matched_terms": [],
+        "filters": null,
+        "top_k": 10,
+        "results": []
+      }
+    ],
+    "results": [],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": false,
+    "hit5": false,
+    "first_hit_rank": null,
+    "rr": 0.0,
+    "context_hit": false,
+    "latency_ms": 0.1,
+    "cost_usd": 0.0,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 197,
+        "evidence": "It is a form of practice testing that requires you to demonstrate you know something in front of someone else!"
+      }
+    ]
+  },
+  {
+    "query_id": "q18",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Nếu một sinh viên cần được điều chỉnh đặc biệt khi thi (như thêm giờ hay đổi địa điểm), điều kiện và bước đầu tiên là gì?",
+    "pipeline": "bm25",
+    "filter": null,
+    "steps": [
+      {
+        "step": "bm25",
+        "query": "Nếu một sinh viên cần được điều chỉnh đặc biệt khi thi (như thêm giờ hay đổi địa điểm), điều kiện và bước đầu tiên là gì?",
+        "matched_terms": [],
+        "filters": null,
+        "top_k": 10,
+        "results": []
+      }
+    ],
+    "results": [],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": false,
+    "hit5": false,
+    "first_hit_rank": null,
+    "rr": 0.0,
+    "context_hit": false,
+    "latency_ms": 0.1,
+    "cost_usd": 0.0,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 200,
+        "evidence": "With adequate notice, most faculty will provide students with reasonable accommodations to assist students in succeeding in test situations. If you feel that you would benefit from receiving these sorts of accommodations, first speak with your instructor."
+      }
+    ]
+  },
+  {
+    "query_id": "q20",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Vì sao học nhồi nhét sát giờ thi lại không hiệu quả?",
+    "pipeline": "bm25",
+    "filter": {
+      "chapter": 6
+    },
+    "steps": [
+      {
+        "step": "bm25",
+        "query": "Vì sao học nhồi nhét sát giờ thi lại không hiệu quả?",
+        "matched_terms": [],
+        "filters": {
+          "chapter": 6
+        },
+        "top_k": 10,
+        "results": []
+      }
+    ],
+    "results": [],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": false,
+    "hit5": false,
+    "first_hit_rank": null,
+    "rr": 0.0,
+    "context_hit": false,
+    "latency_ms": 0.2,
+    "cost_usd": 0.0,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 188,
+        "evidence": "Cramming causes stress, which can lead to paralyzing test anxiety; it erroneously supposes you can remember and understand something fully after only minimal exposure; and it overloads your brain"
+      }
+    ]
+  },
+  {
+    "query_id": "q21",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Để tạo môi trường làm việc ít bị gián đoạn, có thể làm những gì?",
+    "pipeline": "bm25",
+    "filter": {
+      "chapter": 3
+    },
+    "steps": [
+      {
+        "step": "bm25",
+        "query": "Để tạo môi trường làm việc ít bị gián đoạn, có thể làm những gì?",
+        "matched_terms": [],
+        "filters": {
+          "chapter": 3
+        },
+        "top_k": 10,
+        "results": []
+      }
+    ],
+    "results": [],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": false,
+    "hit5": false,
+    "first_hit_rank": null,
+    "rr": 0.0,
+    "context_hit": false,
+    "latency_ms": 0.1,
+    "cost_usd": 0.0,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 99,
+        "evidence": "This may mean you have to go to a private room, use headphones, or go somewhere like a library to work."
+      }
+    ]
+  },
+  {
+    "query_id": "q22",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Trung bình cần bao nhiêu thời gian để ôn cho một bài thi?",
+    "pipeline": "bm25",
+    "filter": {
+      "chapter": 3
+    },
+    "steps": [
+      {
+        "step": "bm25",
+        "query": "Trung bình cần bao nhiêu thời gian để ôn cho một bài thi?",
+        "matched_terms": [],
+        "filters": {
+          "chapter": 3
+        },
+        "top_k": 10,
+        "results": []
+      }
+    ],
+    "results": [],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": false,
+    "hit5": false,
+    "first_hit_rank": null,
+    "rr": 0.0,
+    "context_hit": false,
+    "latency_ms": 0.1,
+    "cost_usd": 0.0,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 91,
+        "evidence": "Study for exam Per exam 90 minutes 1–2 hours, depending upon complexity of material"
+      }
+    ]
+  },
+  {
+    "query_id": "q23",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Nên dùng vài phút cuối giờ thi để làm gì?",
+    "pipeline": "bm25",
+    "filter": {
+      "section": "6.3 Test Taking"
+    },
+    "steps": [
+      {
+        "step": "bm25",
+        "query": "Nên dùng vài phút cuối giờ thi để làm gì?",
+        "matched_terms": [],
+        "filters": {
+          "section": "6.3 Test Taking"
+        },
+        "top_k": 10,
+        "results": []
+      }
+    ],
+    "results": [],
+    "context_ids": [],
+    "context_chars": 0,
+    "hit1": false,
+    "hit3": false,
+    "hit5": false,
+    "first_hit_rank": null,
+    "rr": 0.0,
+    "context_hit": false,
+    "latency_ms": 0.1,
+    "cost_usd": 0.0,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 202,
+        "evidence": "allow yourself a few minutes at the end of the exam session to review your answers"
+      }
+    ]
+  }
+]

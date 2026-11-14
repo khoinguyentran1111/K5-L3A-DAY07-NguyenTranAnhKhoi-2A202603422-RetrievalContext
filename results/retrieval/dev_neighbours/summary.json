@@ -1,0 +1,61 @@
+{
+  "split": "dev",
+  "agent_model_for_llm_steps": "anthropic/claude-haiku-5.5",
+  "embedding_model": "openai/text-embedding-3-small",
+  "pipelines": [
+    {
+      "pipeline": "dense",
+      "description": "Dense cosine search on Day 6 pgvector (strategy B, text-embedding-3-small).",
+      "split": "dev",
+      "N": 20,
+      "hit1": 14,
+      "hit3": 18,
+      "hit5": 20,
+      "mrr10": 0.8142,
+      "context_hit": 19,
+      "errors": 0,
+      "context_top": 3,
+      "expand_neighbours_of_top": 2,
+      "budget_chars": 5000,
+      "avg_context_chars": 3737.3,
+      "median_latency_ms": 919.9,
+      "total_cost_usd": 1.6e-05
+    },
+    {
+      "pipeline": "rewrite_dense",
+      "description": "LLM rewrites the question into an English query -> dense.",
+      "split": "dev",
+      "N": 20,
+      "hit1": 16,
+      "hit3": 19,
+      "hit5": 19,
+      "mrr10": 0.8738,
+      "context_hit": 20,
+      "errors": 0,
+      "context_top": 3,
+      "expand_neighbours_of_top": 2,
+      "budget_chars": 5000,
+      "avg_context_chars": 3830.4,
+      "median_latency_ms": 2152.2,
+      "total_cost_usd": 0.000783
+    },
+    {
+      "pipeline": "rewrite_hybrid_rerank",
+      "description": "rewrite_hybrid top-15 -> LLM listwise rerank (original question).",
+      "split": "dev",
+      "N": 20,
+      "hit1": 17,
+      "hit3": 19,
+      "hit5": 19,
+      "mrr10": 0.9,
+      "context_hit": 20,
+      "errors": 0,
+      "context_top": 3,
+      "expand_neighbours_of_top": 2,
+      "budget_chars": 5000,
+      "avg_context_chars": 3757.3,
+      "median_latency_ms": 3291.1,
+      "total_cost_usd": 0.00754
+    }
+  ]
+}

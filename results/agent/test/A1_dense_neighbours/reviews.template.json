@@ -1,0 +1,123 @@
+[
+  {
+    "query_id": "q04",
+    "status": "answered",
+    "answer": "Trì hoãn nhỏ thường không đáng lo với hầu hết mọi người [B:openstax-college-success:ch3:018281-018764]. Tuy nhiên, nó trở thành vấn đề nghiêm trọng, có nhiều rủi ro, trong ba trường hợp: khi trở thành thói quen mãn tính; khi có nhiều việc phải làm trong khi thời gian ít; hoặc khi việc bị trì hoãn rất quan trọng [B:openstax-college-success:ch3:018281-018764]. Hậu quả có thể gồm mất thời gian, mất mục tiêu (có thể không hoàn thành công việc) [B:openstax-college-success:ch3:022194-022487][B:openstax-college-success:ch3:022489-022903], và suy giảm lòng tự trọng, dẫn đến các cảm xúc tiêu cực như giận dữ và trầm cảm [B:openstax-college-success:ch3:022905-023450]. Ngoài ra, một chuỗi sự việc do quản lý thời gian kém có thể gây hiệu ứng domino, ảnh hưởng đến kết quả học tập và thậm chí việc hoàn thành chương trình học đúng hạn, kéo theo chi phí tài chính [B:openstax-college-success:ch3:005958-006258][B:openstax-college-success:ch3:005267-005956][B:openstax-college-success:ch3:006260-006905].",
+    "citations": [
+      "B:openstax-college-success:ch3:018281-018764",
+      "B:openstax-college-success:ch3:005958-006258",
+      "B:openstax-college-success:ch3:005267-005956",
+      "B:openstax-college-success:ch3:006260-006905",
+      "B:openstax-college-success:ch3:022194-022487",
+      "B:openstax-college-success:ch3:022489-022903",
+      "B:openstax-college-success:ch3:022905-023450"
+    ],
+    "citation_support": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Khi trở thành thói quen kinh niên, khi có nhiều việc phải làm mà ít thời gian, hoặc khi việc bị né tránh rất quan trọng.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q12",
+    "status": "answered",
+    "answer": "Theo George A. Miller (1956), con người có thể nhớ khoảng 5 đến 9 đơn vị thông tin (bits) trong trí nhớ ngắn hạn tại một thời điểm bất kỳ. [B:openstax-college-success:ch6:009545-010146]",
+    "citations": [
+      "B:openstax-college-success:ch6:009545-010146"
+    ],
+    "citation_support": [
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Khoảng 5 đến 9 đơn vị thông tin (\"bảy cộng trừ hai\").",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q19",
+    "status": "answered",
+    "answer": "Khi gặp câu quá khó hoặc bị \"trống não\", hãy bỏ qua câu đó trước, không dừng lại quá lâu ở đó. Hãy trả lời trước những câu bạn tự tin nhất, rồi quay lại các câu đã bỏ qua sau khi đã làm xong phần lớn bài thi. Đôi khi một câu hỏi sau sẽ gợi ra ý tưởng giúp bạn trả lời câu đã bỏ qua [B:openstax-college-success:ch6:061372-061824][B:openstax-college-success:ch6:060963-061370]. Khi kết thúc bài, dành vài phút để xem lại bài, trong đó có việc trả lời các câu khó đã bỏ qua và kiểm tra xem bạn đã hoàn thành toàn bộ bài thi chưa [B:openstax-college-success:ch6:061826-062622].",
+    "citations": [
+      "B:openstax-college-success:ch6:061372-061824",
+      "B:openstax-college-success:ch6:060963-061370",
+      "B:openstax-college-success:ch6:061826-062622"
+    ],
+    "citation_support": [
+      null,
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Bỏ qua câu đó, làm phần lớn các câu chắc chắn trước, rồi quay lại tập trung vào những câu đã bỏ qua.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q24",
+    "status": "answered",
+    "answer": "Trước buổi học tập trung, hãy đặt điện thoại ra khỏi tầm mắt, ví dụ ở phòng khác hoặc nơi bạn không thể thấy hay nghe thấy khi nó rung hay reo; chỉ lật úp điện thoại là chưa đủ [B:openstax-college-success:ch6:027462-027843]. Hãy coi thời gian học như một cuộc hẹn chuyên nghiệp mà trong đó bạn không kiểm tra email, tin nhắn hay thiết bị di động [B:openstax-college-success:ch6:026687-027460]. Nên đặt một khoảng thời gian học cụ thể, đủ dài để học được nhiều nhưng đủ ngắn để giữ sự chú ý, ví dụ bắt đầu với 30 phút rồi nghỉ ngắn [B:openstax-college-success:ch6:026237-026685][B:openstax-college-success:ch6:026687-027460]. Ngoài ra, hãy tắt tivi hoặc nhạc và học ở nơi yên tĩnh, một mình nếu có thể [B:openstax-college-success:ch6:027462-027843].",
+    "citations": [
+      "B:openstax-college-success:ch6:026237-026685",
+      "B:openstax-college-success:ch6:026687-027460",
+      "B:openstax-college-success:ch6:027462-027843"
+    ],
+    "citation_support": [
+      null,
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Để điện thoại khuất tầm mắt, ở phòng khác hoặc nơi không thấy hay nghe nó rung, đổ chuông; chỉ úp điện thoại xuống là chưa đủ.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q25",
+    "status": "answered",
+    "answer": "Sách nêu quy tắc \"8-8-8\": mỗi ngày dành 8 giờ cho việc học tập hoặc đi học (làm bài tập, lên lớp), 8 giờ cho thời gian rảnh để làm điều mình thích, và 8 giờ để ngủ nhằm nghỉ ngơi đủ, vì giấc ngủ rất quan trọng cho quản lý thời gian và sự tập trung [B:openstax-college-success:ch3:082751-083391]. Sách cũng lưu ý rằng nhiều người lãng phí thời gian trong ngày bằng những khoảng ngắn chờ đợi, và những khoảng thời gian nhỏ này cộng lại đáng kể nên cần tận dụng chúng [B:openstax-college-success:ch3:083393-084217][B:openstax-college-success:ch3:084219-084464].",
+    "citations": [
+      "B:openstax-college-success:ch3:083393-084217",
+      "B:openstax-college-success:ch3:082751-083391",
+      "B:openstax-college-success:ch3:084219-084464"
+    ],
+    "citation_support": [
+      null,
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Quy tắc 8-8-8: 8 giờ học hoặc lên lớp, 8 giờ tự do, 8 giờ ngủ.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "u04",
+    "status": "abstain",
+    "answer": "Sách chỉ nhắc rằng Dwight Eisenhower, khi là Tổng tư lệnh lực lượng Đồng minh trong Thế chiến II, đã dùng kỹ thuật này để sắp xếp ưu tiên công việc, nhưng không nêu cụ thể ông đã dùng ma trận để lên kế hoạch cho chiến dịch quân sự nào. Ma trận Eisenhower được mô tả như một công cụ ưu tiên hóa công việc theo mức độ quan trọng và khẩn cấp [C1].",
+    "citations": [],
+    "citation_support": [],
+    "reason": "",
+    "abstention_correct": null
+  },
+  {
+    "query_id": "u05",
+    "status": "abstain",
+    "answer": "Không tìm thấy trong các đoạn sách đã truy xuất thông tin nào về số giờ trung bình mỗi tuần sinh viên đại học dành cho mạng xã hội. Các đoạn tìm được chỉ nói về thời gian học ngoài lớp (ít nhất hai giờ cho mỗi giờ học trên lớp) [C1] và một khảo sát về quản lý thời gian, không đề cập đến mạng xã hội.",
+    "citations": [],
+    "citation_support": [],
+    "reason": "",
+    "abstention_correct": null
+  },
+  {
+    "query_id": "u06",
+    "status": "abstain",
+    "answer": "Các đoạn sách tìm được không nêu quy định GPA tối thiểu để giữ học bổng. Sách chỉ đề cập GPA trong ngữ cảnh đặt mục tiêu (ví dụ: mục tiêu tốt nghiệp với GPA trên 3.0 là có thể đo lường được) [C4] và ví dụ mục tiêu đạt GPA tối thiểu 3.0 trong học kỳ tới [C1], nhưng không liên quan đến yêu cầu học bổng.",
+    "citations": [],
+    "citation_support": [],
+    "reason": "",
+    "abstention_correct": null
+  }
+]

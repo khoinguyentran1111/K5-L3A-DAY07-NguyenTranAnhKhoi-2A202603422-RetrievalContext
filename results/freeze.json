@@ -1,0 +1,55 @@
+{
+  "frozen_at": "2026-11-14T15:07:07+07:00",
+  "note": "Chốt trước khi chạy bất kỳ lệnh nào trên test. Test chưa từng được dùng để chỉnh Day 7.",
+  "selected_agent_config": {
+    "name": "A1_dense_neighbours",
+    "pipeline": "dense",
+    "top_k": 3,
+    "expand_top": 2,
+    "max_searches": 4,
+    "max_turns": 7,
+    "budget_chars": 8000,
+    "repair_turns": 1,
+    "hypothesis": "Dev error q06: the answer sits in the chunk right after the retrieved one (Day 6 chunk boundary). Adding prev/next chunks of the top-2 raises context evidence at same budget."
+  },
+  "baseline_agent_config": {
+    "name": "A0_dense",
+    "pipeline": "dense",
+    "top_k": 3,
+    "expand_top": 0,
+    "max_searches": 4,
+    "max_turns": 7,
+    "budget_chars": 8000,
+    "repair_turns": 1,
+    "hypothesis": "Baseline agent: model-written queries over Day 6 dense search, top-3, no neighbours."
+  },
+  "selected_retrieval_pipeline": "rewrite_hybrid_rerank",
+  "baseline_retrieval_pipeline": "dense",
+  "agent_model": "anthropic/claude-haiku-5.5",
+  "embedding_model": "openai/text-embedding-3-small",
+  "retrieval_selection_rule": "1) highest dev Evidence Hit@3 on the original question pipeline; 2) tie -> highest dev Hit@1; 3) tie -> lower cost per query, then lower median latency.",
+  "agent_selection_rule": "1) highest dev (Context Evidence Rate on answerable + correct abstentions on unanswerable), counted automatically from traces; 2) tie -> fewer false abstentions; 3) tie -> lower cost per query; the chosen config and the baseline are then graded manually on dev before freezing.",
+  "dev_evidence": {
+    "retrieval": "results/retrieval/dev_repeats.md: rewrite_hybrid_rerank Hit@3 mean 19.33/20 (highest)",
+    "agent": "A1 and A2 tie on selection score 23 (20/20 context + 3/3 abstention), 0 false abstentions each; A1 cheaper ($0.0133 vs $0.0258 on dev). Manual dev grades: A1 1.95/2, A0 1.85/2."
+  },
+  "sha256": {
+    "src/day7/__init__.py": "7d7baf9135e62f32a18e7c75a5c77c72269c15e3eb3c20ab21eb702be86ea865",
+    "src/day7/agent.py": "60f65c210b69d89460621de6e12f2e5cd661d6ee31cb29316f1f9c1a8684c8cc",
+    "src/day7/agent_report.py": "2f200f92a35c91d93dc359886e0c6073a5215e3e78b18732ce1a2b7d38e20b19",
+    "src/day7/aggregate_repeats.py": "391c579a872f56923a4bbbc961318c872448fe39bb2196462adec0fa5121da30",
+    "src/day7/clients.py": "34dc5d5b65e4d302772409238e8f915f49e7ad4ec2e4af87c8a81c1f28bb8755",
+    "src/day7/config.py": "a7354d5f546604fe1ddd47b5e6173df22412314b213c6aef901936cf1d251a97",
+    "src/day7/context.py": "5f7bd8d4186f18335d467498cbd34cae6d5b1eedf59064cee39bf1607613b7c4",
+    "src/day7/data.py": "df6ea0d6589bebae7c3d89c4ed3b22e3ac17af33008ed5c820a0e07a2e010199",
+    "src/day7/eval_retrieval.py": "851fcb96db9814ed3f8ce1425bbd812c6257cae240ad7f998c9828c69944caa5",
+    "src/day7/pipelines.py": "45d34dbf1f6bf88827f467ea4538064029b8802c8c3571e71ab9e71e373eaa5e",
+    "src/day7/prepare_data.py": "d5405725562dde5af5b303e66b8d3c3884218d1d54ba5468d16d9775e38eaf23",
+    "src/day7/retrievers.py": "490d68dec3a72617f2295770eeb5ea697249f2473323914f93c8e7cd0daa9326",
+    "src/day7/run_agent.py": "886ac24cf4f24f0976d81ae16adb0c181456371d13c1d2954b9d45528d1d032e",
+    "src/day7/write_reviews.py": "5dbadc581b50c879923db29a9348fe8fb4d089281ab6af7ef93a7c4b403a9980",
+    "data/corpus/chunks.json": "26b6f5a87e85dd1eb38c5ff33eec2f56a51308e9d8031b3eac169af5663b76a0",
+    "data/benchmark/cases.json": "341baae04a7343a063429cbaa12ea54ba9cf91e2373299f90dffbfca4df7472e"
+  },
+  "system_prompt_sha256": "d7cc0a87754a4e23801180f19d4f1f524f677cb511fb393eca18e626f7331606"
+}

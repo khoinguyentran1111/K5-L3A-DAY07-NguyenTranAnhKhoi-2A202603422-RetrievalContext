@@ -1,0 +1,25 @@
+{
+  "split": "test",
+  "agent_model_for_llm_steps": "anthropic/claude-haiku-5.5",
+  "embedding_model": "openai/text-embedding-3-small",
+  "pipelines": [
+    {
+      "pipeline": "dense",
+      "description": "Dense cosine search on Day 6 pgvector (strategy B, text-embedding-3-small).",
+      "split": "test",
+      "N": 5,
+      "hit1": 2,
+      "hit3": 4,
+      "hit5": 4,
+      "mrr10": 0.5667,
+      "context_hit": 4,
+      "errors": 0,
+      "context_top": 3,
+      "expand_neighbours_of_top": 2,
+      "budget_chars": 5000,
+      "avg_context_chars": 3669,
+      "median_latency_ms": 932.6,
+      "total_cost_usd": 5e-06
+    }
+  ]
+}

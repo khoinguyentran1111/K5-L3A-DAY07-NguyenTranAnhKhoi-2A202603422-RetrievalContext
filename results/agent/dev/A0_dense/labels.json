@@ -1,0 +1,177 @@
+{
+  "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+  "method": "Grade 2 = đúng và đủ ý của expected_answer, mọi ý chính có evidence; 1 = đúng một phần hoặc kèm một khẳng định sai/không được nguồn hỗ trợ; 0 = sai, thiếu evidence hoặc từ chối. Citation đúng khi đoạn được trích thực sự chứa thông tin của ý gắn với nó.",
+  "labels": {
+    "q01": {
+      "grade": 2,
+      "support": {
+        "C1": true,
+        "C2": true,
+        "C4": true
+      },
+      "reason": "Đúng 'over $150,000' (C1) và tổng $151,115 với các thành phần (Bảng 3.1, C4). Câu lưu ý dùng chữ 'gần 150.000' hơi lệch với 'over', nhưng ý chính đúng."
+    },
+    "q02": {
+      "grade": 2,
+      "support": {
+        "C1": true
+      },
+      "reason": "Đúng ít nhất 2 giờ cho mỗi giờ lên lớp (C1)."
+    },
+    "q03": {
+      "grade": 2,
+      "support": {
+        "C1": true,
+        "C3": true
+      },
+      "reason": "Đúng ý tự biện minh là do hết thời gian chứ không phải thiếu năng lực (C1)."
+    },
+    "q05": {
+      "grade": 2,
+      "support": {
+        "C2": true
+      },
+      "reason": "Đúng tầm quan trọng và độ khẩn cấp (C2)."
+    },
+    "q06": {
+      "grade": 0,
+      "support": {
+        "C2": true,
+        "C3": true,
+        "C4": true,
+        "C5": true
+      },
+      "reason": "Sai trọng tâm: chỉ nói chung về hiểu yêu cầu, cân nhắc tác động, tránh hoảng loạn; thiếu bước 'cố hoàn thành tất cả, nếu không được thì báo giảng viên trước'. Chunk evidence (049440-050104) không nằm trong context. Các citation đều hỗ trợ đúng ý mà chúng gắn vào."
+    },
+    "q07": {
+      "grade": 2,
+      "support": {
+        "C2": true,
+        "C3": true
+      },
+      "reason": "Đủ 5 thành phần SMART (C2); ví dụ time-bound đúng với C3."
+    },
+    "q08": {
+      "grade": 2,
+      "support": {
+        "C2": true
+      },
+      "reason": "Đúng nghỉ dài 15-30 phút và đặt lại số dấu tích (C2)."
+    },
+    "q09": {
+      "grade": 2,
+      "support": {
+        "C1": true
+      },
+      "reason": "Đúng việc lớn nhất/khó chịu nhất trước, mọi việc sau sẽ dễ hơn (C1)."
+    },
+    "q10": {
+      "grade": 2,
+      "support": {
+        "C3": true
+      },
+      "reason": "Đúng khoảng 1,5 giờ mà không bỏ việc cần làm hay thích làm (C3)."
+    },
+    "q11": {
+      "grade": 2,
+      "support": {
+        "C1": true
+      },
+      "reason": "Đúng encode, store, retrieve (C1)."
+    },
+    "q13": {
+      "grade": 2,
+      "support": {
+        "C1": true,
+        "C3": true
+      },
+      "reason": "Đúng 'chunking' (C1)."
+    },
+    "q14": {
+      "grade": 2,
+      "support": {
+        "C1": true
+      },
+      "reason": "Đúng khoảng 10 phút (C1)."
+    },
+    "q15": {
+      "grade": 2,
+      "support": {
+        "C1": true,
+        "C2": true,
+        "C4": true
+      },
+      "reason": "Đúng: chỉ là bước đầu, cần ôn, truy xuất và tự kiểm tra (C1, C2)."
+    },
+    "q16": {
+      "grade": 2,
+      "support": {
+        "C1": true,
+        "C2": true,
+        "C3": true
+      },
+      "reason": "Đúng: trộn nội dung, không học dồn một loại (C1, C3)."
+    },
+    "q17": {
+      "grade": 1,
+      "support": {
+        "C1": true,
+        "C4": false
+      },
+      "reason": "Ý chính đúng: là một dạng practice testing (C1). Nhưng kết luận 'giảng bài ... giúp củng cố thông tin vào trí nhớ dài hạn' là suy diễn của model, C4 chỉ nói chung về tiếp xúc lặp lại -> khẳng định không được nguồn hỗ trợ."
+    },
+    "q18": {
+      "grade": 2,
+      "support": {
+        "C1": true,
+        "C2": true
+      },
+      "reason": "Đúng: báo trước (adequate notice), nói với giảng viên trước, có thể gặp student services advisor (C2)."
+    },
+    "q20": {
+      "grade": 2,
+      "support": {
+        "C2": true,
+        "C3": true
+      },
+      "reason": "Đủ 3 lý do: stress, tưởng nhớ được sau ít lần tiếp xúc, quá tải não (C2)."
+    },
+    "q21": {
+      "grade": 2,
+      "support": {
+        "C1": true,
+        "C2": true,
+        "C3": true
+      },
+      "reason": "Có ý chính: phòng riêng, tai nghe, thư viện (C1)."
+    },
+    "q22": {
+      "grade": 2,
+      "support": {
+        "C1": true,
+        "C2": true,
+        "C4": true
+      },
+      "reason": "Đúng 90 phút, 1-2 giờ tùy độ khó (Bảng 3.5, C2). Ý 2 giờ/1 giờ học đúng với C4 nhưng lạc đề nhẹ."
+    },
+    "q23": {
+      "grade": 2,
+      "support": {
+        "C1": true
+      },
+      "reason": "Đúng các việc rà soát cuối giờ (C1)."
+    },
+    "u01": {
+      "abstention_correct": true,
+      "reason": "Từ chối, nói rõ không có năm; mô tả kèm theo đúng với sách."
+    },
+    "u02": {
+      "abstention_correct": true,
+      "reason": "Từ chối, không đưa con số caffeine."
+    },
+    "u03": {
+      "abstention_correct": true,
+      "reason": "Từ chối, không bịa tỷ lệ phần trăm."
+    }
+  }
+}

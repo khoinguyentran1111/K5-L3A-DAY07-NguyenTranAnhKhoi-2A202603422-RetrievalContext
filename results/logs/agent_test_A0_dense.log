@@ -1,0 +1,74 @@
+q04: answered searches=2 {'first_search_hit1': True, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': True} 6303ms $0.00053 
+q12: answered searches=2 {'first_search_hit1': True, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': True} 5337ms $0.00048 
+q19: answered searches=2 {'first_search_hit1': True, 'first_search_hit3': True, 'context_evidence': True, 'cited_gold_chunk': True} 5713ms $0.00055 
+q24: answered searches=2 {'first_search_hit1': False, 'first_search_hit3': False, 'context_evidence': True, 'cited_gold_chunk': True} 5875ms $0.00054 
+q25: abstain searches=1 {'first_search_hit1': False, 'first_search_hit3': False, 'context_evidence': False, 'cited_gold_chunk': False} 4208ms $0.00042 
+u04: abstain searches=2 {} 5903ms $0.00049 
+u05: abstain searches=2 {} 5454ms $0.00051 
+u06: abstain searches=2 {} 5470ms $0.00050 
+{
+  "config": "A0_dense",
+  "split": "test",
+  "model": "anthropic/claude-haiku-5.5",
+  "cases": 8,
+  "errors": 0,
+  "tool_use": {
+    "n": 8,
+    "N": 8,
+    "rate": 1.0
+  },
+  "searches_distribution": {
+    "1": 1,
+    "2": 7
+  },
+  "first_search_hit1": {
+    "n": 3,
+    "N": 5,
+    "rate": 0.6
+  },
+  "first_search_hit3": {
+    "n": 3,
+    "N": 5,
+    "rate": 0.6
+  },
+  "context_evidence_rate": {
+    "n": 4,
+    "N": 5,
+    "rate": 0.8
+  },
+  "answered_citing_gold_chunk": {
+    "n": 4,
+    "N": 5,
+    "rate": 0.8
+  },
+  "abstained_unanswerable": {
+    "n": 3,
+    "N": 3,
+    "rate": 1.0
+  },
+  "false_abstention": {
+    "n": 1,
+    "N": 5,
+    "rate": 0.2
+  },
+  "selection_score": 7,
+  "avg_context_chars": 3081.4,
+  "median_latency_ms": 5591.8,
+  "total_cost_usd": 0.004,
+  "cost_per_case_usd": 0.0005,
+  "usage": {
+    "embedding": {
+      "calls": 15,
+      "prompt_tokens": 125,
+      "completion_tokens": 0,
+      "cost_usd": 2e-06
+    },
+    "chat": {
+      "calls": 16,
+      "prompt_tokens": 25982,
+      "completion_tokens": 2799,
+      "cost_usd": 0.003998
+    },
+    "cost_usd": 0.004
+  }
+}

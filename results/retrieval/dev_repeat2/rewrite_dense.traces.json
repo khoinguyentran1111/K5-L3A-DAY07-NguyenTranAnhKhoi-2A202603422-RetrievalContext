@@ -1,0 +1,4103 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Theo số liệu Washington Post được dẫn trong sách, việc tốt nghiệp trễ chỉ hai học kỳ có thể khiến sinh viên tốn tổng cộng khoảng bao nhiêu tiền?",
+    "pipeline": "rewrite_dense",
+    "filter": null,
+    "steps": [
+      {
+        "step": "rewrite",
+        "original_query": "Theo số liệu Washington Post được dẫn trong sách, việc tốt nghiệp trễ chỉ hai học kỳ có thể khiến sinh viên tốn tổng cộng khoảng bao nhiêu tiền?",
+        "rewritten_query": "Washington Post cost of graduating late two semesters extra tuition student debt textbook",
+        "usage": {
+          "prompt_tokens": 236,
+          "completion_tokens": 29,
+          "cost_usd": 3.81e-05,
+          "latency_ms": 1421.9,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "step": "dense",
+        "query": "Washington Post cost of graduating late two semesters extra tuition student debt textbook",
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:006907-007618",
+            "rank": 1,
+            "score": 0.619017,
+            "page": 77,
+            "section": "3.1 The Benefits of Time Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:007620-008343",
+            "rank": 2,
+            "score": 0.592847,
+            "page": 77,
+            "section": "3.1 The Benefits of Time Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:008344-008902",
+            "rank": 3,
+            "score": 0.551808,
+            "page": 77,
+            "section": "3.1 The Benefits of Time Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:006260-006905",
+            "rank": 4,
+            "score": 0.530548,
+            "page": 77,
+            "section": "3.1 The Benefits of Time Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:008904-009550",
+            "rank": 5,
+            "score": 0.388028,
+            "page": 78,
+            "section": "3.1 The Benefits of Time Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:001377-001982",
+            "rank": 6,
+            "score": 0.329702,
+            "page": 75,
+            "section": "Introduction"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:049440-050104",
+            "rank": 7,
+            "score": 0.320038,
+            "page": 94,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:013783-014557",
+            "rank": 8,
+            "score": 0.31771,
+            "page": 81,
+            "section": "3.2 Time Management in College"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:002677-003281",
+            "rank": 9,
+            "score": 0.315719,
+            "page": 182,
+            "section": "Introduction"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:019097-019691",
+            "rank": 10,
+            "score": 0.313876,
+            "page": 187,
+            "section": "6.1 Memory"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch3:006907-007618",
+        "rank": 1,
+        "score": 0.619017,
+        "page": 77,
+        "section": "3.1 The Benefits of Time Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:007620-008343",
+        "rank": 2,
+        "score": 0.592847,
+        "page": 77,
+        "section": "3.1 The Benefits of Time Management",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch3:008344-008902",
+        "rank": 3,
+        "score": 0.551808,
+        "page": 77,
+        "section": "3.1 The Benefits of Time Management",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch3:006260-006905",
+        "rank": 4,
+        "score": 0.530548,
+        "page": 77,
+        "section": "3.1 The Benefits of Time Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:008904-009550",
+        "rank": 5,
+        "score": 0.388028,
+        "page": 78,
+        "section": "3.1 The Benefits of Time Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:001377-001982",
+        "rank": 6,
+        "score": 0.329702,
+        "page": 75,
+        "section": "Introduction",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:049440-050104",
+        "rank": 7,
+        "score": 0.320038,
+        "page": 94,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:013783-014557",
+        "rank": 8,
+        "score": 0.31771,
+        "page": 81,
+        "section": "3.2 Time Management in College",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:002677-003281",
+        "rank": 9,
+        "score": 0.315719,
+        "page": 182,
+        "section": "Introduction",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:019097-019691",
+        "rank": 10,
+        "score": 0.313876,
+        "page": 187,
+        "section": "6.1 Memory",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch3:006907-007618",
+      "B:openstax-college-success:ch3:007620-008343",
+      "B:openstax-college-success:ch3:008344-008902"
+    ],
+    "context_chars": 2281,
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 2,
+    "rr": 0.5,
+    "context_hit": true,
+    "latency_ms": 2486.0,
+    "cost_usd": 3.9e-05,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 77,
+        "evidence": "That brings the average total cost for only two extra semesters to over $150,000."
+      },
+      {
+        "source_id": "openstax-college-success",
+        "page": 78,
+        "evidence": "Average total loss: $151,115"
+      }
+    ]
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Ở đại học, với mỗi giờ học trên lớp thì sinh viên nên dành ít nhất bao nhiêu giờ tự học bên ngoài?",
+    "pipeline": "rewrite_dense",
+    "filter": null,
+    "steps": [
+      {
+        "step": "rewrite",
+        "original_query": "Ở đại học, với mỗi giờ học trên lớp thì sinh viên nên dành ít nhất bao nhiêu giờ tự học bên ngoài?",
+        "rewritten_query": "university study hours per class hour out-of-class study time rule of thumb two hours per credit hour independent study",
+        "usage": {
+          "prompt_tokens": 212,
+          "completion_tokens": 34,
+          "cost_usd": 3.82e-05,
+          "latency_ms": 1202.7,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "step": "dense",
+        "query": "university study hours per class hour out-of-class study time rule of thumb two hours per credit hour independent study",
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:013783-014557",
+            "rank": 1,
+            "score": 0.530387,
+            "page": 81,
+            "section": "3.2 Time Management in College"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:041936-042455",
+            "rank": 2,
+            "score": 0.528996,
+            "page": 196,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:039709-040499",
+            "rank": 3,
+            "score": 0.513101,
+            "page": 91,
+            "section": "3.4 How to Manage Time"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:028567-029249",
+            "rank": 4,
+            "score": 0.464301,
+            "page": 87,
+            "section": "3.4 How to Manage Time"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:011341-011858",
+            "rank": 5,
+            "score": 0.456769,
+            "page": 79,
+            "section": "3.2 Time Management in College"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:038954-039707",
+            "rank": 6,
+            "score": 0.453444,
+            "page": 90,
+            "section": "3.4 How to Manage Time"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:082751-083391",
+            "rank": 7,
+            "score": 0.44815,
+            "page": 109,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:010036-010663",
+            "rank": 8,
+            "score": 0.441773,
+            "page": 78,
+            "section": "3.2 Time Management in College"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:019097-019691",
+            "rank": 9,
+            "score": 0.434133,
+            "page": 187,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:024874-025181",
+            "rank": 10,
+            "score": 0.427712,
+            "page": 190,
+            "section": "6.2 Studying"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch3:013783-014557",
+        "rank": 1,
+        "score": 0.530387,
+        "page": 81,
+        "section": "3.2 Time Management in College",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch6:041936-042455",
+        "rank": 2,
+        "score": 0.528996,
+        "page": 196,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:039709-040499",
+        "rank": 3,
+        "score": 0.513101,
+        "page": 91,
+        "section": "3.4 How to Manage Time",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:028567-029249",
+        "rank": 4,
+        "score": 0.464301,
+        "page": 87,
+        "section": "3.4 How to Manage Time",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:011341-011858",
+        "rank": 5,
+        "score": 0.456769,
+        "page": 79,
+        "section": "3.2 Time Management in College",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:038954-039707",
+        "rank": 6,
+        "score": 0.453444,
+        "page": 90,
+        "section": "3.4 How to Manage Time",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:082751-083391",
+        "rank": 7,
+        "score": 0.44815,
+        "page": 109,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:010036-010663",
+        "rank": 8,
+        "score": 0.441773,
+        "page": 78,
+        "section": "3.2 Time Management in College",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:019097-019691",
+        "rank": 9,
+        "score": 0.434133,
+        "page": 187,
+        "section": "6.1 Memory",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:024874-025181",
+        "rank": 10,
+        "score": 0.427712,
+        "page": 190,
+        "section": "6.2 Studying",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch3:013783-014557",
+      "B:openstax-college-success:ch6:041936-042455",
+      "B:openstax-college-success:ch3:039709-040499"
+    ],
+    "context_chars": 2329,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 2116.6,
+    "cost_usd": 3.9e-05,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 81,
+        "evidence": "the estimated time you should spend will be at least two hours of outside learning for every one hour of lecture"
+      }
+    ]
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Vì sao một người sợ làm không tốt lại hay để việc đến sát hạn mới làm?",
+    "pipeline": "rewrite_dense",
+    "filter": null,
+    "steps": [
+      {
+        "step": "rewrite",
+        "original_query": "Vì sao một người sợ làm không tốt lại hay để việc đến sát hạn mới làm?",
+        "rewritten_query": "why do people who fear doing a task poorly procrastinate until the deadline procrastination fear of failure perfectionism task avoidance",
+        "usage": {
+          "prompt_tokens": 190,
+          "completion_tokens": 44,
+          "cost_usd": 4.1e-05,
+          "latency_ms": 1583.0,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "step": "dense",
+        "query": "why do people who fear doing a task poorly procrastinate until the deadline procrastination fear of failure perfectionism task avoidance",
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:020786-021574",
+            "rank": 1,
+            "score": 0.740921,
+            "page": 84,
+            "section": "3.3 Procrastination: The Enemy Within"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:021576-021815",
+            "rank": 2,
+            "score": 0.597926,
+            "page": 84,
+            "section": "3.3 Procrastination: The Enemy Within"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:018766-019356",
+            "rank": 3,
+            "score": 0.571682,
+            "page": 83,
+            "section": "3.3 Procrastination: The Enemy Within"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:018281-018764",
+            "rank": 4,
+            "score": 0.553102,
+            "page": 83,
+            "section": "3.3 Procrastination: The Enemy Within"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:022905-023450",
+            "rank": 5,
+            "score": 0.545751,
+            "page": 84,
+            "section": "3.3 Procrastination: The Enemy Within"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:023452-024117",
+            "rank": 6,
+            "score": 0.531375,
+            "page": 85,
+            "section": "3.3 Procrastination: The Enemy Within"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:022489-022903",
+            "rank": 7,
+            "score": 0.52194,
+            "page": 84,
+            "section": "3.3 Procrastination: The Enemy Within"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:019358-019820",
+            "rank": 8,
+            "score": 0.509339,
+            "page": 83,
+            "section": "3.3 Procrastination: The Enemy Within"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:024119-024405",
+            "rank": 9,
+            "score": 0.499146,
+            "page": 85,
+            "section": "3.3 Procrastination: The Enemy Within"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:022194-022487",
+            "rank": 10,
+            "score": 0.491826,
+            "page": 84,
+            "section": "3.3 Procrastination: The Enemy Within"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch3:020786-021574",
+        "rank": 1,
+        "score": 0.740921,
+        "page": 84,
+        "section": "3.3 Procrastination: The Enemy Within",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch3:021576-021815",
+        "rank": 2,
+        "score": 0.597926,
+        "page": 84,
+        "section": "3.3 Procrastination: The Enemy Within",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:018766-019356",
+        "rank": 3,
+        "score": 0.571682,
+        "page": 83,
+        "section": "3.3 Procrastination: The Enemy Within",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:018281-018764",
+        "rank": 4,
+        "score": 0.553102,
+        "page": 83,
+        "section": "3.3 Procrastination: The Enemy Within",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:022905-023450",
+        "rank": 5,
+        "score": 0.545751,
+        "page": 84,
+        "section": "3.3 Procrastination: The Enemy Within",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:023452-024117",
+        "rank": 6,
+        "score": 0.531375,
+        "page": 85,
+        "section": "3.3 Procrastination: The Enemy Within",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:022489-022903",
+        "rank": 7,
+        "score": 0.52194,
+        "page": 84,
+        "section": "3.3 Procrastination: The Enemy Within",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:019358-019820",
+        "rank": 8,
+        "score": 0.509339,
+        "page": 83,
+        "section": "3.3 Procrastination: The Enemy Within",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:024119-024405",
+        "rank": 9,
+        "score": 0.499146,
+        "page": 85,
+        "section": "3.3 Procrastination: The Enemy Within",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:022194-022487",
+        "rank": 10,
+        "score": 0.491826,
+        "page": 84,
+        "section": "3.3 Procrastination: The Enemy Within",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch3:020786-021574",
+      "B:openstax-college-success:ch3:021576-021815",
+      "B:openstax-college-success:ch3:018766-019356"
+    ],
+    "context_chars": 1909,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 2559.5,
+    "cost_usd": 4.1e-05,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 84,
+        "evidence": "they can rationalize that the reason they failed at the task was because they ran out of time to complete it, not that they were incapable of doing it in the first place"
+      }
+    ]
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Ma trận quyết định Eisenhower xếp các công việc vào bốn ô dựa trên hai tiêu chí nào?",
+    "pipeline": "rewrite_dense",
+    "filter": null,
+    "steps": [
+      {
+        "step": "rewrite",
+        "original_query": "Ma trận quyết định Eisenhower xếp các công việc vào bốn ô dựa trên hai tiêu chí nào?",
+        "rewritten_query": "Eisenhower matrix urgency importance quadrants prioritization tasks",
+        "usage": {
+          "prompt_tokens": 200,
+          "completion_tokens": 27,
+          "cost_usd": 3.35e-05,
+          "latency_ms": 1139.1,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "step": "dense",
+        "query": "Eisenhower matrix urgency importance quadrants prioritization tasks",
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:045108-045591",
+            "rank": 1,
+            "score": 0.73624,
+            "page": 93,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:045593-046347",
+            "rank": 2,
+            "score": 0.71459,
+            "page": 93,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:044698-045106",
+            "rank": 3,
+            "score": 0.595844,
+            "page": 93,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:042074-042537",
+            "rank": 4,
+            "score": 0.52168,
+            "page": 92,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:042994-043647",
+            "rank": 5,
+            "score": 0.504538,
+            "page": 92,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:043649-044358",
+            "rank": 6,
+            "score": 0.493411,
+            "page": 93,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:048129-048652",
+            "rank": 7,
+            "score": 0.47815,
+            "page": 94,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:042539-042992",
+            "rank": 8,
+            "score": 0.477708,
+            "page": 92,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:026847-027600",
+            "rank": 9,
+            "score": 0.461869,
+            "page": 86,
+            "section": "3.4 How to Manage Time"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:044359-044696",
+            "rank": 10,
+            "score": 0.447227,
+            "page": 93,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch3:045108-045591",
+        "rank": 1,
+        "score": 0.73624,
+        "page": 93,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch3:045593-046347",
+        "rank": 2,
+        "score": 0.71459,
+        "page": 93,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:044698-045106",
+        "rank": 3,
+        "score": 0.595844,
+        "page": 93,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:042074-042537",
+        "rank": 4,
+        "score": 0.52168,
+        "page": 92,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:042994-043647",
+        "rank": 5,
+        "score": 0.504538,
+        "page": 92,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:043649-044358",
+        "rank": 6,
+        "score": 0.493411,
+        "page": 93,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:048129-048652",
+        "rank": 7,
+        "score": 0.47815,
+        "page": 94,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:042539-042992",
+        "rank": 8,
+        "score": 0.477708,
+        "page": 92,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:026847-027600",
+        "rank": 9,
+        "score": 0.461869,
+        "page": 86,
+        "section": "3.4 How to Manage Time",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:044359-044696",
+        "rank": 10,
+        "score": 0.447227,
+        "page": 93,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch3:045108-045591",
+      "B:openstax-college-success:ch3:045593-046347",
+      "B:openstax-college-success:ch3:044698-045106"
+    ],
+    "context_chars": 2033,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 2110.3,
+    "cost_usd": 3.4e-05,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 93,
+        "evidence": "arrange them in a quadrant map based on importance and urgency. Traditionally this is called the Eisenhower Decision Matrix."
+      }
+    ]
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Nếu không thể kịp hoàn thành cả hai bài tập đều quan trọng và gấp, sinh viên nên làm gì trước khi quyết định bỏ một bài?",
+    "pipeline": "rewrite_dense",
+    "filter": null,
+    "steps": [
+      {
+        "step": "rewrite",
+        "original_query": "Nếu không thể kịp hoàn thành cả hai bài tập đều quan trọng và gấp, sinh viên nên làm gì trước khi quyết định bỏ một bài?",
+        "rewritten_query": "how to prioritize two urgent important assignments when time is insufficient, decide which to drop, time management prioritization strategy",
+        "usage": {
+          "prompt_tokens": 218,
+          "completion_tokens": 40,
+          "cost_usd": 4.18e-05,
+          "latency_ms": 1201.2,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "step": "dense",
+        "query": "how to prioritize two urgent important assignments when time is insufficient, decide which to drop, time management prioritization strategy",
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:048129-048652",
+            "rank": 1,
+            "score": 0.652773,
+            "page": 94,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:043649-044358",
+            "rank": 2,
+            "score": 0.635203,
+            "page": 93,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:044698-045106",
+            "rank": 3,
+            "score": 0.613219,
+            "page": 93,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:048654-049439",
+            "rank": 4,
+            "score": 0.609295,
+            "page": 94,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:044359-044696",
+            "rank": 5,
+            "score": 0.59599,
+            "page": 93,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:042994-043647",
+            "rank": 6,
+            "score": 0.592715,
+            "page": 92,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:042074-042537",
+            "rank": 7,
+            "score": 0.55563,
+            "page": 92,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:042539-042992",
+            "rank": 8,
+            "score": 0.55264,
+            "page": 92,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:073658-074260",
+            "rank": 9,
+            "score": 0.551801,
+            "page": 104,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:078143-078908",
+            "rank": 10,
+            "score": 0.541607,
+            "page": 107,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch3:048129-048652",
+        "rank": 1,
+        "score": 0.652773,
+        "page": 94,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:043649-044358",
+        "rank": 2,
+        "score": 0.635203,
+        "page": 93,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:044698-045106",
+        "rank": 3,
+        "score": 0.613219,
+        "page": 93,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:048654-049439",
+        "rank": 4,
+        "score": 0.609295,
+        "page": 94,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:044359-044696",
+        "rank": 5,
+        "score": 0.59599,
+        "page": 93,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:042994-043647",
+        "rank": 6,
+        "score": 0.592715,
+        "page": 92,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:042074-042537",
+        "rank": 7,
+        "score": 0.55563,
+        "page": 92,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:042539-042992",
+        "rank": 8,
+        "score": 0.55264,
+        "page": 92,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:073658-074260",
+        "rank": 9,
+        "score": 0.551801,
+        "page": 104,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:078143-078908",
+        "rank": 10,
+        "score": 0.541607,
+        "page": 107,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch3:048129-048652",
+      "B:openstax-college-success:ch3:043649-044358",
+      "B:openstax-college-success:ch3:044698-045106"
+    ],
+    "context_chars": 2028,
+    "hit1": false,
+    "hit3": false,
+    "hit5": false,
+    "first_hit_rank": null,
+    "rr": 0.0,
+    "context_hit": false,
+    "latency_ms": 2190.3,
+    "cost_usd": 4.2e-05,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 94,
+        "evidence": "the first step is to try to find a way to get everything finished, regardless of the challenges. If that simply cannot happen, the next immediate step would be to communicate with your instructors to let them know about the situation."
+      }
+    ]
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Năm chữ cái trong mục tiêu SMART là viết tắt của những gì?",
+    "pipeline": "rewrite_dense",
+    "filter": null,
+    "steps": [
+      {
+        "step": "rewrite",
+        "original_query": "Năm chữ cái trong mục tiêu SMART là viết tắt của những gì?",
+        "rewritten_query": "SMART goals acronym meaning: specific, measurable, achievable, relevant, time-bound goal setting criteria",
+        "usage": {
+          "prompt_tokens": 185,
+          "completion_tokens": 40,
+          "cost_usd": 3.85e-05,
+          "latency_ms": 1196.5,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "step": "dense",
+        "query": "SMART goals acronym meaning: specific, measurable, achievable, relevant, time-bound goal setting criteria",
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:067464-067943",
+            "rank": 1,
+            "score": 0.678397,
+            "page": 100,
+            "section": "3.6 Goal Setting and Motivation"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:071190-071445",
+            "rank": 2,
+            "score": 0.616403,
+            "page": 102,
+            "section": "3.6 Goal Setting and Motivation"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:069355-070123",
+            "rank": 3,
+            "score": 0.602467,
+            "page": 101,
+            "section": "3.6 Goal Setting and Motivation"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:070125-070910",
+            "rank": 4,
+            "score": 0.55633,
+            "page": 101,
+            "section": "3.6 Goal Setting and Motivation"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:072945-073257",
+            "rank": 5,
+            "score": 0.552163,
+            "page": 103,
+            "section": "3.6 Goal Setting and Motivation"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:067945-068626",
+            "rank": 6,
+            "score": 0.542233,
+            "page": 101,
+            "section": "3.6 Goal Setting and Motivation"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:068627-069354",
+            "rank": 7,
+            "score": 0.507008,
+            "page": 101,
+            "section": "3.6 Goal Setting and Motivation"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:070912-071188",
+            "rank": 8,
+            "score": 0.479,
+            "page": 102,
+            "section": "3.6 Goal Setting and Motivation"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:064952-065379",
+            "rank": 9,
+            "score": 0.478151,
+            "page": 100,
+            "section": "3.6 Goal Setting and Motivation"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:066009-066319",
+            "rank": 10,
+            "score": 0.468995,
+            "page": 100,
+            "section": "3.6 Goal Setting and Motivation"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch3:067464-067943",
+        "rank": 1,
+        "score": 0.678397,
+        "page": 100,
+        "section": "3.6 Goal Setting and Motivation",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch3:071190-071445",
+        "rank": 2,
+        "score": 0.616403,
+        "page": 102,
+        "section": "3.6 Goal Setting and Motivation",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:069355-070123",
+        "rank": 3,
+        "score": 0.602467,
+        "page": 101,
+        "section": "3.6 Goal Setting and Motivation",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:070125-070910",
+        "rank": 4,
+        "score": 0.55633,
+        "page": 101,
+        "section": "3.6 Goal Setting and Motivation",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:072945-073257",
+        "rank": 5,
+        "score": 0.552163,
+        "page": 103,
+        "section": "3.6 Goal Setting and Motivation",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:067945-068626",
+        "rank": 6,
+        "score": 0.542233,
+        "page": 101,
+        "section": "3.6 Goal Setting and Motivation",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:068627-069354",
+        "rank": 7,
+        "score": 0.507008,
+        "page": 101,
+        "section": "3.6 Goal Setting and Motivation",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:070912-071188",
+        "rank": 8,
+        "score": 0.479,
+        "page": 102,
+        "section": "3.6 Goal Setting and Motivation",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:064952-065379",
+        "rank": 9,
+        "score": 0.478151,
+        "page": 100,
+        "section": "3.6 Goal Setting and Motivation",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:066009-066319",
+        "rank": 10,
+        "score": 0.468995,
+        "page": 100,
+        "section": "3.6 Goal Setting and Motivation",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch3:067464-067943",
+      "B:openstax-college-success:ch3:071190-071445",
+      "B:openstax-college-success:ch3:069355-070123"
+    ],
+    "context_chars": 1783,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 2282.0,
+    "cost_usd": 3.9e-05,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 100,
+        "evidence": "an acronym that stands for Specific, Measurable, Attainable, Relevant, and Time-bound"
+      }
+    ]
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Trong kỹ thuật Pomodoro, sau khi hoàn thành bốn phiên làm việc thì nên nghỉ bao lâu?",
+    "pipeline": "rewrite_dense",
+    "filter": null,
+    "steps": [
+      {
+        "step": "rewrite",
+        "original_query": "Trong kỹ thuật Pomodoro, sau khi hoàn thành bốn phiên làm việc thì nên nghỉ bao lâu?",
+        "rewritten_query": "Pomodoro technique long break after four work sessions duration time management study break",
+        "usage": {
+          "prompt_tokens": 207,
+          "completion_tokens": 24,
+          "cost_usd": 3.27e-05,
+          "latency_ms": 1166.1,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "step": "dense",
+        "query": "Pomodoro technique long break after four work sessions duration time management study break",
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:075385-076066",
+            "rank": 1,
+            "score": 0.722077,
+            "page": 105,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:076068-076475",
+            "rank": 2,
+            "score": 0.71617,
+            "page": 106,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:081639-082161",
+            "rank": 3,
+            "score": 0.598532,
+            "page": 108,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:076477-077057",
+            "rank": 4,
+            "score": 0.540391,
+            "page": 106,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:078910-079348",
+            "rank": 5,
+            "score": 0.517334,
+            "page": 107,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:041936-042455",
+            "rank": 6,
+            "score": 0.473887,
+            "page": 196,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:079350-080043",
+            "rank": 7,
+            "score": 0.467393,
+            "page": 107,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:078143-078908",
+            "rank": 8,
+            "score": 0.461571,
+            "page": 107,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:026687-027460",
+            "rank": 9,
+            "score": 0.454925,
+            "page": 191,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:085229-086029",
+            "rank": 10,
+            "score": 0.423764,
+            "page": 109,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch3:075385-076066",
+        "rank": 1,
+        "score": 0.722077,
+        "page": 105,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:076068-076475",
+        "rank": 2,
+        "score": 0.71617,
+        "page": 106,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch3:081639-082161",
+        "rank": 3,
+        "score": 0.598532,
+        "page": 108,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:076477-077057",
+        "rank": 4,
+        "score": 0.540391,
+        "page": 106,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:078910-079348",
+        "rank": 5,
+        "score": 0.517334,
+        "page": 107,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:041936-042455",
+        "rank": 6,
+        "score": 0.473887,
+        "page": 196,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:079350-080043",
+        "rank": 7,
+        "score": 0.467393,
+        "page": 107,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:078143-078908",
+        "rank": 8,
+        "score": 0.461571,
+        "page": 107,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:026687-027460",
+        "rank": 9,
+        "score": 0.454925,
+        "page": 191,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:085229-086029",
+        "rank": 10,
+        "score": 0.423764,
+        "page": 109,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch3:075385-076066",
+      "B:openstax-college-success:ch3:076068-076475",
+      "B:openstax-college-success:ch3:081639-082161"
+    ],
+    "context_chars": 1950,
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 2,
+    "rr": 0.5,
+    "context_hit": true,
+    "latency_ms": 2149.3,
+    "cost_usd": 3.3e-05,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 106,
+        "evidence": "After four pomodoros, take a longer break (15–30 minutes), reset your check mark count to zero"
+      }
+    ]
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Chiến lược có cái tên kỳ lạ là \"ăn con ếch\" khuyên nên xử lý nhiệm vụ nào đầu tiên?",
+    "pipeline": "rewrite_dense",
+    "filter": null,
+    "steps": [
+      {
+        "step": "rewrite",
+        "original_query": "Chiến lược có cái tên kỳ lạ là \"ăn con ếch\" khuyên nên xử lý nhiệm vụ nào đầu tiên?",
+        "rewritten_query": "eat the frog strategy procrastination prioritization time management hardest task first",
+        "usage": {
+          "prompt_tokens": 210,
+          "completion_tokens": 25,
+          "cost_usd": 3.35e-05,
+          "latency_ms": 1181.1,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "step": "dense",
+        "query": "eat the frog strategy procrastination prioritization time management hardest task first",
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:077059-077668",
+            "rank": 1,
+            "score": 0.752614,
+            "page": 106,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:042994-043647",
+            "rank": 2,
+            "score": 0.514113,
+            "page": 92,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:024713-025124",
+            "rank": 3,
+            "score": 0.500428,
+            "page": 85,
+            "section": "3.3 Procrastination: The Enemy Within"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:024119-024405",
+            "rank": 4,
+            "score": 0.496403,
+            "page": 85,
+            "section": "3.3 Procrastination: The Enemy Within"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:024407-024711",
+            "rank": 5,
+            "score": 0.472559,
+            "page": 85,
+            "section": "3.3 Procrastination: The Enemy Within"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:018766-019356",
+            "rank": 6,
+            "score": 0.46416,
+            "page": 83,
+            "section": "3.3 Procrastination: The Enemy Within"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:078143-078908",
+            "rank": 7,
+            "score": 0.454933,
+            "page": 107,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:020786-021574",
+            "rank": 8,
+            "score": 0.45459,
+            "page": 84,
+            "section": "3.3 Procrastination: The Enemy Within"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:073658-074260",
+            "rank": 9,
+            "score": 0.451321,
+            "page": 104,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:043649-044358",
+            "rank": 10,
+            "score": 0.44889,
+            "page": 93,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch3:077059-077668",
+        "rank": 1,
+        "score": 0.752614,
+        "page": 106,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch3:042994-043647",
+        "rank": 2,
+        "score": 0.514113,
+        "page": 92,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:024713-025124",
+        "rank": 3,
+        "score": 0.500428,
+        "page": 85,
+        "section": "3.3 Procrastination: The Enemy Within",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:024119-024405",
+        "rank": 4,
+        "score": 0.496403,
+        "page": 85,
+        "section": "3.3 Procrastination: The Enemy Within",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:024407-024711",
+        "rank": 5,
+        "score": 0.472559,
+        "page": 85,
+        "section": "3.3 Procrastination: The Enemy Within",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:018766-019356",
+        "rank": 6,
+        "score": 0.46416,
+        "page": 83,
+        "section": "3.3 Procrastination: The Enemy Within",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:078143-078908",
+        "rank": 7,
+        "score": 0.454933,
+        "page": 107,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:020786-021574",
+        "rank": 8,
+        "score": 0.45459,
+        "page": 84,
+        "section": "3.3 Procrastination: The Enemy Within",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:073658-074260",
+        "rank": 9,
+        "score": 0.451321,
+        "page": 104,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:043649-044358",
+        "rank": 10,
+        "score": 0.44889,
+        "page": 93,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch3:077059-077668",
+      "B:openstax-college-success:ch3:042994-043647",
+      "B:openstax-college-success:ch3:024713-025124"
+    ],
+    "context_chars": 2016,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 2129.4,
+    "cost_usd": 3.4e-05,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 106,
+        "evidence": "if a person takes care of the biggest or most unpleasant task first, everything else will be easier after that"
+      }
+    ]
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Nếu đi chợ với danh sách lập sẵn và giới hạn thời gian lướt mạng, Sarah có thể lấy lại khoảng bao nhiêu thời gian vào tối thứ Ba?",
+    "pipeline": "rewrite_dense",
+    "filter": null,
+    "steps": [
+      {
+        "step": "rewrite",
+        "original_query": "Nếu đi chợ với danh sách lập sẵn và giới hạn thời gian lướt mạng, Sarah có thể lấy lại khoảng bao nhiêu thời gian vào tối thứ Ba?",
+        "rewritten_query": "time management grocery shopping with a list, limiting social media browsing time, reclaiming time on Tuesday evening, planning, scheduling, productivity",
+        "usage": {
+          "prompt_tokens": 230,
+          "completion_tokens": 50,
+          "cost_usd": 4.8e-05,
+          "latency_ms": 1148.8,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "step": "dense",
+        "query": "time management grocery shopping with a list, limiting social media browsing time, reclaiming time on Tuesday evening, planning, scheduling, productivity",
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:087440-088156",
+            "rank": 1,
+            "score": 0.589981,
+            "page": 110,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:086718-087439",
+            "rank": 2,
+            "score": 0.575037,
+            "page": 110,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:041190-041873",
+            "rank": 3,
+            "score": 0.573494,
+            "page": 91,
+            "section": "3.4 How to Manage Time"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:086031-086716",
+            "rank": 4,
+            "score": 0.563927,
+            "page": 110,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:085229-086029",
+            "rank": 5,
+            "score": 0.550873,
+            "page": 109,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:078143-078908",
+            "rank": 6,
+            "score": 0.542771,
+            "page": 107,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:083393-084217",
+            "rank": 7,
+            "score": 0.541194,
+            "page": 109,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:073658-074260",
+            "rank": 8,
+            "score": 0.538572,
+            "page": 104,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:000000-000138",
+            "rank": 9,
+            "score": 0.532584,
+            "page": 75,
+            "section": "Introduction"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:041875-042072",
+            "rank": 10,
+            "score": 0.529923,
+            "page": 92,
+            "section": "3.4 How to Manage Time"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch3:087440-088156",
+        "rank": 1,
+        "score": 0.589981,
+        "page": 110,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch3:086718-087439",
+        "rank": 2,
+        "score": 0.575037,
+        "page": 110,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:041190-041873",
+        "rank": 3,
+        "score": 0.573494,
+        "page": 91,
+        "section": "3.4 How to Manage Time",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:086031-086716",
+        "rank": 4,
+        "score": 0.563927,
+        "page": 110,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:085229-086029",
+        "rank": 5,
+        "score": 0.550873,
+        "page": 109,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:078143-078908",
+        "rank": 6,
+        "score": 0.542771,
+        "page": 107,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:083393-084217",
+        "rank": 7,
+        "score": 0.541194,
+        "page": 109,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:073658-074260",
+        "rank": 8,
+        "score": 0.538572,
+        "page": 104,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:000000-000138",
+        "rank": 9,
+        "score": 0.532584,
+        "page": 75,
+        "section": "Introduction",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:041875-042072",
+        "rank": 10,
+        "score": 0.529923,
+        "page": 92,
+        "section": "3.4 How to Manage Time",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch3:087440-088156",
+      "B:openstax-college-success:ch3:086718-087439",
+      "B:openstax-college-success:ch3:041190-041873"
+    ],
+    "context_chars": 2432,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 2212.8,
+    "cost_usd": 4.8e-05,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 110,
+        "evidence": "she would find that she had added almost an extra hour and a half to the time available to her on that evening"
+      }
+    ]
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Quá trình ghi nhớ một ý tưởng hay hình ảnh gồm ba bước cơ bản nào?",
+    "pipeline": "rewrite_dense",
+    "filter": null,
+    "steps": [
+      {
+        "step": "rewrite",
+        "original_query": "Quá trình ghi nhớ một ý tưởng hay hình ảnh gồm ba bước cơ bản nào?",
+        "rewritten_query": "memory process three basic steps encoding storage retrieval memory formation recall",
+        "usage": {
+          "prompt_tokens": 197,
+          "completion_tokens": 25,
+          "cost_usd": 3.22e-05,
+          "latency_ms": 1335.7,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "step": "dense",
+        "query": "memory process three basic steps encoding storage retrieval memory formation recall",
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch6:005313-006092",
+            "rank": 1,
+            "score": 0.647364,
+            "page": 183,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:012767-013336",
+            "rank": 2,
+            "score": 0.471194,
+            "page": 185,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:006289-006800",
+            "rank": 3,
+            "score": 0.465771,
+            "page": 183,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:012415-012765",
+            "rank": 4,
+            "score": 0.456109,
+            "page": 185,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:014851-015052",
+            "rank": 5,
+            "score": 0.455099,
+            "page": 186,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:013338-014059",
+            "rank": 6,
+            "score": 0.452651,
+            "page": 186,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:004119-004886",
+            "rank": 7,
+            "score": 0.450051,
+            "page": 182,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:006094-006287",
+            "rank": 8,
+            "score": 0.448441,
+            "page": 183,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:000146-000202",
+            "rank": 9,
+            "score": 0.424768,
+            "page": 181,
+            "section": "Introduction"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:010148-010767",
+            "rank": 10,
+            "score": 0.418392,
+            "page": 184,
+            "section": "6.1 Memory"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch6:005313-006092",
+        "rank": 1,
+        "score": 0.647364,
+        "page": 183,
+        "section": "6.1 Memory",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch6:012767-013336",
+        "rank": 2,
+        "score": 0.471194,
+        "page": 185,
+        "section": "6.1 Memory",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:006289-006800",
+        "rank": 3,
+        "score": 0.465771,
+        "page": 183,
+        "section": "6.1 Memory",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:012415-012765",
+        "rank": 4,
+        "score": 0.456109,
+        "page": 185,
+        "section": "6.1 Memory",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:014851-015052",
+        "rank": 5,
+        "score": 0.455099,
+        "page": 186,
+        "section": "6.1 Memory",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:013338-014059",
+        "rank": 6,
+        "score": 0.452651,
+        "page": 186,
+        "section": "6.1 Memory",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:004119-004886",
+        "rank": 7,
+        "score": 0.450051,
+        "page": 182,
+        "section": "6.1 Memory",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:006094-006287",
+        "rank": 8,
+        "score": 0.448441,
+        "page": 183,
+        "section": "6.1 Memory",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:000146-000202",
+        "rank": 9,
+        "score": 0.424768,
+        "page": 181,
+        "section": "Introduction",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:010148-010767",
+        "rank": 10,
+        "score": 0.418392,
+        "page": 184,
+        "section": "6.1 Memory",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch6:005313-006092",
+      "B:openstax-college-success:ch6:012767-013336",
+      "B:openstax-college-success:ch6:006289-006800"
+    ],
+    "context_chars": 2073,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 2243.9,
+    "cost_usd": 3.3e-05,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 183,
+        "evidence": "We go through three basic steps when we remember ideas or images: we encode, store, and retrieve that information."
+      }
+    ]
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Việc gom các món đồ trong một danh sách thành từng nhóm theo chủ đề để nhớ được nhiều hơn được gọi là gì?",
+    "pipeline": "rewrite_dense",
+    "filter": null,
+    "steps": [
+      {
+        "step": "rewrite",
+        "original_query": "Việc gom các món đồ trong một danh sách thành từng nhóm theo chủ đề để nhớ được nhiều hơn được gọi là gì?",
+        "rewritten_query": "grouping items into categories chunking memory strategy",
+        "usage": {
+          "prompt_tokens": 208,
+          "completion_tokens": 17,
+          "cost_usd": 2.93e-05,
+          "latency_ms": 1128.0,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "step": "dense",
+        "query": "grouping items into categories chunking memory strategy",
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch6:011325-011939",
+            "rank": 1,
+            "score": 0.643897,
+            "page": 185,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:010769-011323",
+            "rank": 2,
+            "score": 0.435881,
+            "page": 185,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:008742-008873",
+            "rank": 3,
+            "score": 0.426652,
+            "page": 184,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:010148-010767",
+            "rank": 4,
+            "score": 0.40916,
+            "page": 184,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:039062-039843",
+            "rank": 5,
+            "score": 0.408567,
+            "page": 195,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:040355-041139",
+            "rank": 6,
+            "score": 0.381559,
+            "page": 195,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:000146-000202",
+            "rank": 7,
+            "score": 0.380473,
+            "page": 181,
+            "section": "Introduction"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:035378-036039",
+            "rank": 8,
+            "score": 0.374933,
+            "page": 193,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:006094-006287",
+            "rank": 9,
+            "score": 0.373572,
+            "page": 183,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:005313-006092",
+            "rank": 10,
+            "score": 0.36992,
+            "page": 183,
+            "section": "6.1 Memory"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch6:011325-011939",
+        "rank": 1,
+        "score": 0.643897,
+        "page": 185,
+        "section": "6.1 Memory",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch6:010769-011323",
+        "rank": 2,
+        "score": 0.435881,
+        "page": 185,
+        "section": "6.1 Memory",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:008742-008873",
+        "rank": 3,
+        "score": 0.426652,
+        "page": 184,
+        "section": "6.1 Memory",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:010148-010767",
+        "rank": 4,
+        "score": 0.40916,
+        "page": 184,
+        "section": "6.1 Memory",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:039062-039843",
+        "rank": 5,
+        "score": 0.408567,
+        "page": 195,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:040355-041139",
+        "rank": 6,
+        "score": 0.381559,
+        "page": 195,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:000146-000202",
+        "rank": 7,
+        "score": 0.380473,
+        "page": 181,
+        "section": "Introduction",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:035378-036039",
+        "rank": 8,
+        "score": 0.374933,
+        "page": 193,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:006094-006287",
+        "rank": 9,
+        "score": 0.373572,
+        "page": 183,
+        "section": "6.1 Memory",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:005313-006092",
+        "rank": 10,
+        "score": 0.36992,
+        "page": 183,
+        "section": "6.1 Memory",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch6:011325-011939",
+      "B:openstax-college-success:ch6:010769-011323",
+      "B:openstax-college-success:ch6:008742-008873"
+    ],
+    "context_chars": 1513,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 2206.7,
+    "cost_usd": 2.9e-05,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 185,
+        "evidence": "Now that you have grouped items into categories, also known as chunking, you can work on remembering the categories and the items that fit into those categories"
+      }
+    ]
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Theo nhà thần kinh học John Medina, sau khoảng bao nhiêu phút thì não bắt đầu xao nhãng và cần một kích thích mới?",
+    "pipeline": "rewrite_dense",
+    "filter": null,
+    "steps": [
+      {
+        "step": "rewrite",
+        "original_query": "Theo nhà thần kinh học John Medina, sau khoảng bao nhiêu phút thì não bắt đầu xao nhãng và cần một kích thích mới?",
+        "rewritten_query": "John Medina neurologist attention span minutes brain distraction new stimulus; attention wander focus lapse",
+        "usage": {
+          "prompt_tokens": 213,
+          "completion_tokens": 36,
+          "cost_usd": 3.93e-05,
+          "latency_ms": 1489.2,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "step": "dense",
+        "query": "John Medina neurologist attention span minutes brain distraction new stimulus; attention wander focus lapse",
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch6:021263-022038",
+            "rank": 1,
+            "score": 0.685804,
+            "page": 188,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:026687-027460",
+            "rank": 2,
+            "score": 0.439263,
+            "page": 191,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:025473-026235",
+            "rank": 3,
+            "score": 0.382338,
+            "page": 190,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:034829-035104",
+            "rank": 4,
+            "score": 0.380882,
+            "page": 193,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:026237-026685",
+            "rank": 5,
+            "score": 0.370256,
+            "page": 191,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:061003-061703",
+            "rank": 6,
+            "score": 0.368322,
+            "page": 99,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:000000-000138",
+            "rank": 7,
+            "score": 0.36138,
+            "page": 75,
+            "section": "Introduction"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:004119-004886",
+            "rank": 8,
+            "score": 0.347871,
+            "page": 182,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:004887-005311",
+            "rank": 9,
+            "score": 0.34747,
+            "page": 183,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:024348-024872",
+            "rank": 10,
+            "score": 0.341627,
+            "page": 190,
+            "section": "6.1 Memory"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch6:021263-022038",
+        "rank": 1,
+        "score": 0.685804,
+        "page": 188,
+        "section": "6.1 Memory",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch6:026687-027460",
+        "rank": 2,
+        "score": 0.439263,
+        "page": 191,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:025473-026235",
+        "rank": 3,
+        "score": 0.382338,
+        "page": 190,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:034829-035104",
+        "rank": 4,
+        "score": 0.380882,
+        "page": 193,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:026237-026685",
+        "rank": 5,
+        "score": 0.370256,
+        "page": 191,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:061003-061703",
+        "rank": 6,
+        "score": 0.368322,
+        "page": 99,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:000000-000138",
+        "rank": 7,
+        "score": 0.36138,
+        "page": 75,
+        "section": "Introduction",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:004119-004886",
+        "rank": 8,
+        "score": 0.347871,
+        "page": 182,
+        "section": "6.1 Memory",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:004887-005311",
+        "rank": 9,
+        "score": 0.34747,
+        "page": 183,
+        "section": "6.1 Memory",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:024348-024872",
+        "rank": 10,
+        "score": 0.341627,
+        "page": 190,
+        "section": "6.1 Memory",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch6:021263-022038",
+      "B:openstax-college-success:ch6:026687-027460",
+      "B:openstax-college-success:ch6:025473-026235"
+    ],
+    "context_chars": 2528,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 2467.4,
+    "cost_usd": 4e-05,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 188,
+        "evidence": "John Medina claims that the brain begins to wander at about 10 minutes, at which point you need a new stimulus to spark interest"
+      }
+    ]
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Vì sao chỉ tô sáng (highlight) giáo trình thì chưa đủ để chuẩn bị cho kỳ thi?",
+    "pipeline": "rewrite_dense",
+    "filter": null,
+    "steps": [
+      {
+        "step": "rewrite",
+        "original_query": "Vì sao chỉ tô sáng (highlight) giáo trình thì chưa đủ để chuẩn bị cho kỳ thi?",
+        "rewritten_query": "Why is highlighting a textbook not enough to prepare for an exam? highlighting study strategy, passive reading, active recall, reviewing textbook, study techniques",
+        "usage": {
+          "prompt_tokens": 204,
+          "completion_tokens": 55,
+          "cost_usd": 4.79e-05,
+          "latency_ms": 1426.6,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "step": "dense",
+        "query": "Why is highlighting a textbook not enough to prepare for an exam? highlighting study strategy, passive reading, active recall, reviewing textbook, study techniques",
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch6:033134-033924",
+            "rank": 1,
+            "score": 0.678199,
+            "page": 193,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:033925-034132",
+            "rank": 2,
+            "score": 0.598498,
+            "page": 193,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:040355-041139",
+            "rank": 3,
+            "score": 0.558496,
+            "page": 195,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:051228-051669",
+            "rank": 4,
+            "score": 0.543902,
+            "page": 198,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:001938-002675",
+            "rank": 5,
+            "score": 0.536894,
+            "page": 182,
+            "section": "Introduction"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:070424-071055",
+            "rank": 6,
+            "score": 0.536303,
+            "page": 205,
+            "section": "End-of-chapter review"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:035106-035376",
+            "rank": 7,
+            "score": 0.532599,
+            "page": 193,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:000745-001248",
+            "rank": 8,
+            "score": 0.528554,
+            "page": 181,
+            "section": "Introduction"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:034829-035104",
+            "rank": 9,
+            "score": 0.516925,
+            "page": 193,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:057284-057871",
+            "rank": 10,
+            "score": 0.513518,
+            "page": 201,
+            "section": "6.3 Test Taking"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch6:033134-033924",
+        "rank": 1,
+        "score": 0.678199,
+        "page": 193,
+        "section": "6.2 Studying",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch6:033925-034132",
+        "rank": 2,
+        "score": 0.598498,
+        "page": 193,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:040355-041139",
+        "rank": 3,
+        "score": 0.558496,
+        "page": 195,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:051228-051669",
+        "rank": 4,
+        "score": 0.543902,
+        "page": 198,
+        "section": "6.3 Test Taking",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:001938-002675",
+        "rank": 5,
+        "score": 0.536894,
+        "page": 182,
+        "section": "Introduction",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:070424-071055",
+        "rank": 6,
+        "score": 0.536303,
+        "page": 205,
+        "section": "End-of-chapter review",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:035106-035376",
+        "rank": 7,
+        "score": 0.532599,
+        "page": 193,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:000745-001248",
+        "rank": 8,
+        "score": 0.528554,
+        "page": 181,
+        "section": "Introduction",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:034829-035104",
+        "rank": 9,
+        "score": 0.516925,
+        "page": 193,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:057284-057871",
+        "rank": 10,
+        "score": 0.513518,
+        "page": 201,
+        "section": "6.3 Test Taking",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch6:033134-033924",
+      "B:openstax-college-success:ch6:033925-034132",
+      "B:openstax-college-success:ch6:040355-041139"
+    ],
+    "context_chars": 2001,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 2388.2,
+    "cost_usd": 4.8e-05,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 193,
+        "evidence": "Actually, you need much more time reviewing and retrieving your lessons and ideas from the text or class lecture as well as quizzing yourself to accomplish your goal of learning so you can perform well on the exam."
+      }
+    ]
+  },
+  {
+    "query_id": "q16",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Kỹ thuật học xen kẽ (interleaving) khuyên người học sắp xếp nội dung ôn tập như thế nào?",
+    "pipeline": "rewrite_dense",
+    "filter": null,
+    "steps": [
+      {
+        "step": "rewrite",
+        "original_query": "Kỹ thuật học xen kẽ (interleaving) khuyên người học sắp xếp nội dung ôn tập như thế nào?",
+        "rewritten_query": "interleaving study technique mixing practice schedule; interleaved practice, alternating topics, varied problem order, blocked versus interleaved practice, study strategy",
+        "usage": {
+          "prompt_tokens": 203,
+          "completion_tokens": 53,
+          "cost_usd": 4.68e-05,
+          "latency_ms": 1274.4,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "step": "dense",
+        "query": "interleaving study technique mixing practice schedule; interleaved practice, alternating topics, varied problem order, blocked versus interleaved practice, study strategy",
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch6:040355-041139",
+            "rank": 1,
+            "score": 0.639827,
+            "page": 195,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:041936-042455",
+            "rank": 2,
+            "score": 0.629066,
+            "page": 196,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:042457-043223",
+            "rank": 3,
+            "score": 0.587423,
+            "page": 196,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:043814-044194",
+            "rank": 4,
+            "score": 0.496018,
+            "page": 196,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:044816-045675",
+            "rank": 5,
+            "score": 0.473175,
+            "page": 197,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:041141-041934",
+            "rank": 6,
+            "score": 0.470483,
+            "page": 195,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:078143-078908",
+            "rank": 7,
+            "score": 0.46752,
+            "page": 107,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:035106-035376",
+            "rank": 8,
+            "score": 0.462574,
+            "page": 193,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:024874-025181",
+            "rank": 9,
+            "score": 0.453868,
+            "page": 190,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:034829-035104",
+            "rank": 10,
+            "score": 0.452659,
+            "page": 193,
+            "section": "6.2 Studying"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch6:040355-041139",
+        "rank": 1,
+        "score": 0.639827,
+        "page": 195,
+        "section": "6.2 Studying",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch6:041936-042455",
+        "rank": 2,
+        "score": 0.629066,
+        "page": 196,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:042457-043223",
+        "rank": 3,
+        "score": 0.587423,
+        "page": 196,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:043814-044194",
+        "rank": 4,
+        "score": 0.496018,
+        "page": 196,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:044816-045675",
+        "rank": 5,
+        "score": 0.473175,
+        "page": 197,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:041141-041934",
+        "rank": 6,
+        "score": 0.470483,
+        "page": 195,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:078143-078908",
+        "rank": 7,
+        "score": 0.46752,
+        "page": 107,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:035106-035376",
+        "rank": 8,
+        "score": 0.462574,
+        "page": 193,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:024874-025181",
+        "rank": 9,
+        "score": 0.453868,
+        "page": 190,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:034829-035104",
+        "rank": 10,
+        "score": 0.452659,
+        "page": 193,
+        "section": "6.2 Studying",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch6:040355-041139",
+      "B:openstax-college-success:ch6:041936-042455",
+      "B:openstax-college-success:ch6:042457-043223"
+    ],
+    "context_chars": 2289,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 2217.3,
+    "cost_usd": 4.7e-05,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 195,
+        "evidence": "Interleaving—This has to do with what you study. Hint: Don’t study just one type of content, topic, chapter, or unit at a time; instead, mix up the content when you study."
+      }
+    ]
+  },
+  {
+    "query_id": "q17",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Tại sao giảng lại bài cho bạn bè hoặc người thân được xem là một cách học rất hiệu quả?",
+    "pipeline": "rewrite_dense",
+    "filter": null,
+    "steps": [
+      {
+        "step": "rewrite",
+        "original_query": "Tại sao giảng lại bài cho bạn bè hoặc người thân được xem là một cách học rất hiệu quả?",
+        "rewritten_query": "Why is teaching a lesson to friends or family considered a very effective way to learn? Synonyms: explaining, tutoring, peer teaching, learning retention.",
+        "usage": {
+          "prompt_tokens": 198,
+          "completion_tokens": 54,
+          "cost_usd": 4.68e-05,
+          "latency_ms": 1363.1,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "step": "dense",
+        "query": "Why is teaching a lesson to friends or family considered a very effective way to learn? Synonyms: explaining, tutoring, peer teaching, learning retention.",
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch6:044196-044814",
+            "rank": 1,
+            "score": 0.744192,
+            "page": 197,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:046080-046844",
+            "rank": 2,
+            "score": 0.52379,
+            "page": 197,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:035378-036039",
+            "rank": 3,
+            "score": 0.501543,
+            "page": 193,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:044816-045675",
+            "rank": 4,
+            "score": 0.442433,
+            "page": 197,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:040355-041139",
+            "rank": 5,
+            "score": 0.439697,
+            "page": 195,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:033925-034132",
+            "rank": 6,
+            "score": 0.43004,
+            "page": 193,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:043814-044194",
+            "rank": 7,
+            "score": 0.42819,
+            "page": 196,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:023575-024346",
+            "rank": 8,
+            "score": 0.426019,
+            "page": 189,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:003283-003971",
+            "rank": 9,
+            "score": 0.419395,
+            "page": 182,
+            "section": "Introduction"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:022040-022757",
+            "rank": 10,
+            "score": 0.419386,
+            "page": 188,
+            "section": "6.1 Memory"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch6:044196-044814",
+        "rank": 1,
+        "score": 0.744192,
+        "page": 197,
+        "section": "6.2 Studying",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch6:046080-046844",
+        "rank": 2,
+        "score": 0.52379,
+        "page": 197,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:035378-036039",
+        "rank": 3,
+        "score": 0.501543,
+        "page": 193,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:044816-045675",
+        "rank": 4,
+        "score": 0.442433,
+        "page": 197,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:040355-041139",
+        "rank": 5,
+        "score": 0.439697,
+        "page": 195,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:033925-034132",
+        "rank": 6,
+        "score": 0.43004,
+        "page": 193,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:043814-044194",
+        "rank": 7,
+        "score": 0.42819,
+        "page": 196,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:023575-024346",
+        "rank": 8,
+        "score": 0.426019,
+        "page": 189,
+        "section": "6.1 Memory",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:003283-003971",
+        "rank": 9,
+        "score": 0.419395,
+        "page": 182,
+        "section": "Introduction",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:022040-022757",
+        "rank": 10,
+        "score": 0.419386,
+        "page": 188,
+        "section": "6.1 Memory",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch6:044196-044814",
+      "B:openstax-college-success:ch6:046080-046844",
+      "B:openstax-college-success:ch6:035378-036039"
+    ],
+    "context_chars": 2263,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 2370.5,
+    "cost_usd": 4.8e-05,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 197,
+        "evidence": "It is a form of practice testing that requires you to demonstrate you know something in front of someone else!"
+      }
+    ]
+  },
+  {
+    "query_id": "q18",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Nếu một sinh viên cần được điều chỉnh đặc biệt khi thi (như thêm giờ hay đổi địa điểm), điều kiện và bước đầu tiên là gì?",
+    "pipeline": "rewrite_dense",
+    "filter": null,
+    "steps": [
+      {
+        "step": "rewrite",
+        "original_query": "Nếu một sinh viên cần được điều chỉnh đặc biệt khi thi (như thêm giờ hay đổi địa điểm), điều kiện và bước đầu tiên là gì?",
+        "rewritten_query": "special test accommodations extended time test location exam adjustments eligibility requirements first steps students",
+        "usage": {
+          "prompt_tokens": 222,
+          "completion_tokens": 30,
+          "cost_usd": 3.72e-05,
+          "latency_ms": 1293.1,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "step": "dense",
+        "query": "special test accommodations extended time test location exam adjustments eligibility requirements first steps students",
+        "filters": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch6:055280-055887",
+            "rank": 1,
+            "score": 0.661872,
+            "page": 200,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:055889-056545",
+            "rank": 2,
+            "score": 0.628899,
+            "page": 200,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:059405-059923",
+            "rank": 3,
+            "score": 0.497643,
+            "page": 201,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:058865-059403",
+            "rank": 4,
+            "score": 0.437255,
+            "page": 201,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:056547-057282",
+            "rank": 5,
+            "score": 0.427205,
+            "page": 200,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:059925-060329",
+            "rank": 6,
+            "score": 0.419054,
+            "page": 202,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:061826-062622",
+            "rank": 7,
+            "score": 0.415315,
+            "page": 202,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:049605-050400",
+            "rank": 8,
+            "score": 0.401611,
+            "page": 198,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:000745-001248",
+            "rank": 9,
+            "score": 0.393536,
+            "page": 181,
+            "section": "Introduction"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:048580-049113",
+            "rank": 10,
+            "score": 0.3916,
+            "page": 198,
+            "section": "6.3 Test Taking"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch6:055280-055887",
+        "rank": 1,
+        "score": 0.661872,
+        "page": 200,
+        "section": "6.3 Test Taking",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch6:055889-056545",
+        "rank": 2,
+        "score": 0.628899,
+        "page": 200,
+        "section": "6.3 Test Taking",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:059405-059923",
+        "rank": 3,
+        "score": 0.497643,
+        "page": 201,
+        "section": "6.3 Test Taking",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:058865-059403",
+        "rank": 4,
+        "score": 0.437255,
+        "page": 201,
+        "section": "6.3 Test Taking",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:056547-057282",
+        "rank": 5,
+        "score": 0.427205,
+        "page": 200,
+        "section": "6.3 Test Taking",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:059925-060329",
+        "rank": 6,
+        "score": 0.419054,
+        "page": 202,
+        "section": "6.3 Test Taking",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:061826-062622",
+        "rank": 7,
+        "score": 0.415315,
+        "page": 202,
+        "section": "6.3 Test Taking",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:049605-050400",
+        "rank": 8,
+        "score": 0.401611,
+        "page": 198,
+        "section": "6.3 Test Taking",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:000745-001248",
+        "rank": 9,
+        "score": 0.393536,
+        "page": 181,
+        "section": "Introduction",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:048580-049113",
+        "rank": 10,
+        "score": 0.3916,
+        "page": 198,
+        "section": "6.3 Test Taking",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch6:055280-055887",
+      "B:openstax-college-success:ch6:055889-056545",
+      "B:openstax-college-success:ch6:059405-059923"
+    ],
+    "context_chars": 2010,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 2299.9,
+    "cost_usd": 3.7e-05,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 200,
+        "evidence": "With adequate notice, most faculty will provide students with reasonable accommodations to assist students in succeeding in test situations. If you feel that you would benefit from receiving these sorts of accommodations, first speak with your instructor."
+      }
+    ]
+  },
+  {
+    "query_id": "q20",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Vì sao học nhồi nhét sát giờ thi lại không hiệu quả?",
+    "pipeline": "rewrite_dense",
+    "filter": {
+      "chapter": 6
+    },
+    "steps": [
+      {
+        "step": "rewrite",
+        "original_query": "Vì sao học nhồi nhét sát giờ thi lại không hiệu quả?",
+        "rewritten_query": "Why cramming right before an exam is ineffective: cramming ineffective exam study memory retention",
+        "usage": {
+          "prompt_tokens": 185,
+          "completion_tokens": 32,
+          "cost_usd": 3.45e-05,
+          "latency_ms": 1201.8,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "step": "dense",
+        "query": "Why cramming right before an exam is ineffective: cramming ineffective exam study memory retention",
+        "filters": {
+          "chapter": 6
+        },
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch6:020819-021261",
+            "rank": 1,
+            "score": 0.677279,
+            "page": 188,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:041141-041934",
+            "rank": 2,
+            "score": 0.630398,
+            "page": 195,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:019097-019691",
+            "rank": 3,
+            "score": 0.612224,
+            "page": 187,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:015054-015538",
+            "rank": 4,
+            "score": 0.550124,
+            "page": 186,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:035106-035376",
+            "rank": 5,
+            "score": 0.540462,
+            "page": 193,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:020281-020817",
+            "rank": 6,
+            "score": 0.512417,
+            "page": 187,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:001938-002675",
+            "rank": 7,
+            "score": 0.506072,
+            "page": 182,
+            "section": "Introduction"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:017038-017683",
+            "rank": 8,
+            "score": 0.495146,
+            "page": 187,
+            "section": "6.1 Memory"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:035378-036039",
+            "rank": 9,
+            "score": 0.495058,
+            "page": 193,
+            "section": "6.2 Studying"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:040355-041139",
+            "rank": 10,
+            "score": 0.488511,
+            "page": 195,
+            "section": "6.2 Studying"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch6:020819-021261",
+        "rank": 1,
+        "score": 0.677279,
+        "page": 188,
+        "section": "6.1 Memory",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch6:041141-041934",
+        "rank": 2,
+        "score": 0.630398,
+        "page": 195,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:019097-019691",
+        "rank": 3,
+        "score": 0.612224,
+        "page": 187,
+        "section": "6.1 Memory",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:015054-015538",
+        "rank": 4,
+        "score": 0.550124,
+        "page": 186,
+        "section": "6.1 Memory",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:035106-035376",
+        "rank": 5,
+        "score": 0.540462,
+        "page": 193,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:020281-020817",
+        "rank": 6,
+        "score": 0.512417,
+        "page": 187,
+        "section": "6.1 Memory",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:001938-002675",
+        "rank": 7,
+        "score": 0.506072,
+        "page": 182,
+        "section": "Introduction",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:017038-017683",
+        "rank": 8,
+        "score": 0.495146,
+        "page": 187,
+        "section": "6.1 Memory",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:035378-036039",
+        "rank": 9,
+        "score": 0.495058,
+        "page": 193,
+        "section": "6.2 Studying",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:040355-041139",
+        "rank": 10,
+        "score": 0.488511,
+        "page": 195,
+        "section": "6.2 Studying",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch6:020819-021261",
+      "B:openstax-college-success:ch6:041141-041934",
+      "B:openstax-college-success:ch6:019097-019691"
+    ],
+    "context_chars": 2049,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 2453.4,
+    "cost_usd": 3.5e-05,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 188,
+        "evidence": "Cramming causes stress, which can lead to paralyzing test anxiety; it erroneously supposes you can remember and understand something fully after only minimal exposure; and it overloads your brain"
+      }
+    ]
+  },
+  {
+    "query_id": "q21",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Để tạo môi trường làm việc ít bị gián đoạn, có thể làm những gì?",
+    "pipeline": "rewrite_dense",
+    "filter": {
+      "chapter": 3
+    },
+    "steps": [
+      {
+        "step": "rewrite",
+        "original_query": "Để tạo môi trường làm việc ít bị gián đoạn, có thể làm những gì?",
+        "rewritten_query": "create a distraction-free study environment tips; minimize interruptions workspace; reduce distractions focus; quiet place concentration",
+        "usage": {
+          "prompt_tokens": 188,
+          "completion_tokens": 42,
+          "cost_usd": 3.98e-05,
+          "latency_ms": 1204.2,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "step": "dense",
+        "query": "create a distraction-free study environment tips; minimize interruptions workspace; reduce distractions focus; quiet place concentration",
+        "filters": {
+          "chapter": 3
+        },
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:061705-062461",
+            "rank": 1,
+            "score": 0.634422,
+            "page": 99,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:061003-061703",
+            "rank": 2,
+            "score": 0.599407,
+            "page": 99,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:024713-025124",
+            "rank": 3,
+            "score": 0.556097,
+            "page": 85,
+            "section": "3.3 Procrastination: The Enemy Within"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:063048-063745",
+            "rank": 4,
+            "score": 0.47485,
+            "page": 99,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:064003-064625",
+            "rank": 5,
+            "score": 0.459702,
+            "page": 99,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:000000-000138",
+            "rank": 6,
+            "score": 0.445891,
+            "page": 75,
+            "section": "Introduction"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:064627-064950",
+            "rank": 7,
+            "score": 0.444596,
+            "page": 100,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:059690-060247",
+            "rank": 8,
+            "score": 0.423802,
+            "page": 98,
+            "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:028567-029249",
+            "rank": 9,
+            "score": 0.404242,
+            "page": 87,
+            "section": "3.4 How to Manage Time"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:076068-076475",
+            "rank": 10,
+            "score": 0.401882,
+            "page": 106,
+            "section": "3.7 Enhanced Strategies for Time and Task Management"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch3:061705-062461",
+        "rank": 1,
+        "score": 0.634422,
+        "page": 99,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch3:061003-061703",
+        "rank": 2,
+        "score": 0.599407,
+        "page": 99,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:024713-025124",
+        "rank": 3,
+        "score": 0.556097,
+        "page": 85,
+        "section": "3.3 Procrastination: The Enemy Within",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:063048-063745",
+        "rank": 4,
+        "score": 0.47485,
+        "page": 99,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:064003-064625",
+        "rank": 5,
+        "score": 0.459702,
+        "page": 99,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:000000-000138",
+        "rank": 6,
+        "score": 0.445891,
+        "page": 75,
+        "section": "Introduction",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:064627-064950",
+        "rank": 7,
+        "score": 0.444596,
+        "page": 100,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:059690-060247",
+        "rank": 8,
+        "score": 0.423802,
+        "page": 98,
+        "section": "3.5 Prioritization: Self-Management of What You Do and When You Do It",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:028567-029249",
+        "rank": 9,
+        "score": 0.404242,
+        "page": 87,
+        "section": "3.4 How to Manage Time",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:076068-076475",
+        "rank": 10,
+        "score": 0.401882,
+        "page": 106,
+        "section": "3.7 Enhanced Strategies for Time and Task Management",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch3:061705-062461",
+      "B:openstax-college-success:ch3:061003-061703",
+      "B:openstax-college-success:ch3:024713-025124"
+    ],
+    "context_chars": 2223,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 2156.7,
+    "cost_usd": 4e-05,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 99,
+        "evidence": "This may mean you have to go to a private room, use headphones, or go somewhere like a library to work."
+      }
+    ]
+  },
+  {
+    "query_id": "q22",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Trung bình cần bao nhiêu thời gian để ôn cho một bài thi?",
+    "pipeline": "rewrite_dense",
+    "filter": {
+      "chapter": 3
+    },
+    "steps": [
+      {
+        "step": "rewrite",
+        "original_query": "Trung bình cần bao nhiêu thời gian để ôn cho một bài thi?",
+        "rewritten_query": "average time needed to study for an exam, time required exam preparation, study time estimate, how long to prepare for a test",
+        "usage": {
+          "prompt_tokens": 185,
+          "completion_tokens": 36,
+          "cost_usd": 3.65e-05,
+          "latency_ms": 1163.9,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "step": "dense",
+        "query": "average time needed to study for an exam, time required exam preparation, study time estimate, how long to prepare for a test",
+        "filters": {
+          "chapter": 3
+        },
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch3:039709-040499",
+            "rank": 1,
+            "score": 0.565955,
+            "page": 91,
+            "section": "3.4 How to Manage Time"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:028567-029249",
+            "rank": 2,
+            "score": 0.564633,
+            "page": 87,
+            "section": "3.4 How to Manage Time"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:038954-039707",
+            "rank": 3,
+            "score": 0.485268,
+            "page": 90,
+            "section": "3.4 How to Manage Time"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:037615-038191",
+            "rank": 4,
+            "score": 0.485258,
+            "page": 90,
+            "section": "3.4 How to Manage Time"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:030864-031621",
+            "rank": 5,
+            "score": 0.454651,
+            "page": 88,
+            "section": "3.4 How to Manage Time"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:026137-026845",
+            "rank": 6,
+            "score": 0.447504,
+            "page": 85,
+            "section": "3.4 How to Manage Time"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:010036-010663",
+            "rank": 7,
+            "score": 0.444082,
+            "page": 78,
+            "section": "3.2 Time Management in College"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:030290-030862",
+            "rank": 8,
+            "score": 0.443738,
+            "page": 88,
+            "section": "3.4 How to Manage Time"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:031623-032147",
+            "rank": 9,
+            "score": 0.442611,
+            "page": 88,
+            "section": "3.4 How to Manage Time"
+          },
+          {
+            "id": "B:openstax-college-success:ch3:013783-014557",
+            "rank": 10,
+            "score": 0.439606,
+            "page": 81,
+            "section": "3.2 Time Management in College"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch3:039709-040499",
+        "rank": 1,
+        "score": 0.565955,
+        "page": 91,
+        "section": "3.4 How to Manage Time",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch3:028567-029249",
+        "rank": 2,
+        "score": 0.564633,
+        "page": 87,
+        "section": "3.4 How to Manage Time",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:038954-039707",
+        "rank": 3,
+        "score": 0.485268,
+        "page": 90,
+        "section": "3.4 How to Manage Time",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:037615-038191",
+        "rank": 4,
+        "score": 0.485258,
+        "page": 90,
+        "section": "3.4 How to Manage Time",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:030864-031621",
+        "rank": 5,
+        "score": 0.454651,
+        "page": 88,
+        "section": "3.4 How to Manage Time",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:026137-026845",
+        "rank": 6,
+        "score": 0.447504,
+        "page": 85,
+        "section": "3.4 How to Manage Time",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:010036-010663",
+        "rank": 7,
+        "score": 0.444082,
+        "page": 78,
+        "section": "3.2 Time Management in College",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:030290-030862",
+        "rank": 8,
+        "score": 0.443738,
+        "page": 88,
+        "section": "3.4 How to Manage Time",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:031623-032147",
+        "rank": 9,
+        "score": 0.442611,
+        "page": 88,
+        "section": "3.4 How to Manage Time",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch3:013783-014557",
+        "rank": 10,
+        "score": 0.439606,
+        "page": 81,
+        "section": "3.2 Time Management in College",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch3:039709-040499",
+      "B:openstax-college-success:ch3:028567-029249",
+      "B:openstax-college-success:ch3:038954-039707"
+    ],
+    "context_chars": 2475,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 2099.4,
+    "cost_usd": 3.7e-05,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 91,
+        "evidence": "Study for exam Per exam 90 minutes 1–2 hours, depending upon complexity of material"
+      }
+    ]
+  },
+  {
+    "query_id": "q23",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Nên dùng vài phút cuối giờ thi để làm gì?",
+    "pipeline": "rewrite_dense",
+    "filter": {
+      "section": "6.3 Test Taking"
+    },
+    "steps": [
+      {
+        "step": "rewrite",
+        "original_query": "Nên dùng vài phút cuối giờ thi để làm gì?",
+        "rewritten_query": "how to use last few minutes at end of test time; test taking strategy: review answers, check work, final minutes exam",
+        "usage": {
+          "prompt_tokens": 179,
+          "completion_tokens": 36,
+          "cost_usd": 3.59e-05,
+          "latency_ms": 1301.8,
+          "finish_reason": "stop"
+        }
+      },
+      {
+        "step": "dense",
+        "query": "how to use last few minutes at end of test time; test taking strategy: review answers, check work, final minutes exam",
+        "filters": {
+          "section": "6.3 Test Taking"
+        },
+        "top_k": 10,
+        "results": [
+          {
+            "id": "B:openstax-college-success:ch6:061826-062622",
+            "rank": 1,
+            "score": 0.740315,
+            "page": 202,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:062624-063221",
+            "rank": 2,
+            "score": 0.585254,
+            "page": 202,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:059925-060329",
+            "rank": 3,
+            "score": 0.562131,
+            "page": 202,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:059405-059923",
+            "rank": 4,
+            "score": 0.54364,
+            "page": 201,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:049605-050400",
+            "rank": 5,
+            "score": 0.535636,
+            "page": 198,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:057284-057871",
+            "rank": 6,
+            "score": 0.534737,
+            "page": 201,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:056547-057282",
+            "rank": 7,
+            "score": 0.532142,
+            "page": 200,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:060963-061370",
+            "rank": 8,
+            "score": 0.519571,
+            "page": 202,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:060331-060961",
+            "rank": 9,
+            "score": 0.513761,
+            "page": 202,
+            "section": "6.3 Test Taking"
+          },
+          {
+            "id": "B:openstax-college-success:ch6:068765-069455",
+            "rank": 10,
+            "score": 0.501853,
+            "page": 204,
+            "section": "6.3 Test Taking"
+          }
+        ]
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-college-success:ch6:061826-062622",
+        "rank": 1,
+        "score": 0.740315,
+        "page": 202,
+        "section": "6.3 Test Taking",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-college-success:ch6:062624-063221",
+        "rank": 2,
+        "score": 0.585254,
+        "page": 202,
+        "section": "6.3 Test Taking",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:059925-060329",
+        "rank": 3,
+        "score": 0.562131,
+        "page": 202,
+        "section": "6.3 Test Taking",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:059405-059923",
+        "rank": 4,
+        "score": 0.54364,
+        "page": 201,
+        "section": "6.3 Test Taking",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:049605-050400",
+        "rank": 5,
+        "score": 0.535636,
+        "page": 198,
+        "section": "6.3 Test Taking",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:057284-057871",
+        "rank": 6,
+        "score": 0.534737,
+        "page": 201,
+        "section": "6.3 Test Taking",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:056547-057282",
+        "rank": 7,
+        "score": 0.532142,
+        "page": 200,
+        "section": "6.3 Test Taking",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:060963-061370",
+        "rank": 8,
+        "score": 0.519571,
+        "page": 202,
+        "section": "6.3 Test Taking",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:060331-060961",
+        "rank": 9,
+        "score": 0.513761,
+        "page": 202,
+        "section": "6.3 Test Taking",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-college-success:ch6:068765-069455",
+        "rank": 10,
+        "score": 0.501853,
+        "page": 204,
+        "section": "6.3 Test Taking",
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:openstax-college-success:ch6:061826-062622",
+      "B:openstax-college-success:ch6:062624-063221",
+      "B:openstax-college-success:ch6:059925-060329"
+    ],
+    "context_chars": 2026,
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "first_hit_rank": 1,
+    "rr": 1.0,
+    "context_hit": true,
+    "latency_ms": 2265.5,
+    "cost_usd": 3.7e-05,
+    "error": null,
+    "gold": [
+      {
+        "source_id": "openstax-college-success",
+        "page": 202,
+        "evidence": "allow yourself a few minutes at the end of the exam session to review your answers"
+      }
+    ]
+  }
+]

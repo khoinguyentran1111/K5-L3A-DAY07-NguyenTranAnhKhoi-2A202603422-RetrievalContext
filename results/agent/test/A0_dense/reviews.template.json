@@ -1,0 +1,107 @@
+[
+  {
+    "query_id": "q04",
+    "status": "answered",
+    "answer": "Trì hoãn nhẹ thường không đáng lo, nhưng nó trở thành vấn đề nghiêm trọng với nhiều rủi ro trong ba trường hợp: khi nó trở thành thói quen kéo dài (chronic habit), khi có nhiều việc phải hoàn thành trong khoảng thời gian ngắn, hoặc khi việc bị né tránh là việc rất quan trọng [B:openstax-college-success:ch3:018281-018764]. Hậu quả có thể gồm mất mục tiêu, khi việc không được hoàn thành và có thể không bao giờ được làm xong [B:openstax-college-success:ch3:022489-022903], và suy giảm lòng tự trọng: bạn thất vọng với bản thân, dần có đánh giá thấp về năng lực, rồi có thể dẫn đến giận dữ và trầm cảm [B:openstax-college-success:ch3:022905-023450].",
+    "citations": [
+      "B:openstax-college-success:ch3:018281-018764",
+      "B:openstax-college-success:ch3:022489-022903",
+      "B:openstax-college-success:ch3:022905-023450"
+    ],
+    "citation_support": [
+      null,
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Khi trở thành thói quen kinh niên, khi có nhiều việc phải làm mà ít thời gian, hoặc khi việc bị né tránh rất quan trọng.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q12",
+    "status": "answered",
+    "answer": "Theo George A. Miller (1956), con người có thể nhớ khoảng 5 đến 9 đơn vị thông tin (bits) trong trí nhớ ngắn hạn tại bất kỳ thời điểm nào [B:openstax-college-success:ch6:009545-010146]. Sách cũng nhấn mạnh con số này khá hạn chế, nên ta cần gom nhóm thông tin để mở rộng khả năng ghi nhớ [B:openstax-college-success:ch6:010148-010767].",
+    "citations": [
+      "B:openstax-college-success:ch6:009545-010146",
+      "B:openstax-college-success:ch6:010148-010767"
+    ],
+    "citation_support": [
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Khoảng 5 đến 9 đơn vị thông tin (\"bảy cộng trừ hai\").",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q19",
+    "status": "answered",
+    "answer": "Khi gặp câu quá khó hoặc bị \"trống não\", hãy bỏ qua câu đó tạm thời, không dành quá nhiều thời gian vào nó. Trước hết trả lời những câu bạn tự tin nhất, sau đó quay lại các câu đã bỏ qua. Đôi khi một câu hỏi sau sẽ gợi ra ý tưởng giúp bạn trả lời câu đã bỏ qua [B:openstax-college-success:ch6:061372-061824]. Đồng thời, hãy đọc kỹ toàn bộ câu hỏi và tất cả các lựa chọn trước khi quyết định [B:openstax-college-success:ch6:061372-061824]. Nên trả lời mọi câu bắt buộc, vì có thể được điểm từng phần [B:openstax-college-success:ch6:060963-061370].",
+    "citations": [
+      "B:openstax-college-success:ch6:061372-061824",
+      "B:openstax-college-success:ch6:060963-061370"
+    ],
+    "citation_support": [
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Bỏ qua câu đó, làm phần lớn các câu chắc chắn trước, rồi quay lại tập trung vào những câu đã bỏ qua.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q24",
+    "status": "answered",
+    "answer": "Trước buổi học tập trung, hãy cất điện thoại đi chỗ khuất, ví dụ phòng khác hoặc nơi bạn không nhìn thấy hay nghe thấy khi nó rung hay reo; chỉ úp màn hình xuống thì chưa đủ [B:openstax-college-success:ch6:027462-027843]. Đặt một khoảng thời gian học cụ thể không bị gián đoạn, đủ dài để học được nhiều nhưng đủ ngắn để giữ sự chú ý, và coi nó như một cuộc hẹn chuyên nghiệp mà trong đó bạn không kiểm tra email hay tin nhắn [B:openstax-college-success:ch6:026687-027460][B:openstax-college-success:ch6:026237-026685]. Ngoài ra, nên tắt tivi hoặc nhạc và học một mình hoặc ở nơi đủ xa người khác để không nghe họ nói chuyện, trừ khi bạn chủ động học nhóm [B:openstax-college-success:ch6:027462-027843].",
+    "citations": [
+      "B:openstax-college-success:ch6:026687-027460",
+      "B:openstax-college-success:ch6:026237-026685",
+      "B:openstax-college-success:ch6:027462-027843"
+    ],
+    "citation_support": [
+      null,
+      null,
+      null
+    ],
+    "reason": "",
+    "expected_answer": "Để điện thoại khuất tầm mắt, ở phòng khác hoặc nơi không thấy hay nghe nó rung, đổ chuông; chỉ úp điện thoại xuống là chưa đủ.",
+    "answer_grade": null
+  },
+  {
+    "query_id": "q25",
+    "status": "abstain",
+    "answer": "Các đoạn sách tìm được không nêu cách chia 24 giờ mỗi ngày thành ba phần bằng nhau. Sách chỉ đề cập đến việc chia nhỏ nhiệm vụ lớn thành các khoảng thời gian ngắn (ví dụ viết ba đoạn 20 phút mỗi ngày) và tận dụng các khoảng thời gian rảnh nhỏ trong ngày.",
+    "citations": [],
+    "citation_support": [],
+    "reason": "",
+    "expected_answer": "Quy tắc 8-8-8: 8 giờ học hoặc lên lớp, 8 giờ tự do, 8 giờ ngủ.",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "u04",
+    "status": "abstain",
+    "answer": "Sách chỉ nói rằng Eisenhower, khi là Tổng tư lệnh lực lượng Đồng minh trong Thế chiến II, đã dùng kỹ thuật này để sắp xếp ưu tiên công việc [C1]. Sách không nêu tên hay mô tả chiến dịch quân sự cụ thể nào mà ông đã lên kế hoạch bằng ma trận quyết định, nên không thể trả lời chi tiết phần này từ tài liệu.",
+    "citations": [],
+    "citation_support": [],
+    "reason": "",
+    "abstention_correct": null
+  },
+  {
+    "query_id": "u05",
+    "status": "abstain",
+    "answer": "Các đoạn sách tìm được không nêu số giờ trung bình mỗi tuần sinh viên dành cho mạng xã hội. Sách chỉ đề cập đến thời gian học ngoài lớp (ít nhất 2 giờ học ngoài lớp cho mỗi 1 giờ nghe giảng) và thời gian cho các hoạt động học tập cụ thể, nhưng không có số liệu về mạng xã hội.",
+    "citations": [],
+    "citation_support": [],
+    "reason": "",
+    "abstention_correct": null
+  },
+  {
+    "query_id": "u06",
+    "status": "abstain",
+    "answer": "Các đoạn sách tìm được không quy định mức GPA tối thiểu để giữ học bổng. Chúng chỉ đề cập GPA như một ví dụ về mục tiêu đo lường được (ví dụ: GPA trên 3.0) và một mục tiêu mẫu là đạt GPA ít nhất 3.0 [C1][C2], không nói về yêu cầu học bổng.",
+    "citations": [],
+    "citation_support": [],
+    "reason": "",
+    "abstention_correct": null
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "u01",
+    "split": "dev",
+    "type": "thieu_bang_chung",
+    "question": "Kỹ thuật Pomodoro được Francesco Cirillo phát triển vào năm nào?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Trang 105 nói Pomodoro do Francesco Cirillo phát triển và giải thích tên gọi, nhưng không nêu năm. Không có năm 19xx/20xx nào trên trang 104-106; toàn corpus không có '1980' hay năm ra đời của kỹ thuật.",
+    "check_method": "Tìm 'Cirillo' (chỉ trang 105) và regex năm (1[89]xx|20xx) trên trang 104-106 trong results/pages.jsonl của Day 6; đọc toàn bộ mục Pomodoro trang 105-106."
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "type": "thieu_bang_chung",
+    "question": "Sách khuyên sinh viên nên uống bao nhiêu cà phê hoặc caffeine mỗi ngày để tỉnh táo khi ôn thi?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Chương 6 nói về chuẩn bị thi, ngủ đủ và môi trường học, nhưng không nhắc đến cà phê, caffeine hay đồ uống tăng lực.",
+    "check_method": "Tìm 'caffeine', 'coffee', 'energy drink' trên 61 trang nội dung: 0 kết quả. Đọc mục chuẩn bị thi trang 199-201."
+  },
+  {
+    "id": "u03",
+    "split": "dev",
+    "type": "thieu_bang_chung",
+    "question": "Theo đường cong quên lãng của Ebbinghaus được nêu trong sách, sau một ngày người học quên khoảng bao nhiêu phần trăm thông tin?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Trang 195 giải thích lợi ích của việc quên khi ôn giãn cách (spaced practice), nhưng không nhắc Ebbinghaus, đường cong quên lãng hay tỷ lệ phần trăm bị quên.",
+    "check_method": "Tìm 'Ebbinghaus', 'forgetting curve': 0 kết quả; 'percent' chỉ có ở trang 81 (thống kê Pew về bài viết). Đọc trang 195-196."
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "type": "thieu_bang_chung",
+    "question": "Eisenhower đã dùng ma trận quyết định để lên kế hoạch cho chiến dịch quân sự cụ thể nào trong Thế chiến II?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Trang 93 chỉ nói Eisenhower là tổng chỉ huy quân Đồng minh trong Thế chiến II và dùng kỹ thuật này để ưu tiên việc; không nêu chiến dịch cụ thể nào.",
+    "check_method": "Tìm 'Eisenhower' (chỉ trang 93), 'Normandy', 'D-Day', 'invasion': 0 kết quả. Đọc đoạn về Eisenhower Decision Matrix trang 93."
+  },
+  {
+    "id": "u05",
+    "split": "test",
+    "type": "thieu_bang_chung",
+    "question": "Theo sách, trung bình một sinh viên đại học dành bao nhiêu giờ mỗi tuần cho mạng xã hội?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Mạng xã hội được nhắc như một nguồn xao nhãng (trang 76, 85, 109, 191), nhưng sách không đưa số giờ trung bình mỗi tuần.",
+    "check_method": "Tìm 'social media' (trang 76, 85, 109, 112, 191, 195) và đọc từng đoạn; tìm 'hours a week', 'hours per', 'screen time': 0 kết quả."
+  },
+  {
+    "id": "u06",
+    "split": "test",
+    "type": "thieu_bang_chung",
+    "question": "Sách quy định sinh viên cần GPA tối thiểu bao nhiêu để giữ được học bổng?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "GPA chỉ xuất hiện trong ví dụ mục tiêu SMART ('graduating with a GPA above 3.0', trang 101-102); sách không nhắc học bổng hay điều kiện giữ học bổng.",
+    "check_method": "Tìm 'scholarship', 'financial aid': 0 kết quả; 'GPA' chỉ ở trang 101-102 (ví dụ SMART). Đọc trang 101-102."
+  }
+]

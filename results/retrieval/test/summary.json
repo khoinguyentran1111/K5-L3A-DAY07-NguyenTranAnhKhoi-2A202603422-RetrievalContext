@@ -1,0 +1,43 @@
+{
+  "split": "test",
+  "agent_model_for_llm_steps": "anthropic/claude-haiku-5.5",
+  "embedding_model": "openai/text-embedding-3-small",
+  "pipelines": [
+    {
+      "pipeline": "dense",
+      "description": "Dense cosine search on Day 6 pgvector (strategy B, text-embedding-3-small).",
+      "split": "test",
+      "N": 5,
+      "hit1": 2,
+      "hit3": 4,
+      "hit5": 4,
+      "mrr10": 0.5667,
+      "context_hit": 4,
+      "errors": 0,
+      "context_top": 3,
+      "expand_neighbours_of_top": 0,
+      "budget_chars": 3000,
+      "avg_context_chars": 2165.2,
+      "median_latency_ms": 1006.1,
+      "total_cost_usd": 5e-06
+    },
+    {
+      "pipeline": "rewrite_hybrid_rerank",
+      "description": "rewrite_hybrid top-15 -> LLM listwise rerank (original question).",
+      "split": "test",
+      "N": 5,
+      "hit1": 5,
+      "hit3": 5,
+      "hit5": 5,
+      "mrr10": 1.0,
+      "context_hit": 5,
+      "errors": 0,
+      "context_top": 3,
+      "expand_neighbours_of_top": 0,
+      "budget_chars": 3000,
+      "avg_context_chars": 1866.8,
+      "median_latency_ms": 3528.7,
+      "total_cost_usd": 0.001856
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+  "method": "Như dev: 2 = đúng và đủ, mọi ý chính có evidence; 1 = đúng một phần hoặc kèm khẳng định không được hỗ trợ; 0 = sai/thiếu evidence/từ chối. Context 0/1/2 theo BENCHMARK.md: 0 không có evidence, 1 có nhưng thiếu điều kiện/nguồn, 2 đủ evidence và nguồn.",
+  "labels": {
+    "q04": {
+      "grade": 2,
+      "context": 2,
+      "support": {
+        "C1": true,
+        "C4": true,
+        "C5": true,
+        "C6": true,
+        "C9": true,
+        "C10": true,
+        "C11": true
+      },
+      "reason": "Đủ 3 trường hợp (C1). Các ý hậu quả và hiệu ứng domino/chi phí đúng với C4-C6, C9-C11 (dài nhưng không sai)."
+    },
+    "q12": {
+      "grade": 2,
+      "context": 2,
+      "support": {
+        "C1": true
+      },
+      "reason": "Đúng 5-9 đơn vị (C1)."
+    },
+    "q19": {
+      "grade": 2,
+      "context": 2,
+      "support": {
+        "C1": true,
+        "C2": true,
+        "C3": true
+      },
+      "reason": "Đúng: bỏ qua câu khó, làm câu chắc chắn trước, quay lại sau (C1, C2); ý xem lại cuối giờ đúng với C3."
+    },
+    "q24": {
+      "grade": 2,
+      "context": 2,
+      "support": {
+        "C3": true,
+        "C4": true,
+        "C5": true
+      },
+      "reason": "Đúng: điện thoại khuất tầm mắt/phòng khác, úp xuống chưa đủ (C5)."
+    },
+    "q25": {
+      "grade": 2,
+      "context": 2,
+      "support": {
+        "C1": true,
+        "C2": true,
+        "C3": true
+      },
+      "reason": "Đúng quy tắc 8-8-8 (C2 trang 109). Lưu ý: chunk chỉ được tìm thấy nhờ query thứ 2 do model tự viết 'Eight hours sleep, eight hours work...' (kiến thức nền của model), không phải nhờ neighbour expansion."
+    },
+    "u04": {
+      "abstention_correct": true,
+      "reason": "Từ chối đúng, không bịa chiến dịch (không nhắc Normandy/D-Day)."
+    },
+    "u05": {
+      "abstention_correct": true,
+      "reason": "Từ chối đúng, không đưa con số."
+    },
+    "u06": {
+      "abstention_correct": true,
+      "reason": "Từ chối đúng; phân biệt ví dụ GPA 3.0 trong SMART với điều kiện học bổng."
+    }
+  }
+}

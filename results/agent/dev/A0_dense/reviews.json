@@ -1,0 +1,327 @@
+[
+  {
+    "query_id": "q01",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch3:007620-008343",
+      "B:openstax-college-success:ch3:006907-007618",
+      "B:openstax-college-success:ch3:008344-008902"
+    ],
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Đúng 'over $150,000' (C1) và tổng $151,115 với các thành phần (Bảng 3.1, C4). Câu lưu ý dùng chữ 'gần 150.000' hơi lệch với 'over', nhưng ý chính đúng.",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q02",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch3:013783-014557"
+    ],
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng ít nhất 2 giờ cho mỗi giờ lên lớp (C1).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q03",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch3:020786-021574",
+      "B:openstax-college-success:ch3:021576-021815"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đúng ý tự biện minh là do hết thời gian chứ không phải thiếu năng lực (C1).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q05",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch3:045593-046347"
+    ],
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng tầm quan trọng và độ khẩn cấp (C2).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q06",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch3:048654-049439",
+      "B:openstax-college-success:ch3:048129-048652",
+      "B:openstax-college-success:ch3:044698-045106",
+      "B:openstax-college-success:ch3:042994-043647"
+    ],
+    "citation_support": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "reason": "Sai trọng tâm: chỉ nói chung về hiểu yêu cầu, cân nhắc tác động, tránh hoảng loạn; thiếu bước 'cố hoàn thành tất cả, nếu không được thì báo giảng viên trước'. Chunk evidence (049440-050104) không nằm trong context. Các citation đều hỗ trợ đúng ý mà chúng gắn vào.",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "q07",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch3:067464-067943",
+      "B:openstax-college-success:ch3:069355-070123"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đủ 5 thành phần SMART (C2); ví dụ time-bound đúng với C3.",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q08",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch3:076068-076475"
+    ],
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng nghỉ dài 15-30 phút và đặt lại số dấu tích (C2).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q09",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch3:077059-077668"
+    ],
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng việc lớn nhất/khó chịu nhất trước, mọi việc sau sẽ dễ hơn (C1).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q10",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch3:087440-088156"
+    ],
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng khoảng 1,5 giờ mà không bỏ việc cần làm hay thích làm (C3).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q11",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch6:005313-006092"
+    ],
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng encode, store, retrieve (C1).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q13",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch6:011325-011939",
+      "B:openstax-college-success:ch6:010148-010767"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đúng 'chunking' (C1).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q14",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch6:021263-022038"
+    ],
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng khoảng 10 phút (C1).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q15",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch6:033134-033924",
+      "B:openstax-college-success:ch6:033925-034132",
+      "B:openstax-college-success:ch6:040355-041139"
+    ],
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Đúng: chỉ là bước đầu, cần ôn, truy xuất và tự kiểm tra (C1, C2).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q16",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch6:041936-042455",
+      "B:openstax-college-success:ch6:042457-043223",
+      "B:openstax-college-success:ch6:040355-041139"
+    ],
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Đúng: trộn nội dung, không học dồn một loại (C1, C3).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q17",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch6:044196-044814",
+      "B:openstax-college-success:ch6:012415-012765"
+    ],
+    "citation_support": [
+      true,
+      false
+    ],
+    "reason": "Ý chính đúng: là một dạng practice testing (C1). Nhưng kết luận 'giảng bài ... giúp củng cố thông tin vào trí nhớ dài hạn' là suy diễn của model, C4 chỉ nói chung về tiếp xúc lặp lại -> khẳng định không được nguồn hỗ trợ.",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 1
+  },
+  {
+    "query_id": "q18",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch6:055889-056545",
+      "B:openstax-college-success:ch6:055280-055887"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đúng: báo trước (adequate notice), nói với giảng viên trước, có thể gặp student services advisor (C2).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q20",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch6:020819-021261",
+      "B:openstax-college-success:ch6:041141-041934"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đủ 3 lý do: stress, tưởng nhớ được sau ít lần tiếp xúc, quá tải não (C2).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q21",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch3:061705-062461",
+      "B:openstax-college-success:ch3:061003-061703",
+      "B:openstax-college-success:ch3:024713-025124"
+    ],
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Có ý chính: phòng riêng, tai nghe, thư viện (C1).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q22",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch3:028567-029249",
+      "B:openstax-college-success:ch3:039709-040499",
+      "B:openstax-college-success:ch3:013783-014557"
+    ],
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Đúng 90 phút, 1-2 giờ tùy độ khó (Bảng 3.5, C2). Ý 2 giờ/1 giờ học đúng với C4 nhưng lạc đề nhẹ.",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q23",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch6:061826-062622"
+    ],
+    "citation_support": [
+      true
+    ],
+    "reason": "Đúng các việc rà soát cuối giờ (C1).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "u01",
+    "status": "abstain",
+    "citations": [],
+    "citation_support": [],
+    "reason": "Từ chối, nói rõ không có năm; mô tả kèm theo đúng với sách.",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "u02",
+    "status": "abstain",
+    "citations": [],
+    "citation_support": [],
+    "reason": "Từ chối, không đưa con số caffeine.",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "u03",
+    "status": "abstain",
+    "citations": [],
+    "citation_support": [],
+    "reason": "Từ chối, không bịa tỷ lệ phần trăm.",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "abstention_correct": true
+  }
+]

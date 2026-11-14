@@ -1,0 +1,102 @@
+[
+  {
+    "query_id": "q04",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch3:018281-018764",
+      "B:openstax-college-success:ch3:022489-022903",
+      "B:openstax-college-success:ch3:022905-023450"
+    ],
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Đủ 3 trường hợp: thói quen kinh niên, nhiều việc ít thời gian, việc rất quan trọng (C1 trang 83). Hậu quả thêm đúng với C4, C5.",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q12",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch6:009545-010146",
+      "B:openstax-college-success:ch6:010148-010767"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đúng 5-9 đơn vị (C1 trang 184).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q19",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch6:061372-061824",
+      "B:openstax-college-success:ch6:060963-061370"
+    ],
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Đúng: bỏ qua câu khó, làm câu chắc chắn trước, quay lại sau (C1). Ý điểm từng phần đúng với C2.",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q24",
+    "status": "answered",
+    "citations": [
+      "B:openstax-college-success:ch6:026687-027460",
+      "B:openstax-college-success:ch6:026237-026685",
+      "B:openstax-college-success:ch6:027462-027843"
+    ],
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Đúng: cất điện thoại khuất tầm mắt/phòng khác, úp xuống là chưa đủ (C4 trang 191).",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "q25",
+    "status": "abstain",
+    "citations": [],
+    "citation_support": [],
+    "reason": "Từ chối nhầm: chỉ search 1 lần ('dividing 24 hours day into three equal parts'), top-3 không có chunk quy tắc 8-8-8 (trang 109), model dừng sớm thay vì thử query khác.",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "u04",
+    "status": "abstain",
+    "citations": [],
+    "citation_support": [],
+    "reason": "Từ chối đúng: nói rõ sách chỉ nêu Eisenhower là tổng chỉ huy và dùng kỹ thuật ưu tiên, không nêu chiến dịch cụ thể.",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "u05",
+    "status": "abstain",
+    "citations": [],
+    "citation_support": [],
+    "reason": "Từ chối đúng, không đưa con số giờ mạng xã hội.",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "u06",
+    "status": "abstain",
+    "citations": [],
+    "citation_support": [],
+    "reason": "Từ chối đúng; nhắc GPA 3.0 chỉ là ví dụ mục tiêu SMART, không đánh đồng với học bổng.",
+    "reviewer": "AI (Claude) soạn nhãn sau khi đọc câu trả lời, expected_answer, gold và toàn văn chunk được trích; tôi (NguyenTranAnhKhoi-2A202603422) đã đọc lại và xác nhận",
+    "abstention_correct": true
+  }
+]
